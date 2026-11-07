@@ -17,7 +17,7 @@ if (existsSync(destino) && !FORCE) { console.log('Ya existe', destino, '- nada q
 
 const ESTADOS = ['COMPLETO', 'EXTRACTO', 'TITULAR', 'BLOQUEADO', 'NO_ENCONTRADO'];
 const GESTORAS = ['Azvalor','Magallanes','Cobas','Bestinver','Berkshire Hathaway','BlackRock','Vanguard','Fidelity Investments','State Street Investment Management','JPMorgan Asset Management','Goldman Sachs Asset Management','UBS','Capital Group','Allianz Global Investors','Amundi','BNY Investments','Invesco','Northern Trust Asset Management','T. Rowe Price','Morgan Stanley Investment Management','Franklin Templeton','Geode','PGIM','BNP Paribas Asset Management','Legal & General Asset Management','Norges Bank Investment Management'];
-const COMPETIDORES = ['Caliplac (web oficial: https://caliplac.es/)','Teznocuber (web oficial: https://teznocuber.com/)','Onduline','López Panel','Tabihaus','Multipanel','BMI (cubiertas)','Kingspan','Isopan','Panelestudio','Panel Sandwich Group','Tejas Borja'];
+const COMPETIDORES = ['Caliplac (web oficial: https://caliplac.es/)','Teznocuber (web oficial: https://teznocuber.com/)','Onduline','López Panel','Tabihaus','Multipanel','BMI (cubiertas)','Kingspan','Isopan','Panelestudio','Panel Sandwich Group','Tejas Borja','Enerblock (web oficial: https://enerblock.net/)'];
 const REGLAS = `Reglas de integridad (innegociables):
 - Usa SOLO tu herramienta de búsqueda web. No inventes noticias, URLs, cifras, citas ni fechas. Si no encuentras algo, no lo incluyas.
 - Cada elemento: medio, titular (tal cual), url (la real que abriste), fecha (AAAA-MM-DD), estado_lectura, cita_literal, resumen, tema, relevancia, y los campos extra que pida la sección.
@@ -55,9 +55,9 @@ async function productos() {
   } catch { return { status: 'UNAVAILABLE', products: [] }; }
 }
 const promptProductos = (lista) => `${CONTEXTO}
-SECCIÓN productos: busca noticias recientes (últimos 7 días) sobre estos productos de inversión, SOLO noticias, tendencias y competidores (nada de recomendaciones de compra ni datos de cartera):
+SECCIÓN productos: información sobre los productos de inversión de esta lista (empresas y ETF/fondos). SOLO noticias, hechos y tendencias; nada de recomendaciones de compra ni datos de cartera:
 ${lista.map(p => `- ${p.name} (${p.isin})`).join('\n')}
-Aporta hasta 2 noticias por producto (si es un fondo/ETF, noticias del índice o la categoría y de su gestora). Añade a cada elemento el campo "producto" con el nombre exacto de la lista.
+Para cada EMPRESA: noticias de los últimos 7 días, resultados y comunicados oficiales, hechos relevantes (CNMV u otros reguladores), operaciones corporativas, y novedades de su sector y de sus competidores directos. Para cada ETF o fondo: noticias del índice que replica y de la categoría, cambios de índice o de composición, flujos, comisiones, cambios de la gestora y alternativas comparables (otros ETF equivalentes). Hasta 3 elementos por producto, priorizando fuentes oficiales (emisor, regulador, proveedor del índice) y datos con fecha. Añade a cada elemento el campo "producto" con el nombre exacto de la lista y "tipo": empresa | etf | sector | competidor.
 ${REGLAS}`;
 
 async function llamar(prompt, intento = 0) {
