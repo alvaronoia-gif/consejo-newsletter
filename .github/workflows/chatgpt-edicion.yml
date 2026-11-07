@@ -1,0 +1,41 @@
+# CONSEJO NEWSLETTER · Trabajador de ChatGPT (lector 2). Publica buzon/chatgpt/latest.json para la tarea NEWSLETTER de Claude.
+# Martes y sábado 20:30 (hora de Madrid en invierno = 19:30 UTC): las ediciones salen miércoles y domingo a las 07:00.
+# En horario de verano (a partir de finales de marzo) esa hora UTC es las 21:30 en Madrid: sigue siendo antes de las 02:47.
+name: chatgpt-edicion
+on:
+  schedule:
+    - cron: '30 19 * * 2,6'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'true = rehacer aunque ya exista la edición de hoy'
+        default: 'false'
+concurrency:
+  group: chatgpt-edicion
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  chatgpt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Trabajador
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          MAX_USD_POR_EDICION: ${{ vars.MAX_USD_POR_EDICION }}
+          FORCE: ${{ inputs.force }}
+        run: node scripts/trabajador-chatgpt.mjs
+      - name: Publicar
+        run: |
+          git config user.name "consejo-bot"
+          git config user.email "consejo-bot@users.noreply.github.com"
+          git add buzon
+          git commit -m "ChatGPT: edición $(date -u +%F)" || echo "nada que publicar"
+          git pull --rebase -q origin main || true
+          git push
