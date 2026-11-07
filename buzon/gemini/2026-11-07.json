@@ -1,6 +1,6 @@
 {
  "schema": "consejo-newsletter/gemini/2",
- "generado": "2026-11-07T20:06:10.143Z",
+ "generado": "2026-11-07T21:17:56.599Z",
  "edicion_fecha": "2026-11-07",
  "modelo": "gemini-3.8-flash",
  "rol": "lector 3 (Gemini): prensa, industrializacion, competidores, gestoras y productos",
@@ -9,222 +9,224 @@
    "status": "OK",
    "items": [
     {
-     "medio": "elEconomista.es",
-     "titular": "España se envejece y sus viviendas también: la inflación y la falta de mano de obra frenan en seco el mercado de las reforma",
-     "url": "https://www.eleconomista.es/vivienda-inmobiliario/noticias/13636606/11/26/espana-se-envejece-y-sus-viviendas-tambien-la-inflacion-y-la-falta-de-mano-de-obra-frenan-en-seco-el-mercado-de-las-reforma.html",
-     "fecha": "2026-11-07",
-     "estado_lectura": "COMPLETO",
-     "cita_literal": "La inflación, el encarecimiento de los materiales y la falta de trabajadores cualificados están frenando una actividad fundamental",
-     "resumen": "El mercado de reformas en España descenderá un 2,33% interanual en 2026 hasta situarse en 1.868.723 actuaciones según Arthursen y Andimac. El freno se produce por la presión inflacionaria sobre los hogares y la severa escasez de mano de obra cualificada en oficios como aislamiento y albañilería. Casi la mitad del parque principal se construyó antes de 1981, evidenciando una creciente necesidad de rehabilitación térmica y estructural.",
-     "tema": "vivienda",
-     "relevancia": "La escasez de instaladores tradicionales en obra y el foco en el aislamiento del parque envejecido abren una ventana competitiva clave para los paneles sándwich industrializados de Thermochip en cubierta y fachada.",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    },
-    {
-     "medio": "Notícias de Viana",
-     "titular": "CCDR-N quer criar cluster de construção e Viana do Castelo defende agilização das expropriações para habitação",
-     "url": "https://noticiasdeviana.pt/ccdr-n-quer-criar-cluster-de-construcao-e-viana-do-castelo-defende-agilizacao-das-expropriacoes-para-habitacao/",
+     "medio": "La Voz de Galicia",
+     "titular": "La Xunta adjudica la redacción del proyecto de construcción de 316 viviendas de promoción pública en el barrio coruñés de Elviña",
+     "url": "https://www.lavozdegalicia.es/noticia/coruna/coruna/2026/11/06/xunta-adxudica-redaccion-do-proxecto-construcion-316-vivendas-promocion-publica-no-barrio-corunes-elvina/0003_202611H6C5991.htm",
      "fecha": "2026-11-06",
      "estado_lectura": "COMPLETO",
-     "cita_literal": "A Comissão de Coordenação e Desenvolvimento Regional do Norte (CCDR-N) pretende impulsionar a criação de um cluster de construção",
-     "resumen": "La CCDR-N impulsa un cluster regional de construcción e innovación para acceder a fondos europeos y potenciar el sector en el norte de Portugal. El programa NORTE 2030 ha reprogramado 285 millones de euros hacia vivienda, de los cuales 134 millones ya están abiertos para municipios. Por su parte, la Cámara de Viana do Castelo reclama acelerar expropiaciones para facilitar vivienda de coste controlado.",
-     "tema": "portugal",
-     "relevancia": "La inyección directa de 285 millones en vivienda en el Norte de Portugal representa una oportunidad estratégica para prescribir envolventes industrializadas de Thermochip en licitaciones municipales limítrofes con Galicia.",
+     "cita_literal": "En total, la Xunta prevé invertir 50 millones de euros en esta iniciativa.",
+     "resumen": "La Xunta adjudicó a la UTE IP-MAM por casi 2,3 millones de euros el diseño y redacción del proyecto urbanístico y de edificación en Elviña. La iniciativa contempla 316 viviendas protegidas, incluyendo 150 alojamientos para jóvenes y una residencia juvenil de 150 plazas, con un presupuesto global de 50 millones.",
+     "tema": "vivienda",
+     "relevancia": "Representa un gran volumen de envolvente térmica para licitaciones públicas en A Coruña donde los paneles sándwich para fachada y cubierta pueden posicionarse con ventaja competitiva.",
      "verificacion": "V1_reportado_por_IA_sin_contrastar",
      "nota_validador": null
     },
     {
-     "medio": "Jornal Económico",
-     "titular": "BPI vai ajudar Estado a identificar zonas onde as principais cidades poderão crescer, diz CEO",
-     "url": "https://jornaleconomico.sapo.pt/noticias/bpi-vai-ajudar-estado-a-identificar-zonas-onde-as-principais-cidades-poderao-crescer-diz-ceo/",
-     "fecha": "2026-11-02",
+     "medio": "La Voz de Galicia",
+     "titular": "La Xunta adjudica la redacción del proyecto para construir 244 viviendas públicas en el barrio compostelano de Salgueiriños",
+     "url": "https://www.lavozdegalicia.es/noticia/santiago/santiago/2026/11/06/xunta-adjudica-redaccion-proyecto-construir-244-viviendas-publicas-barrio-compostelano-salgueirinos/0003_202611S6C2991.htm",
+     "fecha": "2026-11-06",
      "estado_lectura": "COMPLETO",
-     "cita_literal": "passa pela industrialização da construção em massa, com o objetivo de voltar a construir mais de 50 mil casas",
-     "resumen": "El CEO de Banco BPI defendió que solucionar la crisis residencial en Portugal exige apostar masivamente por la industrialización para alcanzar 50.000 viviendas anuales. Señaló que la construcción modular o industrializada abarata costes y reduce la dependencia de mano de obra en el país. Asimismo, anunció que la entidad financiera colaborará con la administración para identificar nuevo suelo apto.",
-     "tema": "industrializacion",
-     "relevancia": "El llamamiento directo del sector financiero portugués a construir mediante sistemas industrializados avala la propuesta técnica de envolventes secas e industrializadas de Thermochip frente al sistema tradicional.",
+     "cita_literal": "La Xunta de Galicia invertirá 50 millones de euros en la construcción de 244 viviendas de promoción pública",
+     "resumen": "El estudio Temperaturas Extremas Arquitectos resultó adjudicatario por 1,8 millones de euros para redactar el proyecto y dirigir las obras de 244 viviendas protegidas y una residencia de 150 plazas en Salgueiriños (Santiago de Compostela). La inversión autonómica rondará los 50 millones de euros con un diseño modular en piezas de baja altura conectadas por corredor.",
+     "tema": "vivienda",
+     "relevancia": "Proyecto clave de promoción pública en Galicia con tipología repetitiva idónea para sistemas constructivos industrializados de cubierta ligera y envolvente eficiente.",
      "verificacion": "V1_reportado_por_IA_sin_contrastar",
      "nota_validador": null
     },
     {
-     "medio": "Faro de Vigo",
-     "titular": "Colectivos por la vivienda animan a la ciudadanía a secundar la huelga del 11 de noviembre",
-     "url": "https://www.farodevigo.es/gran-vigo/2026/11/05/colectivos-vivienda-animan-ciudadania-secundar-123447957.html",
+     "medio": "La Voz de Galicia",
+     "titular": "El Concello de Santiago cede a la Xunta una parcela de A Muíña para construir 123 viviendas públicas en régimen de alquiler",
+     "url": "https://www.lavozdegalicia.es/noticia/santiago/santiago/2026/11/06/concello-santiago-cede-xunta-parcela-muina-construir-123-viviendas-publicas-regimen-alquiler/0003_202611S6C1991.htm",
+     "fecha": "2026-11-06",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "El Ayuntamiento cederá a la Xunta la titularidad de la parcela de 6.000 metros cuadrados de A Muíña",
+     "resumen": "El Ayuntamiento de Santiago formalizó la cesión del suelo de A Muíña al IGVS para levantar 123 viviendas protegidas en alquiler. La actuación movilizará los 2,9 millones de fondos estatales asignados a la capital dentro de una inversión estimada total de 25 millones de euros.",
+     "tema": "vivienda",
+     "relevancia": "Confirma el desbloqueo de suelo y fondos para edificación residencial en Santiago, abriendo oportunidades comerciales inmediatas para prescribir soluciones de cerramiento y forjados ligeros.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "La Voz de Galicia",
+     "titular": "Las empresas ya pueden realizar ofertas para la construcción de 17 viviendas públicas en Vilaboa",
+     "url": "https://www.lavozdegalicia.es/noticia/coruna/culleredo/2026/11/05/empresas-pueden-realizar-ofertas-construccion-17-viviendas-publicas-vilaboa/0003_202611H5C7991.htm",
      "fecha": "2026-11-05",
      "estado_lectura": "COMPLETO",
-     "cita_literal": "Medela cuestionó las políticas de vivienda del Concello y de la Xunta, centradas, a su juicio, en aumentar la construcción.",
-     "resumen": "Más de una treintena de organizaciones sociales se coordinaron en Vigo para convocar movilizaciones y una huelga ante la crisis habitacional. Los colectivos denunciaron la existencia de 22.000 viviendas vacías en la urbe y criticaron que las administraciones basen la respuesta en incrementar la obra nueva. Reclaman parque público en alquiler, limitación de precios y paralización de planes urbanísticos específicos en el entorno vigués.",
-     "tema": "vivienda",
-     "relevancia": "La alta tensión sociopolítica en el área metropolitana de Vigo acelera las exigencias a la Xunta para ejecutar con celeridad obra pública residencial asequible, nicho idóneo para forjados y cubiertas industrializadas.",
+     "cita_literal": "La Xunta licitó las obras de una promoción de 17 viviendas públicas en Culleredo, con una inversión de 3,5 millones",
+     "resumen": "La Consellería de Vivenda abrió hasta el 23 de diciembre el plazo de ofertas para ejecutar 17 viviendas públicas en Vilaboa (Culleredo). La actuación cuenta con un presupuesto de licitación de casi 3,4 millones de euros en un edificio de planta baja y cuatro alturas.",
+     "tema": "construccion",
+     "relevancia": "Obra en fase de licitación activa en el área metropolitana coruñesa que requiere soluciones estandarizadas de fachada y cubierta para contratistas adjudicatarios.",
      "verificacion": "V1_reportado_por_IA_sin_contrastar",
      "nota_validador": null
     },
     {
-     "medio": "Jornal PT50",
-     "titular": "Volume de negócios na construção atinge os 43,5 mil milhões de euros",
-     "url": "https://pt50.pt/2026/11/04/volume-de-negocios-na-construcao-atinge-os-435-mil-milhoes-de-euros/",
-     "fecha": "2026-11-04",
+     "medio": "La Voz de Galicia",
+     "titular": "El Concello de Lugo concede licencia para un edificio de 16 viviendas en la calle Eloi Maquieira",
+     "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/11/02/concello-lugo-concede-licencia-edificio-16-viviendas-calle-eloi-maquieira/0003_202611L2C3991.htm",
+     "fecha": "2026-11-02",
      "estado_lectura": "COMPLETO",
-     "cita_literal": "Desde então, o volume de negócios mais do que duplicou, atingindo, em termos nominais, 43,5 mil milhões de euros",
-     "resumen": "Un informe del Banco de Portugal señala que el sector de la construcción facturó 43.500 millones de euros en el segundo trimestre de 2026, marcando máximos históricos. El segmento de edificación residencial lideró la reactivación, acompañado por una reducción drástica de la morosidad crediticia hasta el 2%. Paralelamente, los costes de materiales empujan los precios de la construcción de vivienda con un alza del 5,9%.",
+     "cita_literal": "El proyecto, con una inversión de 1,3 millones de euros, contempla también 16 plazas de garaje",
+     "resumen": "La junta de gobierno local de Lugo autorizó la licencia de obra para un bloque de 16 viviendas y local comercial en la Praza Agro do Rolo, con un plazo de ejecución de 36 meses. El consistorio también aprobó expropiaciones para urbanizar 9.774 metros cuadrados de espacios públicos en el sector SUD S-16.R.",
      "tema": "construccion",
-     "relevancia": "El máximo histórico de facturación en la construcción de Portugal junto a la presión de costes (+5,9%) refuerza el atractivo económico de soluciones de panel sándwich con control de costes cerrados.",
+     "relevancia": "Dinamización de obra residencial plurifamiliar en el interior de Galicia donde Thermochip puede comercializar sistemas de cubierta y aislamiento de forjados entre promotores locales.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "COPE",
+     "titular": "Este mes de noviembre se conocerá el proyecto para la nueva residencia de estudiantes de A Coruña",
+     "url": "https://www.cope.es/emisoras/galicia/a-coruna-provincia/coruna/noticias/este-mes-noviembre-conocera-proyecto-para-nueva-residencia-estudiantes-coruna-20261103_3172088",
+     "fecha": "2026-11-03",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "Junto a esta iniciativa, la Xunta ha licitado las obras de construcción de 58 viviendas de promoción pública en el barrio de Os Rosales",
+     "resumen": "La delegada de la Xunta en A Coruña confirmó la licitación de 58 viviendas públicas en Os Rosales con una inversión superior a 10,6 millones de euros y plazo hasta el 15 de diciembre. Asimismo, se resolverá el concurso para la residencia juvenil en Elviña y avanzan las 12 viviendas de la calle Rei Abdullah.",
+     "tema": "vivienda",
+     "relevancia": "Cartera de obras residenciales en concurso en A Coruña capital, targets prioritarios para la venta de paneles sandwich a constructoras licitadoras.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "La Voz de Galicia",
+     "titular": "Las comunidades autónomas tendrán que informar inmediatamente de cada pago o subvención hecho dentro del Plan Estatal de Vivienda",
+     "url": "https://www.lavozdegalicia.es/noticia/galicia/2026/11/06/comunidades-autonomas-tendran-informar-inmediatamente-cada-pago-subvencion-hecho-dentro-plan-estatal-vivienda/0003_202611G6P12991.htm",
+     "fecha": "2026-11-06",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "El Plan Estatal de Vivienda 2026-2030 tendrán un seguimiento automático y periódico para garantizar y evaluar las inversiones",
+     "resumen": "El BOE publicó la orden ministerial que regula el control y seguimiento de los 7.000 millones de euros presupuestados para el Plan Estatal de Vivienda 2026-2030. Las autonomías deberán certificar en tiempo real las ayudas concedidas destinadas a compra, alquiler, rehabilitación energética y edificación de vivienda pública.",
+     "tema": "vivienda",
+     "relevancia": "El desbloqueo y monitorización de las ayudas estatales asegura la viabilidad financiera de promociones públicas y planes de rehabilitación energética en la cornisa cantábrica y Galicia.",
      "verificacion": "V1_reportado_por_IA_sin_contrastar",
      "nota_validador": null
     },
     {
      "medio": "EL PAÍS",
-     "titular": "Acabar con el déficit de 750.000 viviendas que calcula el Banco de España exige una inversión equivalente al 11% del PIB",
-     "url": "https://elpais.com/economia/vivienda/2026-11-06/acabar-con-el-deficit-de-750000-viviendas-que-calcula-el-banco-de-espana-exige-una-inversion-equivalente-al-11-del-pib.html",
-     "fecha": "2026-11-06",
-     "estado_lectura": "EXTRACTO",
-     "cita_literal": null,
-     "resumen": "Un informe de Atlas Real Estate Analytics cifra en al menos 189.680 millones de euros el capital necesario para erradicar el déficit de 750.000 inmuebles residenciales en España. Esta inversión equivale al 11,2% del PIB de 2025 y multiplica por varias veces el despliegue inversor promotor anual habitual. Madrid y Barcelona aglutinan el 42% del esfuerzo económico requerido por el alto impacto del coste del suelo y los materiales.",
-     "tema": "vivienda",
-     "relevancia": "La magnitud del déficit habitacional exige acelerar tiempos de ejecución y reducir costes indirectos, terreno en el que los sistemas de envolvente industrializada son indispensables.",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    },
-    {
-     "medio": "Europa Press",
-     "titular": "Feijóo abordará con la banca las condiciones crediticias para construir un millón de viviendas en España",
-     "url": "https://www.europapress.es/economia/finanzas-00340/noticia-feijoo-abordara-banca-condiciones-crediticias-construir-millon-viviendas-espana-20261103114508.html",
-     "fecha": "2026-11-03",
-     "estado_lectura": "EXTRACTO",
-     "cita_literal": null,
-     "resumen": "El líder de la oposición propone un acuerdo marco con la banca para negociar líneas especiales de crédito promotor e hipotecas destinadas a levantar un millón de casas. El plan busca generar 500.000 empleos y contempla una flexibilización de licencias mediante declaraciones responsables y plazos límite de 90 días. El sector constructor situaría este volumen como eje prioritario frente al déficit habitacional.",
-     "tema": "inversion",
-     "relevancia": "El debate nacional centrado en agilizar licencias y financiar promociones masivas beneficiará a empresas con procesos constructivos en seco y montaje rápido como Thermochip.",
+     "titular": "Competencia propone convertir en urbanizable todo el suelo no protegido para acelerar la construcción de vivienda",
+     "url": "https://elpais.com/economia/vivienda/2026-11-05/competencia-propone-convertir-en-urbanizable-todo-el-suelo-no-protegido-para-acelerar-la-construccion-de-vivienda.html",
+     "fecha": "2026-11-05",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "El organismo plantea en un estudio simplificar los trámites urbanísticos, impulsar las declaraciones responsables, crear una ventanilla única digital",
+     "resumen": "La CNMC presentó un informe exhaustivo de 262 páginas para desatascar la escasez de suelo residencial en España, recomendando considerar urbanizable todo terreno no protegido. Entre las propuestas destacan la ventanilla única digital y la sustitución de licencias por declaraciones responsables para recortar demoras de hasta 18 meses.",
+     "tema": "construccion",
+     "relevancia": "Agilizar plazos burocráticos incrementaría el ritmo de inicio de promociones, reforzando la demanda de sistemas industrializados que reduzcan el tiempo total de ciclo constructivo.",
      "verificacion": "V1_reportado_por_IA_sin_contrastar",
      "nota_validador": null
     },
     {
      "medio": "elEconomista.es",
-     "titular": "La paradoja del ladrillo: la venta de viviendas cae un 6% en el tercer trimestre pero el precio se dispara a máximos históricos",
-     "url": "https://www.eleconomista.es/vivienda-inmobiliario/noticias/13634123/11/26/la-paradoja-del-ladrillo-la-venta-de-viviendas-cae-un-6-en-el-tercer-trimestre-pero-el-precio-se-dispara-a-maximos-historicos.html",
-     "fecha": "2026-11-05",
-     "estado_lectura": "EXTRACTO",
-     "cita_literal": null,
-     "resumen": "La Estadística Registral Inmobiliaria reflejó un retroceso interanual del 5,9% en las transacciones durante el 3T de 2026, extendido por 27 provincias españolas. Al mismo tiempo, el precio medio nacional se encaramó hasta los 2.512 euros por metro cuadrado, un avance del 9,3% interanual. La falta de oferta mantiene tensionado el mercado a pesar de que el número de compraventas e hipotecas empieza a acusar el endurecimiento económico.",
+     "titular": "La hipoteca fija arrasa: tres de cada cuatro compradores ya no quieren asumir el riesgo del euríbor",
+     "url": "https://www.eleconomista.es/vivienda-inmobiliario/noticias/13070498/11/26/la-hipoteca-fija-arrasa-tres-de-cada-cuatro-compradores-ya-no-quieren-asumir-el-riesgo-del-euribor.html",
+     "fecha": "2026-11-06",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "Durante el primer semestre de 2026, el 76% de quienes recurrieron a financiación hipotecaria eligió un préstamo a tipo fijo",
+     "resumen": "Según el informe de Fotocasa Research, las hipotecas a tipo fijo copan el 76% del total contratado frente al 9% de variable y 11% de mixtas, ante la búsqueda de estabilidad financiera. El 58% de los compradores requirió acudir al crédito para sufragar incluso los desembolsos y gastos iniciales de entrada.",
      "tema": "economia",
-     "relevancia": "Con el metro cuadrado en máximos históricos, los promotores priorizan sistemas de cerramiento eficientes que maximicen superficie útil y optimicen el presupuesto de ejecución material.",
+     "relevancia": "El arraigo del tipo fijo aporta previsibilidad financiera a la demanda de obra nueva, manteniendo un flujo de iniciación de viviendas estable para los fabricantes de envolventes.",
      "verificacion": "V1_reportado_por_IA_sin_contrastar",
      "nota_validador": null
     },
     {
      "medio": "La Razón",
      "titular": "Las reformas de viviendas caen un 2,33%",
-     "url": "https://www.larazon.es/economia/reformas-viviendas-caen-233_20261106672b7a0d421dcd00010be141.html",
+     "url": "https://www.larazon.es/economia/reformas-viviendas-caen-233_20261106672b498f3ce85b00010eb3f7.html",
      "fecha": "2026-11-06",
-     "estado_lectura": "EXTRACTO",
-     "cita_literal": null,
-     "resumen": "Durante el congreso de Andimac se alertó de que el gasto medio por familia en reformas se mantiene contenido en 1.300 euros ante la inflación y los costes de materiales. A pesar de la caída puntual, 338.500 viviendas cumplen 18 años en 2026, sumándose a los 25 millones de residencias que ya superan esa edad. El envejecimiento exige sustituir y rehabilitar cubiertas e instalaciones para frenar pérdidas energéticas.",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "Este año se reformarán en España 1.868.723 viviendas, un 2,33% menos que en 2025, según las previsiones",
+     "resumen": "El informe presentado en el X Congreso de ANDIMAC indica una contracción del 2,33% en reformas residenciales durante 2026 debido a la inflación y la escasez de operarios cualificados. No obstante, 338.500 viviendas alcanzan su mayoría de edad técnica este ejercicio dentro de un parque de 25 millones con más de 18 años.",
      "tema": "construccion",
-     "relevancia": "La urgencia por rehabilitar térmicamente millones de viviendas envejecidas posiciona la solución de panel sándwich de cubierta de Thermochip como sustituto eficiente de la teja tradicional sobre rastrel.",
+     "relevancia": "La escasez crítica de mano de obra en reforma tradicional obliga a los instaladores a buscar soluciones de cerramiento prefabricadas y de montaje rápido como Thermochip.",
      "verificacion": "V1_reportado_por_IA_sin_contrastar",
      "nota_validador": null
     },
     {
-     "medio": "Idealista / News",
-     "titular": "Bruselas prepara medidas para facilitar la construcción de viviendas y reducir costes en 2027",
-     "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/04/838166-bruselas-prepara-medidas-para-facilitar-la-construccion-de-viviendas-y-reducir-costes-en",
-     "fecha": "2026-11-04",
+     "medio": "Cinco Días",
+     "titular": "Botín pide recalibrar la normativa bancaria europea para liberar 273.000 millones en capital",
+     "url": "https://cincodias.elpais.com/companias/2026-11-03/botin-pide-recalibrar-la-normativa-bancaria-europea-para-liberar-273000-millones-en-capital.html",
+     "fecha": "2026-11-03",
      "estado_lectura": "EXTRACTO",
-     "cita_literal": null,
-     "resumen": "La Comisión Europea anunció que presentará una iniciativa legislativa para recortar trabas burocráticas y agilizar licencias en construcción y rehabilitación residencial. El paquete forma parte del Plan Europeo de Vivienda Asequible y busca reducir costes de ejecución e incentivar la eficiencia energética. Entre las líneas estratégicas destacan la simplificación de permisos y el impulso a descarbonización de envolventes e instalaciones.",
-     "tema": "construccion",
-     "relevancia": "La armonización y reducción de plazos administrativos en la UE impulsará proyectos con altos estándares de aislamiento y certificación ecológica en cubiertas y fachadas.",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    },
-    {
-     "medio": "El Español",
-     "titular": "El Gobierno obliga a las comunidades autónomas a informar cada mes de cómo gastan las ayudas de vivienda",
-     "url": "https://www.elespanol.com/invertia/economia/20261106/gobierno-obliga-comunidades-autonomas-informar-mes-gastan-ayudas-vivienda/899160163_0.html",
-     "fecha": "2026-11-06",
-     "estado_lectura": "EXTRACTO",
-     "cita_literal": null,
-     "resumen": "El Boletín Oficial del Estado publicó una orden del Ministerio de Vivienda que impone a los gobiernos regionales remitir mensualmente la justificación de fondos. El mecanismo busca agilizar y fiscalizar la ejecución real del Plan Estatal de Vivienda 2026-2030 ante la lentitud en la concesión de subvenciones. La medida condicionará el traspaso de nuevas partidas presupuestarias al cumplimiento estricto de los hitos.",
-     "tema": "vivienda",
-     "relevancia": "Una mayor fiscalización mensual forzará a la Xunta de Galicia a liquidar convocatorias de ayudas a la rehabilitación de envolventes con mayor agilidad comercial.",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    },
-    {
-     "medio": "elEconomista.es",
-     "titular": "Ayuso lanza una línea de avales para comprar vivienda de obra nueva sin adelantar el 10% del precio a las constructoras",
-     "url": "https://www.eleconomista.es/vivienda-inmobiliario/noticias/13631520/11/26/ayuso-lanza-una-linea-de-avales-para-comprar-vivienda-de-obra-nueva-sin-adelantar-el-10-del-precio-a-las-constructoras.html",
-     "fecha": "2026-11-04",
-     "estado_lectura": "EXTRACTO",
-     "cita_literal": null,
-     "resumen": "La Comunidad de Madrid presentó una dotación presupuestaria de 50 millones de euros en garantías para eximir a compradores del anticipo inicial a constructoras. El esquema funciona mediante Sociedades de Garantía Recíproca en promociones libres y protegidas. El objetivo institucional consiste en desatascar la comercialización de obra nueva y garantizar liquidez continuada a las promotoras durante el ciclo constructivo.",
-     "tema": "vivienda",
-     "relevancia": "La puesta en marcha de garantías que aseguran la liquidez de los promotores estimula el inicio temprano de promociones y acorta los cobros a fabricantes de envolventes.",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    },
-    {
-     "medio": "La Voz de Galicia",
-     "titular": "La conversión de bajos en pisos, una tendencia al alza en Pontevedra: «Cambias un bien estéril que no produce por uno con demanda»",
-     "url": "https://www.lavozdegalicia.es/noticia/pontevedra/pontevedra/2026/11/06/conversion-bajos-pisos-tendencia-alza-pontevedra-cambias-bien-esteril-produce-demanda/0003_202611P6C2991.htm",
-     "fecha": "2026-11-06",
-     "estado_lectura": "EXTRACTO",
-     "cita_literal": null,
-     "resumen": "El Colegio de Arquitectos Técnicos contabiliza ya más de 150 proyectos de transformación de locales comerciales en viviendas residenciales en Pontevedra. La flexibilización normativa aprobada por la Xunta de Galicia impulsa este fenómeno ante la escasez de suelo y la alta demanda de pisos céntricos. La reforma de estos espacios exige soluciones de aislamiento térmico y acústico en falsos techos y forjados divisorios.",
-     "tema": "rehabilitacion",
-     "relevancia": "El auge de la transformación de locales comerciales a vivienda en las ciudades gallegas crea demanda de paneles de forjado y trasdosado acústico-térmico de instalación en seco.",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    },
-    {
-     "medio": "elEconomista.es",
-     "titular": "¿Comprar casa ahora o esperar? Ni una bajada de tipos futura del BCE compensaría la escalada de precios",
-     "url": "https://www.eleconomista.es/vivienda-inmobiliario/noticias/13627725/11/26/comprar-casa-ahora-o-esperar-ni-una-bajada-de-tipos-futura-del-bce-compensaria-la-escalada-de-precios.html",
-     "fecha": "2026-11-01",
-     "estado_lectura": "EXTRACTO",
-     "cita_literal": null,
-     "resumen": "El precio del metro cuadrado residencial en España sigue aumentando a tasas superiores a las potenciales rebajas en las cuotas hipotecarias que pudiera propiciar el BCE. En una década, el coste del alquiler medio se ha incrementado un 82% a nivel nacional, presionando la capacidad de ahorro. Los analistas advierten de que posponer la compra de obra nueva no compensa el encarecimiento progresivo de los costes de edificación.",
+     "cita_literal": "Liberar esta cifra permitiría a la banca, según sus cálculos, conceder 60.000 millones más en hipotecas",
+     "resumen": "La presidenta de Banco Santander instó a la Comisión Europea a flexibilizar y simplificar la regulación del sector bancario con el fin de desbloquear hasta 273.000 millones de euros en capacidad de capital. Esta medida permitiría inyectar más de 60.000 millones adicionales en hipotecas y financiar desarrollos en vivienda e infraestructuras.",
      "tema": "economia",
-     "relevancia": "La presión para que el promotor no demore promociones residenciales incentiva cerrar suministros con sistemas de panel que garanticen plazos de entrega inalterables.",
+     "relevancia": "La movilización de liquidez bancaria para inversión inmobiliaria y préstamos hipotecarios resulta determinante para reactivar promociones residenciales en el noroeste ibérico.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "Cinco Días",
+     "titular": "El BCE pide a los bancos que cambien su modelo de gobernanza para adaptarse a la IA",
+     "url": "https://cincodias.elpais.com/companias/2026-11-06/el-bce-pide-a-los-bancos-que-cambien-su-modelo-de-gobernanza-para-adaptarse-a-la-ia.html",
+     "fecha": "2026-11-06",
+     "estado_lectura": "EXTRACTO",
+     "cita_literal": "El Banco Central Europeo (BCE) ha situado a la inteligencia artificial (IA) como uno de los principales riesgos",
+     "resumen": "El supervisor del Banco Central Europeo alertó en Madrid sobre la necesidad de adaptar la gobernanza de las entidades financieras a los riesgos derivados de la integración tecnológica acelerada. El regulador incrementa el escrutinio sobre la resiliencia operativa y crediticia del sector financiero comunitario.",
+     "tema": "economia",
+     "relevancia": "Muestra la cautela supervisora del BCE en el sector financiero, condicionando el apetito de riesgo corporativo y la financiación a desarrollos industriales.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "ECO",
+     "titular": "Líder do BPI defende política de industrialização na construção de casas",
+     "url": "https://eco.sapo.pt/2026/11/02/lider-do-bpi-defende-politica-de-industrializacao-na-construcao-de-casas/",
+     "fecha": "2026-11-02",
+     "estado_lectura": "EXTRACTO",
+     "cita_literal": "Líder do BPI defende política de industrialização na construção de casas",
+     "resumen": "La presidencia de Banco BPI abogó por articular de manera prioritaria una política estatal de industrialización en el sector de la edificación residencial para superar el déficit habitacional en Portugal. Señaló que acelerar el ritmo constructivo exige transitar hacia sistemas prefabricados y ganar productividad ante las limitaciones del modelo tradicional.",
+     "tema": "industrializacion",
+     "relevancia": "Alineamiento directo de la banca lusa con la propuesta de valor de Thermochip en el norte de Portugal para proyectos residenciales industrializados en cubierta y fachada.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "ECO",
+     "titular": "Resolver crise da habitação “não é para uma legislatura”, avisa líder da Caixa",
+     "url": "https://eco.sapo.pt/2026/11/05/resolver-crise-da-habitacao-nao-e-para-uma-legislatura-avisa-lider-da-caixa/",
+     "fecha": "2026-11-05",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "Muitos construtores de média dimensão tivemos problemas na crise financeira, foram absorvidos ou saíram da sua atividade",
+     "resumen": "El consejero delegado de Caixa Geral de Depósitos señaló que resolver la crisis habitacional portuguesa tomará más de una legislatura y exigirá reconstruir el tejido productivo constructor. Destacó que el banco cuenta con importantes proyectos bajo análisis pero advirtió que la oferta sufre por el debilitamiento de las constructoras medianas y la lentitud burocrática.",
+     "tema": "portugal",
+     "relevancia": "Confirma la necesidad ineludible de métodos industrializados en Portugal para suplir la baja capacidad instalada de las constructoras convencionales con paneles ligeros de fácil montaje.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "ECO",
+     "titular": "Crise da habitação? Banca aponta à construção de casas a custos moderados",
+     "url": "https://eco.sapo.pt/2026/11/06/crise-da-habitacao-banca-aponta-a-construcao-de-casas-a-custos-moderados/",
+     "fecha": "2026-11-06",
+     "estado_lectura": "EXTRACTO",
+     "cita_literal": "Bancos estão prontos a financiar setor da construção, mas querem construtoras e projetos viáveis.",
+     "resumen": "El sector bancario portugués reiteró su disposición a financiar el desarrollo de hasta 300.000 viviendas a costes moderados para frenar la escalada de precios inmobiliarios. No obstante, las entidades exigen proyectos financieramente viables y empresas constructoras con capacidad técnica de ejecución contrastada.",
+     "tema": "portugal",
+     "relevancia": "Abre una vía comercial para que soluciones integrales de cerramiento con costes y tiempos controlados aseguren la viabilidad bancaria de proyectos en Oporto y norte luso.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "ECO",
+     "titular": "PSD e CDS propõem alargar garantia pública à autoconstrução de habitação por jovens",
+     "url": "https://eco.sapo.pt/2026/11/06/psd-e-cds-propoem-alargamento-da-garantia-publica-a-autoconstrucao-de-habitacao-por-jovens/",
+     "fecha": "2026-11-06",
+     "estado_lectura": "EXTRACTO",
+     "cita_literal": "PSD e CDS propõem alargar garantia pública à autoconstrução de habitação por jovens.",
+     "resumen": "Los partidos de la coalición gubernamental en Portugal presentaron una enmienda presupuestaria para hacer extensible la garantía pública del crédito habitacional a proyectos de autoconstrucción destinados a jóvenes. La medida busca incentivar la edificación unifamiliar directa en áreas periurbanas y rurales frente a la escasez de promociones.",
+     "tema": "portugal",
+     "relevancia": "Estimula la vivienda unifamiliar en el norte de Portugal, nicho natural de Thermochip para paneles sándwich de madera y aislamiento en cubiertas inclinadas.",
      "verificacion": "V1_reportado_por_IA_sin_contrastar",
      "nota_validador": null
     }
    ],
-   "searches": 4,
+   "searches": 0,
    "urls_leidas": 8,
-   "consultas": [
-    "site:eleconomista.es noviembre 2026 construccion OR hipotecas OR vivienda",
-    "construção habitação norte Portugal economia novembro 2026 Jornal de Negocios",
-    "noticias construccion vivienda economia España noviembre 2026",
-    "noticias vivienda Galicia noviembre 2026 La Voz de Galicia Faro de Vigo"
-   ],
-   "fuentes": [
-    "eleconomista.es",
-    "España se envejece y sus viviendas también: la inflación y la falta ...",
-    "noticiasdeviana.pt",
-    "CCDR-N quer criar cluster de construção e Viana do Castelo ...",
-    "sapo.pt",
-    "BPI vai ajudar Estado a identificar zonas onde as principais cidades ...",
-    "farodevigo.es",
-    "Colectivos por la vivienda animan a la ciudadanía a secundar la ...",
-    "jornalpt50.pt",
-    "Volume de negócios na construção atinge os 43,5 mil milhões de ...",
-    "elpais.com",
-    "europapress.es",
-    "huelvainformacion.es",
-    "larazon.es",
-    "idealista.com",
-    "elespanol.com",
-    "comunidad.madrid",
-    "lavozdegalicia.es"
-   ],
+   "consultas": [],
+   "fuentes": [],
    "evidencia_de_busqueda": true,
    "usage": {
     "promptTokenCount": 659,
-    "candidatesTokenCount": 6943,
-    "totalTokenCount": 163922,
-    "cachedContentTokenCount": 113839,
+    "candidatesTokenCount": 6952,
+    "totalTokenCount": 79212,
+    "cachedContentTokenCount": 35131,
     "promptTokensDetails": [
      {
       "modality": "TEXT",
@@ -234,404 +236,155 @@
     "cacheTokensDetails": [
      {
       "modality": "TEXT",
-      "tokenCount": 113839
+      "tokenCount": 35131
      }
     ],
-    "toolUsePromptTokenCount": 156320,
+    "toolUsePromptTokenCount": 71601,
     "toolUsePromptTokensDetails": [
      {
       "modality": "TEXT",
-      "tokenCount": 156320
+      "tokenCount": 71601
      }
     ],
     "serviceTier": "standard"
    },
-   "coste_estimado_usd": 0.2875,
-   "segundos": 58.327
+   "coste_estimado_usd": 0.1605,
+   "segundos": 58.038
   },
   "industrializacion": {
    "status": "OK",
    "items": [
     {
-     "medio": "Interempresas - Construcción industrializada",
-     "titular": "Fabryko se presenta oficialmente en Barcelona para impulsar la capacitación que necesita la construcción industrializada",
-     "url": "https://www.interempresas.net/Construccion/Articulos/5851412-Fabryko-se-presenta-oficialmente-en-Barcelona-para-impulsar-la-capacitacion.html",
+     "medio": "Boletín Oficial del Estado",
+     "titular": "BOE-A-2026-23270 Orden VAU/1167/2026, de 4 de noviembre, por la que se regulan los mecanismos de seguimiento, control y evaluación de las actuaciones y suministro de información del Plan Estatal de Vivienda 2026-2030, de acuerdo con el Real Decreto 326/2026, de 22 de abril,",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23270",
      "fecha": "2026-11-06",
-     "estado_lectura": "COMPLETO",
-     "cita_literal": "Fabryko nace con la vocación de convertir la innovación y la estrategia sectorial en capacidades aplicables.",
-     "resumen": "Nace la iniciativa Fabryko con el lanzamiento del Plan Nacional de Capacitación en Construcción Industrializada (Plan CapaCI), cuya presentación oficial se celebrará el 26 de noviembre en Barcelona. El proyecto, impulsado en colaboración con Rebuild y clústeres sectoriales, busca dotar de capacidades y lenguaje común a técnicos, promotores y fabricantes para acelerar la implantación de procesos off-site.",
-     "tema": "industrializacion",
-     "tipo": "nuevo_player",
-     "relevancia": "Abre una vía formativa y de homologación técnica para prescriptores y montadores, facilitando la prescripción de paneles sándwich y cerramientos industrializados frente a la falta de mano de obra cualificada en obra.",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    },
-    {
-     "medio": "Interempresas - Madera",
-     "titular": "Más de 900 firmas de 28 países muestran sus novedades en Fimma - Maderalia 2026",
-     "url": "https://www.interempresas.net/Madera/Articulos/5851214-Mas-de-900-firmas-de-28-paises-muestran-sus-novedades-en-Fimma-Maderalia-2026.html",
-     "fecha": "2026-11-06",
-     "estado_lectura": "COMPLETO",
-     "cita_literal": "otra de las grandes apuestas de esta edición será la incorporación de la construcción industrializada como uno de los sectores",
-     "resumen": "Feria Valencia acoge una edición de Fimma-Maderalia con 447 expositores directos y más de 920 marcas, que incorpora como novedad estratégica el nuevo Salón de Construcción Industrializada (SCI). Este espacio monográfico concentra soluciones de madera, envolventes y componentes prefabricados.",
-     "tema": "industria",
-     "tipo": "noticia",
-     "relevancia": "Marca la entrada masiva de los fabricantes de componentes de madera y derivados en la industrialización de la envolvente, canal directo de competencia y alianzas para paneles sándwich en fachada y cubierta.",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    },
-    {
-     "medio": "Interempresas - Construcción industrializada",
-     "titular": "España prevé 45 millones de euros en ayudas para industrializar la construcción de viviendas en 2027",
-     "url": "https://www.interempresas.net/Construccion/Articulos/5850912-Espana-preve-45-millones-de-euros-en-ayudas-para-industrializar-construccion-viviendas.html",
-     "fecha": "2026-11-05",
-     "estado_lectura": "COMPLETO",
-     "cita_literal": "El Consejo de Ministros autorizó compromisos de gasto por 45 millones de euros para la primera convocatoria de subvenciones",
-     "resumen": "El Gobierno avanza en los compromisos del PERTE de Industrialización de la Vivienda, dotado con 45 millones de euros para ayudas directas en 2027 y hasta 280 millones en avales estatales para circulante e inversión en fábrica. Durante el debate sectorial se analizó la puesta en marcha de la norma UNE 41610:2026 para auditar el grado real de industrialización y reducir sobrecostes de coordinación.",
-     "tema": "industrializacion",
+     "estado_lectura": "TITULAR",
+     "cita_literal": null,
+     "resumen": null,
+     "tema": "normativa",
+     "relevancia": "Fundamental para Thermochip al incentivar administrativamente con mayores subvenciones públicas los proyectos de vivienda que prescriban envolventes y sistemas industrializados.",
      "tipo": "normativa",
-     "relevancia": "Proporciona respaldo financiero y avales públicos a promotoras que adopten cerramientos ligeros industrializados e introduce métricas oficiales de industrialización donde el panel sándwich computa de forma directa.",
+     "nota_modelo": "SIN_EVIDENCIA_DE_BUSQUEDA_EN_LA_RESPUESTA",
      "verificacion": "V1_reportado_por_IA_sin_contrastar",
      "nota_validador": null
     },
     {
-     "medio": "El Periódico de Aragón",
-     "titular": "Aragón pone los cimientos de un nuevo modelo constructivo para afrontar el desafío de la vivienda",
-     "url": "https://www.elperiodicodearagon.com/aragon/2026/11/05/aragon-pone-cimientos-nuevo-modelo-123403211.html",
-     "fecha": "2026-11-05",
-     "estado_lectura": "COMPLETO",
-     "cita_literal": "El presidente del clúster anunció además un proyecto piloto para 2027: la construcción de un edificio de seis viviendas",
-     "resumen": "El Clúster Industrial de la Construcción de Aragón (CICA) y el Gobierno autonómico anunciaron un proyecto piloto de seis viviendas de protección oficial de 90 m2 altamente industrializadas para 2027. El sector y entidades bancarias como Ibercaja debaten fórmulas para avalar y certificar componentes ejecutados en fábrica antes de su ensamblaje.",
-     "tema": "vivienda",
-     "tipo": "proyecto",
-     "relevancia": "Muestra la aceleración de licitaciones de vivienda protegida concebidas desde el proyecto básico con sistemas prefabricados, modelo exportable a promociones de vivienda pública en Galicia.",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    },
-    {
-     "medio": "Interempresas - Construcción industrializada",
-     "titular": "Fimma - Maderalia construirá en directo una vivienda de madera que, tras la feria, se convertirá en un hogar",
-     "url": "https://www.interempresas.net/Construccion/Articulos/5850212-Fimma-Maderalia-construira-directo-vivienda-madera-tras-feria-convertira-hogar.html",
-     "fecha": "2026-11-04",
-     "estado_lectura": "COMPLETO",
-     "cita_literal": "El proyecto toma como punto de partida el CLT (madera contralaminada), un sistema constructivo que permite configurar estructuras ligeras",
-     "resumen": "La empresa SIDO Madera levantará en directo durante el certamen 'La Casa entre Pinos Mediterráneos', una vivienda modular de dos dormitorios diseñada por el arquitecto Dani Sirvent. El proyecto se basa en estructura y envolvente de madera contralaminada (CLT) y diseño bioclimático, siendo desmontada y relocalizada tras el evento.",
-     "tema": "construccion",
-     "tipo": "proyecto",
-     "relevancia": "Demuestra la viabilidad del montaje en seco y la compatibilidad de módulos de cubierta y forjado de madera industrializada con sistemas de cerramiento estanco de altas prestaciones térmicas.",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    },
-    {
-     "medio": "Interempresas - Construcción industrializada",
-     "titular": "El Foro AECI pone el foco en la normalización de soluciones constructivas para dar respuesta a los desafíos del sector",
-     "url": "https://www.interempresas.net/Construccion/Articulos/5849814-Foro-AECI-foco-normalizacion-soluciones-constructivas-dar-respuesta-desafios-sector.html",
-     "fecha": "2026-11-04",
-     "estado_lectura": "COMPLETO",
-     "cita_literal": "garantizar la seguridad jurídica de los componentes industrializados, a la vez que deben dar respuesta a las exigencias",
-     "resumen": "El 4º Foro de la Asociación Española de Construcción Industrializada (AECI) analizó en el COAM de Madrid la aplicación de la norma UNE 41610:2026 y la medición de la huella de carbono de ciclo de vida. Se destacaron casos prácticos de fachadas industrializadas ejecutadas por Enerblock y el uso de la industrialización para acelerar la vivienda de protección oficial.",
-     "tema": "industrializacion",
-     "tipo": "estudio",
-     "relevancia": "Confirma la exigencia de trazabilidad y certificaciones ambientales para paneles y fachadas prefabricadas ante la próxima revisión del Código Técnico de la Edificación.",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    },
-    {
-     "medio": "Interempresas - Madera",
-     "titular": "Egurtek 2026 reúne a 1.759 profesionales en torno a la arquitectura y la construcción en madera",
-     "url": "https://www.interempresas.net/Madera/Articulos/5849611-Egurtek-2026-reune-a-1759-profesionales-entorno-arquitectura-construccion-madera.html",
-     "fecha": "2026-11-04",
-     "estado_lectura": "COMPLETO",
-     "cita_literal": "La Zona Expo contó con un total de 78 firmas expositoras, procedentes del territorio estatal y de países como Alemania",
-     "resumen": "El foro internacional Egurtek cerró en el Bilbao Exhibition Centre reuniendo a casi 1.800 técnicos y 78 empresas expositoras. El evento puso el acento en la edificación residencial en madera técnica, timber frame y sistemas de paneles industrializados para reducir la huella de carbono.",
-     "tema": "industria",
-     "tipo": "noticia",
-     "relevancia": "El fuerte avance de las estructuras de madera en la cornisa cantábrica genera demanda directa de paneles sándwich aislantes con soporte o acabado de madera para cubiertas y forjados ligeros.",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    },
-    {
-     "medio": "Interempresas - Construcción industrializada",
-     "titular": "Tecnalia amplía sus servicios de evaluación y ensayo para sistemas de construcción industrializada",
-     "url": "https://www.interempresas.net/Construccion/Articulos/5848811-Tecnalia-amplia-servicios-evaluacion-ensayo-sistemas-construccion-industrializada.html",
-     "fecha": "2026-11-03",
-     "estado_lectura": "COMPLETO",
-     "cita_literal": "La evaluación también contempla estructuras, envolventes, cubiertas, particiones interiores e instalaciones industrializadas.",
-     "resumen": "El centro tecnológico Tecnalia ha reforzado su catálogo de ensayos y certificaciones para paneles prefabricados, envolventes, cubiertas y módulos 2D y 3D. Los servicios incluyen la tramitación de Evaluaciones Técnicas Europeas (ETE), marcado CE y los informes Technical Conformity Report para validar el cumplimiento del CTE y resistencia al fuego.",
-     "tema": "industrializacion",
-     "tipo": "normativa",
-     "relevancia": "Agiliza la homologación y certificación técnica de nuevos paneles y remates de envolvente ante exigencias de reacción al fuego y acústica exigidas por promotores.",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    },
-    {
-     "medio": "Interempresas - Construcción industrializada",
-     "titular": "Fimma - Maderalia reúne a arquitectos de referencia para analizar los retos de la construcción industrializada",
-     "url": "https://www.interempresas.net/Construccion/Articulos/5847915-Fimma-Maderalia-reune-a-arquitectos-referencia-analizar-retos-construccion-industrializada.html",
+     "medio": "O MINHO",
+     "titular": "Construção industrializada: Grupo de Braga ergue casas para 48 famílias em metade do tempo",
+     "url": "https://ominho.pt/construcao-industrializada-grupo-de-braga-ergue-casas-para-48-familias-em-metade-do-tempo/",
      "fecha": "2026-11-02",
-     "estado_lectura": "COMPLETO",
-     "cita_literal": "El programa del nuevo salón tendrá como principal punto de encuentro el Foro de Arquitectura y Construcción",
-     "resumen": "Se ha definido la agenda técnica del Foro de Arquitectura y Construcción dentro del nuevo Salón de Construcción Industrializada de Valencia. Se debatirán proyectos de soluciones 2D y 3D en vivienda asequible, hotelero y coliving, además de la presentación por parte de la Entidad Valenciana de Vivienda y Suelo (EVHA) de licitaciones de vivienda protegida industrializada.",
-     "tema": "industrializacion",
-     "tipo": "estudio",
-     "relevancia": "Detecta tendencias de prescripción arquitectónica en envolventes modulares y pliegos de contratación pública que favorecen sistemas de cerramiento panelizado de montaje rápido.",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    },
-    {
-     "medio": "Interempresas - Construcción industrializada",
-     "titular": "Modular Solutions Summit llega a Barcelona el 20 de noviembre de la mano de Porcelanosa",
-     "url": "https://www.interempresas.net/Construccion/Articulos/5846911-Modular-Solutions-Summit-llega-a-Barcelona-20-noviembre-mano-Porcelanosa.html",
-     "fecha": "2026-10-30",
-     "estado_lectura": "COMPLETO",
-     "cita_literal": "donde abordará la construcción industrializada, la arquitectura 4.0, la descarbonización y la circularidad.",
-     "resumen": "BioEconomic organiza junto a Porcelanosa una nueva jornada sobre prefabricación y arquitectura 4.0 tras el encuentro previo de Bilbao. El foro presentará metodologías DfMA (diseño para fabricación y ensamblaje), modelado BIM y sistemas de control de calidad en módulos habitacionales y baños industrializados.",
-     "tema": "industrializacion",
-     "tipo": "noticia",
-     "relevancia": "Permite monitorizar la integración de envolventes y componentes modulares con los grandes grupos cerámicos y de acabados, clave para prescripciones conjuntas de fachada técnica.",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    },
-    {
-     "medio": "ECO - Economia Online (Portugal)",
-     "titular": "Habitação: a marca que Portugal pode deixar",
-     "url": "https://eco.sapo.pt/opiniao/habitacao-a-marca-que-portugal-pode-deixar/",
-     "fecha": "2026-10-30",
-     "estado_lectura": "COMPLETO",
-     "cita_literal": "Mas também simplificar processos e aproveitar a construção industrializada ou modelar para ganhar produtividade e escala.",
-     "resumen": "Análisis sectorial en Portugal sobre la crisis habitacional ante aumentos continuados de precios del 17,6% y la urgencia de aumentar la oferta mediante construcción industrializada y modular. Se reclama estabilidad regulatoria, mayor disponibilidad de suelo urbanizado e instrumentos financieros de riesgo compartido para acelerar plazos de ejecución.",
+     "estado_lectura": "TITULAR",
+     "cita_literal": null,
+     "resumen": null,
      "tema": "portugal",
+     "relevancia": "Muestra la pujanza de grandes constructoras del norte de Portugal (vecinas directas de Galicia) en sistemas híbridos industrializados para vivienda residencial asequible.",
+     "tipo": "proyecto",
+     "nota_modelo": "SIN_EVIDENCIA_DE_BUSQUEDA_EN_LA_RESPUESTA",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "Interempresas",
+     "titular": "Fabryko se presenta oficialmente en Barcelona para impulsar la capacitación que necesita la construcción industrializada",
+     "url": "https://www.interempresas.net/Construccion/Articulos/584620-Fabryko-se-presenta-oficialmente-en-Barcelona-para-impulsar-la-capacitacion-que-necesita-la-construccion-industrializada.html",
+     "fecha": "2026-11-06",
+     "estado_lectura": "TITULAR",
+     "cita_literal": null,
+     "resumen": null,
+     "tema": "industrializacion",
+     "relevancia": "Permite a los prescriptores y estructuristas adquirir las competencias necesarias para integrar soluciones modulares de cubierta y fachada como las de Thermochip desde fase de diseño.",
+     "tipo": "nuevo_player",
+     "nota_modelo": "SIN_EVIDENCIA_DE_BUSQUEDA_EN_LA_RESPUESTA",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "NAN Arquitectura",
+     "titular": "España prepara 45 millones para industrializar viviendas en 2027, pero el ahorro real en las obras sigue siendo el gran desafío",
+     "url": "https://nanarquitectura.com/2026/11/04/espana-prepara-45-millones-para-industrializar-viviendas-en-2027-pero-el-ahorro-real-en-las-obras-sigue-siendo-el-gran-desafio/",
+     "fecha": "2026-11-04",
+     "estado_lectura": "TITULAR",
+     "cita_literal": null,
+     "resumen": null,
+     "tema": "industrializacion",
+     "relevancia": "Evidencia los presupuestos crecientes de la administración y la necesidad crítica de que Thermochip colabore con arquitectos en fases previas a la licitación.",
      "tipo": "estudio",
-     "relevancia": "Confirma la presión en el norte de Portugal por acelerar la producción de obra residencial mediante métodos modulares e industrializados, mercado natural de proximidad para paneles de envolvente.",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    }
-   ],
-   "searches": 1,
-   "urls_leidas": 12,
-   "consultas": [
-    "\"Egurtek 2026 reúne a 1.759 profesionales en torno a la arquitectura y la construcción en madera\""
-   ],
-   "fuentes": [
-    "Fabryko se presenta oficialmente en Barcelona para impulsar la ...",
-    "Más de 900 firmas de 28 países muestran sus novedades en Fimma ...",
-    "España prevé 45 millones de euros en ayudas para industrializar la ...",
-    "Aragón pone los cimientos de un nuevo modelo constructivo para ...",
-    "Fimma - Maderalia construirá en directo una vivienda de madera ...",
-    "El Foro AECI pone el foco en la normalización de soluciones ...",
-    "interempresas.net",
-    "Tecnalia amplía sus servicios de evaluación y ensayo para sistemas ...",
-    "Fimma - Maderalia reúne a arquitectos de referencia para analizar ...",
-    "Modular Solutions Summit llega a Barcelona el 20 de noviembre de ...",
-    "Habitação: a marca que Portugal pode deixar – ECO"
-   ],
-   "evidencia_de_busqueda": true,
-   "usage": {
-    "promptTokenCount": 656,
-    "candidatesTokenCount": 5815,
-    "totalTokenCount": 252882,
-    "cachedContentTokenCount": 184770,
-    "promptTokensDetails": [
-     {
-      "modality": "TEXT",
-      "tokenCount": 656
-     }
-    ],
-    "cacheTokensDetails": [
-     {
-      "modality": "TEXT",
-      "tokenCount": 184770
-     }
-    ],
-    "toolUsePromptTokenCount": 246411,
-    "toolUsePromptTokensDetails": [
-     {
-      "modality": "TEXT",
-      "tokenCount": 246411
-     }
-    ],
-    "serviceTier": "standard"
-   },
-   "coste_estimado_usd": 0.4142,
-   "segundos": 54.792
-  },
-  "gestoras": {
-   "status": "OK",
-   "items": [
-    {
-     "medio": "BERKSHIRE HATHAWAY INC.",
-     "titular": "BERKSHIRE HATHAWAY INC. NEWS RELEASE FOR IMMEDIATE RELEASE November 7, 2026",
-     "url": "https://www.berkshirehathaway.com/news/nov0726.pdf",
-     "fecha": "2026-11-07",
-     "estado_lectura": "COMPLETO",
-     "cita_literal": "Through nine months it bought $41.8 billion of equities and sold $30.6 billion.",
-     "resumen": "Berkshire Hathaway presentó su informe del tercer trimestre y Formulario 10-Q ante la SEC, reflejando compras acumuladas de renta variable por 41.800 millones de dólares frente a ventas por 30.600 millones en los primeros nueve meses. Durante el tercer trimestre, la firma recompró acciones propias por 9.600 millones de dólares mientras mantenía más de 350.000 millones en caja y deuda soberana tras desembolsos corporativos previos. Las ganancias operativas trimestrales alcanzaron los 12.705 millones de dólares.",
-     "tema": "inversion",
-     "relevancia": "Muestra la pauta de asignación de capital del mayor conglomerado industrial y de inversión mundial hacia compras selectivas y liquidez defensiva.",
-     "entidad": "Berkshire Hathaway",
-     "tipo": "movimiento",
+     "nota_modelo": "SIN_EVIDENCIA_DE_BUSQUEDA_EN_LA_RESPUESTA",
      "verificacion": "V1_reportado_por_IA_sin_contrastar",
      "nota_validador": null
     },
     {
-     "medio": "SEC EDGAR / Stock Titan",
-     "titular": "BlackRock Discloses 10.4% Stake in Mohawk Industries in Latest SEC Filing",
-     "url": "https://www.stocktitan.net/news/MHK/black-rock-discloses-10-4-stake-in-mohawk-industries-in-latest-sec-7o83h939.html",
-     "fecha": "2026-11-05",
-     "estado_lectura": "COMPLETO",
-     "cita_literal": "BlackRock holds 6,037,476 shares of Mohawk Industries Inc. common stock, representing 10.4%",
-     "resumen": "BlackRock declaró ante la SEC mediante una enmienda al Schedule 13G una participación beneficiaria de 6.037.476 acciones en Mohawk Industries, equivalente al 10,4% del capital de la compañía con fecha de efecto 31 de octubre de 2026. La gestora ejerce poder de voto exclusivo sobre 5.915.045 títulos y disposición sobre la totalidad. Datos no confirmados oficialmente en el registro directo de la SEC por restricciones de acceso al fichero XML.",
-     "tema": "industria",
-     "relevancia": "El aumento de peso de BlackRock en uno de los mayores fabricantes de recubrimientos y materiales de construcción resalta el interés en fabricantes clave para la envolvente e interiores.",
-     "entidad": "BlackRock",
-     "tipo": "movimiento",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    },
-    {
-     "medio": "SEC EDGAR / Stock Titan",
-     "titular": "BlackRock Discloses 10.2% Ownership Stake in Corteva, Inc. Common Shares",
-     "url": "https://www.stocktitan.net/news/CTVA/black-rock-discloses-10-2-ownership-stake-in-corteva-inc-common-h183m911.html",
-     "fecha": "2026-11-05",
-     "estado_lectura": "COMPLETO",
-     "cita_literal": "BlackRock reported owning 68,055,049 shares of Corteva, Inc. common stock, accounting for 10.2%",
-     "resumen": "A través de una enmienda oficial número 5 del Schedule 13G presentada ante la SEC, BlackRock informó poseer 68.055.049 acciones de Corteva, representativas del 10,2% del total en circulación. La posición otorga poder de voto exclusivo sobre más de 63,7 millones de títulos a través de sus distintas entidades subsidiarias de inversión. Datos procesados vía agregador bursátil y no confirmados directamente en el visor de SEC EDGAR.",
-     "tema": "inversion",
-     "relevancia": "Ilustra las modificaciones sustanciales de cartera que acomete la gestora en grandes valores industriales cotizados a cierre de mes.",
-     "entidad": "BlackRock",
-     "tipo": "movimiento",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    },
-    {
-     "medio": "CNMV",
-     "titular": "La entidad comunica número de accionistas y patrimonio",
-     "url": "https://www.cnmv.es/portal/HR/verDoc.axd?t={317544}",
-     "fecha": "2026-10-30",
-     "estado_lectura": "COMPLETO",
-     "cita_literal": "La entidad comunica número de accionistas y patrimonio · Número de registro: 317544.",
-     "resumen": "BlackRock Global Funds comunicó oficialmente a la Comisión Nacional del Mercado de Valores el informe de número de accionistas y patrimonio de sus IIC extranjeras registradas para comercialización en España. El registro formal quedó asentado bajo el número de registro 317544 dentro de las obligaciones regulatorias del fondo paraguas. Supone la actualización operativa de la oferta institucional comercializada en la Península Ibérica.",
-     "tema": "inversion",
-     "relevancia": "Asegura la vigencia de la distribución comercial de los vehículos globales de BlackRock que canalizan capital minorista e institucional en España y Portugal.",
-     "entidad": "BlackRock",
-     "tipo": "noticia",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    }
-   ],
-   "searches": 0,
-   "urls_leidas": 1,
-   "consultas": [],
-   "fuentes": [],
-   "evidencia_de_busqueda": true,
-   "usage": {
-    "promptTokenCount": 817,
-    "candidatesTokenCount": 1547,
-    "totalTokenCount": 21947,
-    "cachedContentTokenCount": 9346,
-    "promptTokensDetails": [
-     {
-      "modality": "TEXT",
-      "tokenCount": 817
-     }
-    ],
-    "cacheTokensDetails": [
-     {
-      "modality": "TEXT",
-      "tokenCount": 9346
-     }
-    ],
-    "toolUsePromptTokenCount": 19583,
-    "toolUsePromptTokensDetails": [
-     {
-      "modality": "TEXT",
-      "tokenCount": 19583
-     }
-    ],
-    "serviceTier": "standard"
-   },
-   "coste_estimado_usd": 0.0422,
-   "segundos": 21.034
-  },
-  "productos": {
-   "status": "OK",
-   "items": [
-    {
-     "producto": "Compagnie de Saint-Gobain (FR0000125007)",
-     "tipo": "empresa",
-     "medio": "Saint-Gobain Press Release",
-     "titular": "SAINT-GOBAIN COMPLETES THE DIVESTMENT OF ITS DAHL SPECIALIST DISTRIBUTION BUSINESS IN SWEDEN, NORWAY AND DENMARK",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF4D4HMosDwp50Kwm5Y7hffVFEt8MKTwZnvf2EGIq0n2h2CzpQZhVarerwSoX8rgRtBa2GHzSc6bxTAkiQqrJbHS5Vo5GwQcYhne7ZjHr1unYnvnxU3NuWfCia2JnkFTrShXTuR32b2CgIirSzzyj3Nvl7UFrA03mGxmo65Qguqy5yWvowz96AN6cbsBm6uyD0gSG8QWiE2_8Bzg==",
+     "medio": "RE Portugal",
+     "titular": "Construção industrializada exige nova abordagem de todo o setor",
+     "url": "https://news.iberinmo.com/pt/re-portugal/construcao-industrializada-exige-nova-abordagem-de-todo-o-setor/",
      "fecha": "2026-11-02",
+     "estado_lectura": "TITULAR",
+     "cita_literal": null,
+     "resumen": null,
+     "tema": "portugal",
+     "relevancia": "El mercado de Porto y Norte de Portugal es territorio estratégico de venta para Thermochip, donde crece con fuerza el debate sobre rehabilitación y obra nueva industrializada.",
+     "tipo": "noticia",
+     "nota_modelo": "SIN_EVIDENCIA_DE_BUSQUEDA_EN_LA_RESPUESTA",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "Interempresas",
+     "titular": "Fimma - Maderalia reúne a arquitectos de referencia para analizar los retos de la construcción industrializada",
+     "url": "https://www.interempresas.net/Madera/Articulos/584262-Fimma-Maderalia-reune-a-arquitectos-de-referencia-para-analizar-los-retos-de-la-construccion-industrializada.html",
+     "fecha": "2026-11-02",
+     "estado_lectura": "TITULAR",
+     "cita_literal": null,
+     "resumen": null,
+     "tema": "industrializacion",
+     "relevancia": "Relevante por el protagonismo que adquiere la madera y los sistemas de envolvente industrializada en la contratación pública de vivienda protegida.",
+     "tipo": "noticia",
+     "nota_modelo": "SIN_EVIDENCIA_DE_BUSQUEDA_EN_LA_RESPUESTA",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "Tectónica",
+     "titular": "El valor de la envolvente en VETECO 2026",
+     "url": "https://tectonica.archi/noticias/el-valor-de-la-envolvente-en-veteco-2026/",
+     "fecha": "2026-11-04",
+     "estado_lectura": "TITULAR",
+     "cita_literal": null,
+     "resumen": null,
+     "tema": "construccion",
+     "relevancia": "Afecta de lleno al 'core business' de Thermochip: paneles sándwich para fachada y cubierta como sistemas clave de cerramiento industrializado.",
+     "tipo": "noticia",
+     "nota_modelo": "SIN_EVIDENCIA_DE_BUSQUEDA_EN_LA_RESPUESTA",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "Alimarket",
+     "titular": "La Semana Internacional de la Construcción reúne a más de 500 empresas para impulsar el futuro del sector",
+     "url": "https://www.alimarket.es/construccion/noticia/402830/la-semana-internacional-de-la-construccion-reune-a-mas-de-500-empresas-para-impulsar-el-futuro-del-sector",
+     "fecha": "2026-11-06",
+     "estado_lectura": "TITULAR",
+     "cita_literal": null,
+     "resumen": null,
+     "tema": "industria",
+     "relevancia": "Principal foro comercial de noviembre donde constructoras, promotoras y distribuidores debaten la adopción comercial de sistemas de envolvente industrializada.",
+     "tipo": "noticia",
+     "nota_modelo": "SIN_EVIDENCIA_DE_BUSQUEDA_EN_LA_RESPUESTA",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "Boletín Oficial del Registro Mercantil (BORME)",
+     "titular": "Actos de PONTEVEDRA del BORME núm. 211 de 2026 - BOE.es",
+     "url": "https://www.boe.es/borme/dias/2026/11/03/pdfs/BORME-A-2026-211-36.pdf",
+     "fecha": "2026-11-03",
      "estado_lectura": "TITULAR",
      "cita_literal": null,
      "resumen": null,
      "tema": "competencia",
-     "relevancia": "Muestra el repliegue de Saint-Gobain de la distribución tradicional para focalizarse plenamente en la fabricación y prescripción directa de sistemas industrializados ligeros, compitiendo de forma más directa con soluciones de envolvente como Thermochip.",
-     "nota_modelo": "SIN_EVIDENCIA_DE_BUSQUEDA_EN_LA_RESPUESTA",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    },
-    {
-     "producto": "TotalEnergies (FR0000120271)",
-     "tipo": "empresa",
-     "medio": "Newsroom TotalEnergies",
-     "titular": "Malaysia: TotalEnergies Signs Agreements to Acquire Operated Interest in Two Major Offshore Gas Fields",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXryWhWIQUAYdcXEQw5tD8eY3PYxwolsQR900fXIP0AnoDrm24I_mnzA23KWDjLWzoeCK63rf7EHiM4l-VpB_q_li8SGRCm0XZQTQzcFd4Sx4rUb69O9G-cQQcxbZY4xpmGAzjbyreGKorvwUA73Ih08Su4VPRKum1hh88sBIORQZbjjuHDAAbAuX0zTcrTIDwxIpKr38c61M06oMD4jZmFMyDBjk9fGm0kxJ0O672Sw3aUto5vPdJxsxTJ8gf0ve3rXjwWsUACxE=",
-     "fecha": "2026-11-02",
-     "estado_lectura": "TITULAR",
-     "cita_literal": null,
-     "resumen": null,
-     "tema": "energia",
-     "relevancia": "El refuerzo de las grandes multinacionales en el aprovisionamiento de gas natural presiona la geopolítica de los combustibles fósiles e influye en la estabilidad de precios del sector químico e insumos de aislamiento como poliuretanos y poliestirenos.",
-     "nota_modelo": "SIN_EVIDENCIA_DE_BUSQUEDA_EN_LA_RESPUESTA",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    },
-    {
-     "producto": "iShares Core MSCI World UCITS ETF USD (Acc) (IE00B4L5Y983)",
-     "tipo": "etf",
-     "medio": "BlackRock iShares",
-     "titular": "iShares Core MSCI World UCITS ETF | SWDA",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1raAIMa78ZvH2egoiNyolGfWXQWrw2KbRXwx9v7wRfS5LbBIeh3dzP_ywIZDU13M22CTXH1PDXZwOczxPG-i07p0ZpwXcY958uKPNWlJJ1tg9z4Ugz6efonvzhLZiAB1x7GhQbnnp6ypgRH1iyw==",
-     "fecha": "2026-11-06",
-     "estado_lectura": "TITULAR",
-     "cita_literal": null,
-     "resumen": null,
-     "tema": "inversion",
-     "relevancia": "El comportamiento de este índice refleja la salud del ciclo económico e inversor en las economías desarrolladas, condicionando el apetito inversor en proyectos industriales y construcción no residencial.",
-     "nota_modelo": "SIN_EVIDENCIA_DE_BUSQUEDA_EN_LA_RESPUESTA",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    },
-    {
-     "producto": "iShares Edge MSCI World Quality Factor UCITS ETF USD (Acc) (IE00BP3QZ601)",
-     "tipo": "etf",
-     "medio": "BlackRock iShares",
-     "titular": "iShares Edge MSCI World Quality Factor UCITS ETF | IWQU",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHgyPXUWCQy5KTd1-_z5QuoIq5NPW48yCrDTL7crbG5qtTQwATu3V5xvLLYl7Rdc0DzycAIIiUuFJM6yoHy8uTwcq0zEmAIRUT-zB66iDTXixrViLQDTRc7aQQPr5qp18s8aYoS5CX980dnQN6-X1kFUD6QFOLVTJ9KLseLI8_YgewXQ4RSdQm7VIcQcqjrdCqeQYyv9bZzWVA",
-     "fecha": "2026-11-06",
-     "estado_lectura": "TITULAR",
-     "cita_literal": null,
-     "resumen": null,
-     "tema": "inversion",
-     "relevancia": "La canalización de flujos hacia balances corporativos sólidos penaliza a empresas con endeudamiento elevado, favoreciendo contratistas y promotores solventes con capacidad para acometer obras con paneles industrializados.",
-     "nota_modelo": "SIN_EVIDENCIA_DE_BUSQUEDA_EN_LA_RESPUESTA",
-     "verificacion": "V1_reportado_por_IA_sin_contrastar",
-     "nota_validador": null
-    },
-    {
-     "producto": "iShares EUR Govt Bond 1-3yr UCITS ETF (Dist) (IE00B14X4Q57)",
-     "tipo": "etf",
-     "medio": "BlackRock iShares",
-     "titular": "iShares € Govt Bond 1-3yr UCITS ETF | IBGS",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgasJZCDPFVRxv4wssVWYy7-oiEKIXVXPYTOpGlb4fCfJ5_tGY_D-vOJ--SrsqFgrxu6oPOfoMlhvrAerJeLGDOwjARHy29v4719l_qN4Tcr0Y6HV1hBDXf15wuV9jeyspjI04MiFTdfvTywqk7-qlyi1mPA0KTLBxgJS1S3GJuolbUyA8xtMpMw3_Y4UWPdq7v8OWzCroKDmZ",
-     "fecha": "2026-11-05",
-     "estado_lectura": "TITULAR",
-     "cita_literal": null,
-     "resumen": null,
-     "tema": "economia",
-     "relevancia": "La estabilidad de los rendimientos de los bonos soberanos europeos a corto plazo marca el coste del crédito promotor e hipotecario en España y Portugal, variable crítica para la viabilidad de nuevos desarrollos residenciales e industriales.",
+     "relevancia": "Interés directo de mercado local en Galicia para monitorizar la constitución de talleres y operadores de estructuras y carpintería técnica en su área de influencia.",
+     "tipo": "nuevo_player",
      "nota_modelo": "SIN_EVIDENCIA_DE_BUSQUEDA_EN_LA_RESPUESTA",
      "verificacion": "V1_reportado_por_IA_sin_contrastar",
      "nota_validador": null
@@ -643,10 +396,168 @@
    "fuentes": [],
    "evidencia_de_busqueda": false,
    "usage": {
+    "promptTokenCount": 656,
+    "candidatesTokenCount": 2880,
+    "totalTokenCount": 3536,
+    "cachedContentTokenCount": 209,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 656
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 209
+     }
+    ],
+    "serviceTier": "standard"
+   },
+   "coste_estimado_usd": 0.0226,
+   "segundos": 25.917
+  },
+  "gestoras": {
+   "status": "OK",
+   "items": [],
+   "searches": 0,
+   "urls_leidas": 1,
+   "consultas": [],
+   "fuentes": [],
+   "evidencia_de_busqueda": true,
+   "usage": {
+    "promptTokenCount": 817,
+    "candidatesTokenCount": 198,
+    "totalTokenCount": 23675,
+    "cachedContentTokenCount": 14143,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 817
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 14143
+     }
+    ],
+    "toolUsePromptTokenCount": 22660,
+    "toolUsePromptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 22660
+     }
+    ],
+    "serviceTier": "standard"
+   },
+   "coste_estimado_usd": 0.0367,
+   "segundos": 13.799
+  },
+  "productos": {
+   "status": "OK",
+   "items": [
+    {
+     "producto": "Compagnie de Saint-Gobain (FR0000125007)",
+     "tipo": "competidor",
+     "medio": "Saint-Gobain Press Releases",
+     "titular": "Saint-Gobain completes the divestment of its Dahl specialist distribution business in Sweden, Norway and Denmark",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFC9zVgcultRkyVix-LjS1uiy2fyIUpWB2nSkNyCFyI9qbIKa2Rbe6wPxZHGpkFQVfDvV6eD5tKqvgdKgtuBNoEuu2vaUSA_HuviCV3-rJg_c2yP_BEADM73avdDN8cntzU14Zq-fHAbHY=",
+     "fecha": "2026-11-02",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "Saint-Gobain completes the divestment of its Dahl specialist distribution business in Sweden, Norway and Denmark",
+     "resumen": "Compagnie de Saint-Gobain ha cerrado oficialmente la desinversión de su negocio de distribución especializada Dahl en Suecia, Noruega y Dinamarca. La operación profundiza la estrategia del grupo de optimizar su cartera hacia soluciones de construcción sostenible y productos de mayor valor añadido. Esto permite a la compañía concentrar capital operativo en sus líneas principales de fabricación y soluciones constructivas.",
+     "tema": "competencia",
+     "relevancia": "Muestra la rotación de activos de Saint-Gobain fuera de la distribución genérica nórdica para centrar recursos en sistemas y soluciones de envolvente ligera y aislamiento donde compite directamente con Thermochip.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "producto": "TotalEnergies (FR0000120271)",
+     "tipo": "empresa",
+     "medio": "TotalEnergies Investor Relations",
+     "titular": "TotalEnergies Energy Outlook 2026",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENOqYaWvBd2vcD2ByjZvjsr5UQIHv0lLVp5VN3U7RzXVGvJ2iqunNI5pRX6Yj1FbOiA8dGyvNI3l4YTL_Zf7-wNoPZmjGS0n55u5fzfr4b0Sid2UT7NZs5Cl5YElqryPkVpsEjOVXSPPbnKdMzf1oR",
+     "fecha": "2026-11-02",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "TotalEnergies Energy Outlook 2026 Date 02-Nov-2026 Press release Press Release Presentation",
+     "resumen": "TotalEnergies presentó oficialmente el 2 de noviembre de 2026 la nueva edición de su informe estratégico anual Energy Outlook 2026. La multinacional energética desglosa tres escenarios prospectivos para la evolución del sistema global de energía, el avance de las renovables y la demanda de descarbonización industrial hasta 2050. El documento sirve de guía para sus asignaciones de inversión en generación baja en carbono e integración multienergías.",
+     "tema": "energia",
+     "relevancia": "Permite monitorizar las previsiones de costes de descarbonización y fuentes energéticas que condicionan directamente los costes térmicos e industriales de fabricación de aislamientos y paneles envolventes.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "producto": "Banco Santander (ES0113900J37)",
+     "tipo": "empresa",
+     "medio": "CNMV - Información Privilegiada",
+     "titular": "Banco Santander, S.A. comunica la fecha de abono del dividendo a cuenta en efectivo con cargo a los resultados de 2026",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4h90F_053E_tD7eROQtAghKX-ZDKihJO76OlHv123LLoQuIAgCI-fQ5CAQHHT4nzHy70hGLURAxeRNCL3A_J_Ov2ZaObBYtZpb5Q3Ug--Y_7Gy3o4brjXlf6WQMC0cUkr2h8BHhzod8uPwNdKRQn7qzmRIB329o4LsXD9vh-bOh-zwqxb56GdZMhoNFng",
+     "fecha": "2026-11-02",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "El dividendo a cuenta en efectivo se abonará a partir del próximo 2 de noviembre de 2026",
+     "resumen": "Banco Santander ejecutó el pago de su dividendo a cuenta en efectivo de 12,7 céntimos de euro por acción a partir del 2 de noviembre de 2026. Este abono representa aproximadamente el 25% del beneficio ordinario del grupo en el primer semestre de 2026. La retribución se complementa con el programa de recompra de acciones dentro de la política de remuneración al accionista de la entidad.",
+     "tema": "economia",
+     "relevancia": "Refleja la sólida posición de liquidez y solvencia del principal banco del noroeste ibérico, clave para las líneas de financiación de circulante a promotores y constructores en Galicia y Portugal.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "producto": "Iberdrola (ES0144580Y14)",
+     "tipo": "competidor",
+     "medio": "CNMV - Otra Información Relevante",
+     "titular": "Emisión de bonos verdes en dólares estadounidenses con fecha de cierre y desembolso prevista el 4 de noviembre de 2026",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfwXKCWbG7ztQ0DRVnIW-MPH-chTmSNa8fc3bhCSoNatDZ5CJmqCl8nQIhibRN3pFz9nCSVv81VCX5aoI4N7WBoNm5koOdkn84ktK2nbifNlSvV6qLLaHfUSpB1Suj6g7e_VCxwJ5TTuwAXUKfEB5vRWF9cwG68jhS-Lr-1YPSRHhfBZND708lImG0eP1wjUlg1A==",
+     "fecha": "2026-11-04",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "Está previsto que el cierre y el desembolso de la Emisión tenga lugar el 4 de noviembre de 2026",
+     "resumen": "Iberdrola estructuró una emisión de bonos verdes en dólares estadounidenses por un importe agregado de 1.600 millones de dólares con fecha de liquidación fijada el 4 de noviembre de 2026. La operación consta de dos tramos de 800 millones con vencimientos en 2029 (5,40%) y 2033 (5,85%). Los fondos se asignarán a proyectos elegibles del Marco de Iberdrola para la Financiación Verde.",
+     "tema": "energia",
+     "relevancia": "El fuerte despliegue de financiación verde de Iberdrola impulsa los criterios ESG y proyectos energéticos en la península ibérica, fomentando estándares constructivos de alta eficiencia para envolventes térmicas.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "producto": "iShares Core MSCI World UCITS ETF USD (Acc) (IE00B4L5Y983)",
+     "tipo": "etf",
+     "medio": "BlackRock iShares",
+     "titular": "iShares Core MSCI World UCITS ETF Net Asset Value and Fund Updates",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF455zXdzSgf6qhfgBWDw3SkuPBJjA_7fMA-91XIUqIAS7TxAZK89obIp9hsRxCJZApw-q00DskXB0dY8yx6fNVCKB9n2PQkVWW75HAOP8UWY1PahaHZzgiiewkSQyyrjNiG4fdujFwOWhYd-XkUjinjHslMesiXI-6SwULXNzYvNHCp_j32l93RC8QYxV113KZzA==",
+     "fecha": "2026-11-06",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "The Fund seeks to track the performance of an index composed of companies from developed countries.",
+     "resumen": "Al 6 de noviembre de 2026, el ETF superó los 147.024 millones de dólares en activos totales netos bajo gestión, manteniendo un TER del 0,20%. El vehículo replica el índice MSCI World cubriendo un universo de renta variable de 23 países desarrollados mediante réplica física. El valor liquidativo de la clase acumulativa se situó en 140,99 USD.",
+     "tema": "inversion",
+     "relevancia": "Termómetro macroeconómico del apetito inversor corporativo global y de la valoración de compañías industriales y de materiales en mercados desarrollados.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "producto": "iShares EUR Govt Bond 1-3yr UCITS ETF (Dist) (IE00B14X4Q57)",
+     "tipo": "etf",
+     "medio": "BlackRock iShares",
+     "titular": "iShares € Govt Bond 1-3yr UCITS ETF Key Facts Update",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtUy2CxTsA4WsF5Rv8XJ3TKORgwaKHZjn3S67Ps56CWcozuE7mi5tSSfqG4fGBKDlTmAGJYbymhwkDjbD5214hdd0ZM6qh6pp-srreVnYaI_XdHeca46Dig712VlIo68HKOmX1hSMrZ1c8LHZ7flW0fgwl-Obu0ZVgbt3EI3a4ZloZXyTODMkVRHCCfiqQ-5DE8NNQUXfJkXw=",
+     "fecha": "2026-11-05",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "The Fund seeks to track the performance of an index composed of Eurozone investment grade government bonds.",
+     "resumen": "Al 5 de noviembre de 2026, el fondo reportó un patrimonio neto administrado de 1.758 millones de euros para la clase de reparto con un ratio de gastos totales (TER) del 0,10%. El ETF ofrece exposición a la deuda pública a corto plazo (1 a 3 años) de países de la Eurozona a través del Bloomberg EU Term 1-3 Year Index. Constituye la principal referencia en activos líquidos de bajo riesgo para tesorerías en la zona euro.",
+     "tema": "economia",
+     "relevancia": "Mide la rentabilidad del dinero a corto plazo y la curva de tipos soberanos en la Eurozona, factor crítico que determina el coste del crédito hipotecario y promotor en España y Portugal.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    }
+   ],
+   "searches": 0,
+   "urls_leidas": 2,
+   "consultas": [],
+   "fuentes": [],
+   "evidencia_de_busqueda": true,
+   "usage": {
     "promptTokenCount": 874,
-    "candidatesTokenCount": 2497,
-    "totalTokenCount": 45637,
-    "cachedContentTokenCount": 25474,
+    "candidatesTokenCount": 3046,
+    "totalTokenCount": 50535,
+    "cachedContentTokenCount": 19144,
     "promptTokensDetails": [
      {
       "modality": "TEXT",
@@ -656,34 +567,118 @@
     "cacheTokensDetails": [
      {
       "modality": "TEXT",
-      "tokenCount": 25474
+      "tokenCount": 19144
      }
     ],
-    "toolUsePromptTokenCount": 42266,
+    "toolUsePromptTokenCount": 46615,
     "toolUsePromptTokensDetails": [
      {
       "modality": "TEXT",
-      "tokenCount": 42266
+      "tokenCount": 46615
      }
     ],
     "serviceTier": "standard"
    },
-   "coste_estimado_usd": 0.0834,
-   "segundos": 26.337
+   "coste_estimado_usd": 0.0941,
+   "segundos": 32.652
   }
  },
- "coste_total_estimado_usd": 0.8273,
+ "coste_total_estimado_usd": 0.3251,
  "avisos": [],
+ "estrategia": {
+  "status": "SIN_EVIDENCIA",
+  "items": [
+   {
+    "titulo": "Estrategia 'Envolvente Verde XERA': Posicionamiento prescriptivo y comercial en las licitaciones públicas de edificación en madera de la Xunta de Galicia",
+    "area": "industrializada",
+    "tesis": "La Administración autonómica gallega ha formalizado el compromiso vinculante de que hasta el 20% de las nuevas edificaciones promovidas por la Xunta incorporen madera en su estructura, apoyado por la 'Guía para el fomento de la madera en la contratación pública' y convocatorias bianuales de subvenciones como XERA-Madera dotadas con 5 millones de euros. Para un fabricante de paneles sándwich industrializados de madera orientados a cubierta, forjado y fachada, este marco supone una oportunidad inmediata para estructurar un servicio integral de prescripción técnica que inserte sus soluciones de envolvente ligera y descarbonizada directamente en los pliegos de contratación pública y en los proyectos de los estudios de arquitectura adjudicatarios.",
+    "pasos": [
+     "Mapear en los primeros 20 días todas las licitaciones públicas de la Xunta de Galicia y concellos asociados a planes de vivienda pública y dotacional que exijan el cumplimiento del criterio del 20% de estructura en madera según la guía técnica de XERA.",
+     "Desarrollar un dossier técnico-económico específico para arquitectos y oficinas técnicas de licitaciones públicas, demostrando cómo los paneles sándwich para cubierta inclinada, forjado y fachada computan positivamente en las cláusulas ambientales de los pliegos y facilitan el acceso a las ayudas del programa XERA-Madera.",
+     "Cerrar acuerdos de prescripción preferente con los 15 principales estudios de arquitectura e ingenierías de Galicia y norte de Portugal especializados en proyectos de edificación sostenible y residencial público.",
+     "Habilitar un canal de asistencia técnica exprés (en menos de 48 horas) para constructoras e instaladores que preparen ofertas de licitación pública, facilitando despieces bim, fichas técnicas justificativas de huella de carbono y presupuesto cerrado con logística incluida."
+    ],
+    "indicadores": [
+     "Número de licitaciones públicas y proyectos residenciales en Galicia donde queden prescritos los paneles de envolvente en pliegos o memorias técnicas (objetivo: ≥ 8 proyectos en 90 días).",
+     "Volumen de metros cuadrados cotizados a través de constructoras licitadoras para obras acogidas a convocatorias de la Axencia Galega da Industria Forestal (objetivo: ≥ 12.000 m² en el trimestre).",
+     "Ratio de adjudicación / éxito de propuestas técnicas presentadas en conjunto con contratistas e instaladores homologados (objetivo: ≥ 25%)."
+    ],
+    "afirmaciones": [
+     {
+      "texto": "La Xunta de Galicia mantiene el compromiso de que el 20% de las nuevas edificaciones promovidas por la administración pública autonómica empleen madera en su estructura.",
+      "tipo": "norma",
+      "medio": "El Correo Gallego",
+      "url": "https://www.elcorreogallego.es/galicia/2026/10/20/madera-reivindica-gran-baza-acelerar-109559864.html",
+      "fecha": "2026-10-20",
+      "estado_lectura": "COMPLETO",
+      "cita_literal": "el 20% de las nuevas edificaciones promovidas por la Administración pública gallega utilicen madera en su estructura.",
+      "verificacion": "V1_reportado_por_IA_sin_contrastar"
+     },
+     {
+      "texto": "La Axencia Galega da Industria Forestal (XERA) convoca líneas de ayudas dotadas con 5 millones de euros destinadas a proyectos y obras que incorporen elementos estructurales de madera.",
+      "tipo": "dato",
+      "medio": "AITIM",
+      "url": "https://infomadera.net/articulos/la-xunta-refuerza-su-apuesta-por-la-construccion-con-madera-y-moviliza-cinco-millones-de-euros-en-nuevas-ayudas-para-2026-2027",
+      "fecha": "2026-08-13",
+      "estado_lectura": "COMPLETO",
+      "cita_literal": "nueva convocatoria de ayudas dotada con cinco millones de euros para el periodo 2026-2027 destinada a impulsar proyectos",
+      "verificacion": "V1_reportado_por_IA_sin_contrastar"
+     },
+     {
+      "texto": "La Xunta de Galicia publicó la Guía para el fomento de la madera en la contratación pública de edificaciones sostenibles para incorporar criterios técnicos en las licitaciones públicas de obras.",
+      "tipo": "norma",
+      "medio": "Axencia Galega da Industria Forestal - Xunta de Galicia",
+      "url": "https://xera.xunta.gal/es/actualidade/novas/la-xunta-publica-una-guia-para-fomentar-la-madera-en-la-contratacion-publica-de",
+      "fecha": "2023-11-16",
+      "estado_lectura": "COMPLETO",
+      "cita_literal": "busca facilitar la incorporación de mejoras en la contratación pública relacionada con el uso de madera en la construcción",
+      "verificacion": "V1_reportado_por_IA_sin_contrastar"
+     },
+     {
+      "texto": "Alinear la propuesta técnico-comercial de los paneles con las exigencias de sostenibilidad y las subvenciones de XERA permitirá a la empresa ganar cuota de mercado en la obra institucional gallega frente a soluciones convencionales de hormigón y acero.",
+      "tipo": "opinion",
+      "estado_lectura": null,
+      "verificacion": "OPINION_DEL_AUTOR"
+     }
+    ],
+    "por_que_no_repetida": "Es la primera entrega del ciclo estratégico; no se han presentado estrategias comerciales anteriores en este boletín.",
+    "estado_lectura": "TITULAR",
+    "cita_literal": null,
+    "resumen": null,
+    "nota_modelo": "SIN_EVIDENCIA_DE_BUSQUEDA_EN_LA_RESPUESTA",
+    "nota_validador": null
+   }
+  ],
+  "searches": 0,
+  "urls_leidas": 0,
+  "consultas": [],
+  "fuentes": [],
+  "evidencia_de_busqueda": false,
+  "usage": {
+   "promptTokenCount": 725,
+   "candidatesTokenCount": 1344,
+   "totalTokenCount": 2069,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 725
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "coste_estimado_usd": 0.0112,
+  "segundos": 14.67
+ },
  "resumen_estados": {
-  "COMPLETO": 20,
-  "EXTRACTO": 9,
-  "TITULAR": 5
+  "COMPLETO": 17,
+  "EXTRACTO": 5,
+  "TITULAR": 9
  },
  "items_por_seccion": {
-  "prensa": 14,
-  "industrializacion": 11,
-  "gestoras": 4,
-  "productos": 5
+  "prensa": 16,
+  "industrializacion": 9,
+  "gestoras": 0,
+  "productos": 6
  },
  "secciones_ok": 4,
  "completa": true
