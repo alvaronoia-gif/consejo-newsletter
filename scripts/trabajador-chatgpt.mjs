@@ -16,20 +16,37 @@ const destino = `${OUT}/${hoy}.json`;
 if (existsSync(destino) && !FORCE) { console.log('Ya existe', destino, '- nada que hacer'); process.exit(0); }
 
 const ESTADOS = ['COMPLETO', 'EXTRACTO', 'TITULAR', 'BLOQUEADO', 'NO_ENCONTRADO'];
+const GESTORAS = ['Azvalor','Magallanes','Cobas','Bestinver','Berkshire Hathaway','BlackRock','Vanguard','Fidelity Investments','State Street Investment Management','JPMorgan Asset Management','Goldman Sachs Asset Management','UBS','Capital Group','Allianz Global Investors','Amundi','BNY Investments','Invesco','Northern Trust Asset Management','T. Rowe Price','Morgan Stanley Investment Management','Franklin Templeton','Geode','PGIM','BNP Paribas Asset Management','Legal & General Asset Management','Norges Bank Investment Management'];
+const COMPETIDORES = ['Calipac','Teznocuber (puede ser Tecnocuber: localiza la empresa de paneles/cubiertas con ese nombre y di qué nombre exacto encontraste)','Onduline','López Panel','Tabihaus','Multipanel','BMI (cubiertas)','Kingspan','Isopan','Panelestudio','Panel Sandwich Group','Tejas Borja'];
 const REGLAS = `Reglas de integridad (innegociables):
-- Usa SOLO tu herramienta de búsqueda web. No inventes noticias, URLs, cifras, citas ni fechas. Si no encuentras algo, no lo incluyas o márcalo con el estado que corresponda.
-- Cada elemento: medio, titular (tal cual), url (la real que abriste), fecha (AAAA-MM-DD), estado_lectura, cita_literal, resumen, tema, relevancia.
-- estado_lectura SOLO: COMPLETO (abriste y leíste el cuerpo), EXTRACTO (solo entradilla o fragmento), TITULAR (solo titular o resultado del buscador), BLOQUEADO (no se puede abrir; en ese caso NO resumas más allá del titular visible).
+- Usa SOLO tu herramienta de búsqueda web. No inventes noticias, URLs, cifras, citas ni fechas. Si no encuentras algo, no lo incluyas.
+- Cada elemento: medio, titular (tal cual), url (la real que abriste), fecha (AAAA-MM-DD), estado_lectura, cita_literal, resumen, tema, relevancia, y los campos extra que pida la sección.
+- estado_lectura SOLO: COMPLETO (abriste y leíste el cuerpo), EXTRACTO (solo entradilla o fragmento), TITULAR (solo titular o resultado del buscador), BLOQUEADO (no se puede abrir; no resumas más allá del titular visible).
 - cita_literal: frase copiada literalmente del cuerpo (máx. 20 palabras) como prueba de lectura; null si no leíste el cuerpo. Si es null, el estado NO puede ser COMPLETO.
-- resumen: 2-3 frases con tus palabras, SOLO con datos que aparezcan en lo que leíste. Si el estado es TITULAR o BLOQUEADO, resumen = null.
-- tema: construccion | vivienda | industria | economia | inversion | energia | portugal | otros.
+- resumen: 2-3 frases con tus palabras, SOLO con datos que aparezcan en lo que leíste; null si el estado es TITULAR o BLOQUEADO.
+- tema: construccion | vivienda | industria | industrializacion | competencia | economia | inversion | energia | portugal | otros.
 - relevancia: una frase sobre por qué importa a un director comercial de paneles sándwich industrializados para envolvente (Thermochip, Galicia y norte de Portugal).
-- Solo noticias de los últimos 5 días. Sin duplicados.
+- Solo hechos de los últimos 7 días (salvo que la sección diga otra cosa). Sin duplicados. Prioriza fuentes originales (webs oficiales, comunicados, reguladores, registros) sobre prensa que las copia.
+- Prohibido incluir, aunque salgan en tu búsqueda: Anrobox, 3DModular, Steel Tec, Zero Energetic Housing, BIOMESPACE y MATCOAM. Prohibido buscar o incluir datos privados de clientes, contactos o condiciones comerciales de nadie: solo información pública.
 Responde SOLO con un array JSON.`;
 
-const PROMPT_GENERAL = `Hoy es ${hoy}. Eres analista de prensa para una revista bisemanal sobre construcción industrializada, vivienda, industria, economía e inversión en España y el norte de Portugal.
-Cubre prensa generalista y económica: El País, Cinco Días, Expansión, elEconomista, Europa Press, El Confidencial, La Voz de Galicia, Faro de Vigo y, si puedes, prensa económica portuguesa (Eco, Jornal de Negócios, Público). Aporta entre 12 y 20 noticias, las más relevantes y con la mejor lectura posible (prioriza las que puedas leer COMPLETO). Incluye al menos 3 de Galicia o norte de Portugal si las hay.
-${REGLAS}`;
+const CONTEXTO = `Eres analista de prensa y vigilancia de mercado para una revista bisemanal de un director comercial de Thermochip (paneles sándwich industrializados para envolvente: cubierta, fachada y forjado; Galicia y norte de Portugal). Hoy es ${hoy}.`;
+
+const SECCIONES = {
+  prensa: { max: 20000, prompt: `${CONTEXTO}
+SECCIÓN prensa_general: noticias de construcción, vivienda, industria, economía y mercados en España y el norte de Portugal. Cubre prensa que otros no pueden abrir: El País, Cinco Días, Expansión, elEconomista, Europa Press, El Confidencial, La Voz de Galicia, Faro de Vigo y prensa económica portuguesa (ECO, Jornal de Negócios, Público). Aporta entre 12 y 18 noticias relevantes, prioriza las que puedas leer COMPLETO, incluye al menos 3 de Galicia o norte de Portugal. Incluye también economía: tipos, inflación, BCE, empleo y actividad, si son relevantes.
+${REGLAS}` },
+  industrializacion: { max: 20000, prompt: `${CONTEXTO}
+SECCIÓN industrializacion: noticias y novedades de construcción industrializada y construcción off-site en España y Portugal: proyectos originales y llamativos (sin limitarlos a un tipo de arquitectura), fábricas y ampliaciones, licitaciones y obras de vivienda industrializada (madera, CLT, LSF, acero, hormigón, módulos 2D y 3D), NUEVOS PLAYERS y startups del sector, normativa, estudios de mercado e informes (asociaciones, consultoras, administraciones). Aporta entre 8 y 14 elementos con campo extra "tipo": noticia | proyecto | nuevo_player | estudio | normativa.
+${REGLAS}` },
+  competidores: { max: 20000, prompt: `${CONTEXTO}
+SECCIÓN competidores: qué están haciendo estas empresas en sus webs oficiales y en prensa sectorial: ${COMPETIDORES.join('; ')}. Busca en sus propias webs (novedades, noticias, blog, proyectos, productos, catálogos, ferias, certificaciones, prensa) y en prensa del sector. Solo hechos públicos recientes (últimos 30 días; marca la fecha real). Por empresa, hasta 2 hechos; si no hay nada reciente, di en un elemento con estado NO_ENCONTRADO. Campo extra "competidor" con el nombre exacto de la lista (o el que hayas encontrado) y "tipo": producto | proyecto | feria | certificacion | comercial | otro.
+${REGLAS}` },
+  gestoras: { max: 20000, prompt: `${CONTEXTO}
+SECCIÓN gestoras: SOLO noticias y movimientos de inversión de estas 26 gestoras: ${GESTORAS.join('; ')}. Movimiento = compra o venta de posiciones, cambios de peso o cartera comunicados, presentación o cambios de 13F/13D/13G, lanzamientos o cierres de fondos y ETF, operaciones corporativas, cambios de asignación comunicados oficialmente. NO uses ni resumas cartas trimestrales o semestrales a partícipes ni informes de perspectivas. Prioriza fuentes oficiales (SEC EDGAR, CNMV, webs de las gestoras) y después prensa especializada. Últimos 10 días. Hasta 15 elementos, solo los más relevantes, con campo extra "entidad" (nombre exacto de la lista) y "tipo": movimiento | noticia | lanzamiento. Si un dato es de agregadores o prensa y no lo confirma una fuente oficial, dilo en "resumen" como no confirmado oficialmente.
+${REGLAS}` },
+};
+
 
 async function productos() {
   try {
@@ -37,7 +54,8 @@ async function productos() {
     const j = await r.json(); return { status: j.status, products: Array.isArray(j.products) ? j.products : [] };
   } catch { return { status: 'UNAVAILABLE', products: [] }; }
 }
-const promptProductos = (lista) => `Hoy es ${hoy}. Busca noticias recientes (últimos 7 días) sobre estos productos de inversión, SOLO noticias, tendencias y competidores (nada de recomendaciones de compra ni datos de cartera):
+const promptProductos = (lista) => `${CONTEXTO}
+SECCIÓN productos: busca noticias recientes (últimos 7 días) sobre estos productos de inversión, SOLO noticias, tendencias y competidores (nada de recomendaciones de compra ni datos de cartera):
 ${lista.map(p => `- ${p.name} (${p.isin})`).join('\n')}
 Aporta hasta 2 noticias por producto (si es un fondo/ETF, noticias del índice o la categoría y de su gestora). Añade a cada elemento el campo "producto" con el nombre exacto de la lista.
 ${REGLAS}`;
@@ -74,20 +92,24 @@ function validar(items) {
   return out;
 }
 
-const res = { schema: 'consejo-newsletter/chatgpt/1', generado: new Date().toISOString(), edicion_fecha: hoy, modelo: MODEL, rol: 'prensa general y economia (lector 2)', general: null, productos: null, coste_total_estimado_usd: 0, avisos: [] };
-const g = await llamar(PROMPT_GENERAL);
-res.general = { ...g, items: validar(g.items) }; res.coste_total_estimado_usd += g.coste_estimado_usd;
-if (res.coste_total_estimado_usd > MAX_USD) res.avisos.push('Coste por encima del tope: se omite la parte de productos');
-else {
+const res = { schema: 'consejo-newsletter/chatgpt/2', generado: new Date().toISOString(), edicion_fecha: hoy, modelo: MODEL, rol: 'lector 2: prensa, industrializacion, competidores, gestoras y productos', secciones: {}, coste_total_estimado_usd: 0, avisos: [] };
+const tareas = Object.entries(SECCIONES).map(async ([k, v]) => {
+  try { const g = await llamar(v.prompt); res.secciones[k] = { status: 'OK', ...g, items: validar(g.items) }; res.coste_total_estimado_usd += g.coste_estimado_usd; }
+  catch (e) { res.secciones[k] = { status: 'ERROR', items: [] }; res.avisos.push(`${k}: ${e.message}`); }
+});
+tareas.push((async () => {
   const p = await productos();
   if (p.status === 'OK' && p.products.length) {
-    try { const q = await llamar(promptProductos(p.products)); res.productos = { status: 'OK', ...q, items: validar(q.items) }; res.coste_total_estimado_usd += q.coste_estimado_usd; }
-    catch (e) { res.productos = { status: 'ERROR' }; res.avisos.push('Productos: ' + e.message); }
-  } else res.productos = { status: p.status, items: [] };
-}
+    try { const q = await llamar(promptProductos(p.products)); res.secciones.productos = { status: 'OK', ...q, items: validar(q.items) }; res.coste_total_estimado_usd += q.coste_estimado_usd; }
+    catch (e) { res.secciones.productos = { status: 'ERROR', items: [] }; res.avisos.push('productos: ' + e.message); }
+  } else res.secciones.productos = { status: p.status, items: [] };
+})());
+await Promise.all(tareas);
+if (res.coste_total_estimado_usd > MAX_USD) res.avisos.push(`Coste estimado ${res.coste_total_estimado_usd} USD por encima del tope ${MAX_USD}`);
 res.coste_total_estimado_usd = Number(res.coste_total_estimado_usd.toFixed(4));
-const cuenta = (a) => a.reduce((m, i) => (m[i.estado_lectura] = (m[i.estado_lectura] || 0) + 1, m), {});
-res.resumen_estados = cuenta([...res.general.items, ...(res.productos?.items || [])]);
+const todos = Object.values(res.secciones).flatMap(s => s.items || []);
+res.resumen_estados = todos.reduce((m, i) => (m[i.estado_lectura] = (m[i.estado_lectura] || 0) + 1, m), {});
+res.items_por_seccion = Object.fromEntries(Object.entries(res.secciones).map(([k, s]) => [k, (s.items || []).length]));
 const txt = JSON.stringify(res, null, 1);
 writeFileSync(destino, txt); writeFileSync(`${OUT}/latest.json`, txt);
-console.log('OK', destino, JSON.stringify(res.resumen_estados), 'coste', res.coste_total_estimado_usd);
+console.log('OK', destino, JSON.stringify(res.resumen_estados), JSON.stringify(res.items_por_seccion), 'coste', res.coste_total_estimado_usd);
