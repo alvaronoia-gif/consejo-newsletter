@@ -1,6 +1,7 @@
 // Trabajador de ChatGPT para la revista NEWSLETTER. Node 24, sin dependencias.
 // Una edición = hasta 2 llamadas a la API de OpenAI (prensa general + productos en cartera). Escribe en buzon/chatgpt/.
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
+import { historial, promptEstrategia, validarEstrategia } from './estrategia.mjs';
 
 const OUT = 'buzon/chatgpt'; mkdirSync(OUT, { recursive: true });
 const KEY = process.env.OPENAI_API_KEY;
@@ -106,6 +107,15 @@ for (const [k, v] of Object.entries(SECCIONES)) {
     try { const q = await llamar(promptProductos(p.products)); res.secciones.productos = { status: 'OK', ...q, items: validar(q.items) }; res.coste_total_estimado_usd += q.coste_estimado_usd; }
     catch (e) { res.secciones.productos = { status: 'ERROR', items: [] }; res.avisos.push('productos: ' + e.message.slice(0, 200)); }
   } else res.secciones.productos = { status: p.status, items: [] };
+}
+{
+  // Estrategia comercial semanal (fuera de secciones: no cuenta para secciones_ok)
+  if (res.coste_total_estimado_usd > MAX_USD) res.estrategia = { status: 'OMITIDA_POR_COSTE', items: [] };
+  else {
+    const previas = historial(OUT);
+    try { const g = await llamar(promptEstrategia(CONTEXTO, previas, 'ChatGPT')); res.estrategia = { status: 'OK', ...g, items: validarEstrategia(g.items, previas) }; res.coste_total_estimado_usd += g.coste_estimado_usd; }
+    catch (e) { res.estrategia = { status: 'ERROR', items: [] }; res.avisos.push('estrategia: ' + e.message.slice(0, 200)); }
+  }
 }
 if (res.coste_total_estimado_usd > MAX_USD) res.avisos.push(`Coste estimado ${res.coste_total_estimado_usd} USD por encima del tope ${MAX_USD}`);
 res.coste_total_estimado_usd = Number(res.coste_total_estimado_usd.toFixed(4));
