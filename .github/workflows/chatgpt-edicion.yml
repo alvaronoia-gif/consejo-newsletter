@@ -1,10 +1,10 @@
 # CONSEJO NEWSLETTER · Trabajador de ChatGPT (lector 2). Publica buzon/chatgpt/latest.json para la tarea NEWSLETTER de Claude.
-# Martes y sábado 20:30 (hora de Madrid en invierno = 19:30 UTC): las ediciones salen miércoles y domingo a las 07:00.
+# Sábado 20:30 (hora de Madrid en invierno = 19:30 UTC): la edición semanal sale el domingo a las 07:00.
 # En horario de verano (a partir de finales de marzo) esa hora UTC es las 21:30 en Madrid: sigue siendo antes de las 02:47.
 name: chatgpt-edicion
 on:
   schedule:
-    - cron: '30 19 * * 2,6'
+    - cron: '30 19 * * 6'
   workflow_dispatch:
     inputs:
       force:
