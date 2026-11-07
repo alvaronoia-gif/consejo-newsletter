@@ -1,0 +1,627 @@
+{
+ "schema": "consejo-newsletter/gemini/2",
+ "generado": "2026-11-07T19:51:11.215Z",
+ "edicion_fecha": "2026-11-07",
+ "modelo": "gemini-3.8-flash",
+ "rol": "lector 3 (Gemini): prensa, industrializacion, competidores, gestoras y productos",
+ "secciones": {
+  "prensa": {
+   "status": "OK",
+   "items": [
+    {
+     "medio": "EL PAÍS",
+     "titular": "Competencia propone convertir en urbanizable todo el suelo no protegido para acelerar la construcción de vivienda",
+     "url": "https://elpais.com/economia/vivienda/2026-11-05/competencia-propone-convertir-en-urbanizable-todo-el-suelo-no-protegido-para-acelerar-la-construccion-de-vivienda.html",
+     "fecha": "2026-11-05",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "todo el suelo no sujeto a protección pueda considerarse “susceptible de urbanización”",
+     "resumen": "La Comisión Nacional de los Mercados y la Competencia (CNMC) presentó un estudio técnico de 262 páginas para desatascar la escasez de oferta residencial mediante una flexibilización profunda del urbanismo. El organismo propone considerar urbanizable por defecto todo suelo que carezca de protección especial, generalizar las declaraciones responsables para evitar demoras de hasta 18 meses y habilitar una ventanilla única digital. Asimismo, plantea limitar las anulaciones judiciales en cascada para otorgar mayor seguridad jurídica a los desarrollos residenciales.",
+     "tema": "vivienda",
+     "relevancia": "El desbloqueo y agilización de nuevo suelo residencial incrementará a medio plazo el volumen de promociones donde la rapidez de montaje de los sistemas industrializados de envolvente resulta crítica.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "EL PAÍS",
+     "titular": "Un estudio de la Generalitat localiza “suelo seguro” para construir 131.500 viviendas en el área afectada por la dana de Valencia",
+     "url": "https://elpais.com/espana/comunidad-valenciana/2026-11-06/un-estudio-de-la-generalitat-localiza-suelo-seguro-para-construir-131500-viviendas-en-el-area-afectada-por-la-dana-de-valencia.html",
+     "fecha": "2026-11-06",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "ha permitido localizar más de 1.546 hectáreas de suelo seguro para poder edificar cerca de 131.500 viviendas",
+     "resumen": "La Generalitat Valenciana elaboró un informe técnico tras la catástrofe de la dana de 2024 que identifica 1.546 hectáreas no inundables para uso residencial en 89 municipios del área metropolitana de Valencia. El plan busca orientar la reconstrucción hacia emplazamientos seguros e incluye además 1.600 hectáreas reservadas para suelo logístico e industrial. El marco normativo contempla elevar plantas habitables y restringir aparcamientos subterráneos en nuevas edificaciones.",
+     "tema": "construccion",
+     "relevancia": "La reconstrucción y los nuevos desarrollos en zonas seguras favorecen el uso de envolventes estancas, ligeras e industrializadas que reduzcan plazos y cumplan exigencias técnicas de resiliencia frente a fenómenos extremos.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "EL PAÍS",
+     "titular": "Los últimos presupuestos del Gobierno de Almeida destinarán 248 millones a vivienda, un 3,6% del total",
+     "url": "https://elpais.com/espana/madrid/2026-11-05/los-ultimos-presupuestos-del-gobierno-de-almeida-destinaran-248-millones-a-vivienda-un-36-del-total.html",
+     "fecha": "2026-11-05",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "casi 200 millones irán a la Empresa Municipal de Vivienda y Suelo (EMVS), para la construcción de 1.942 nuevas viviendas",
+     "resumen": "El Ayuntamiento de Madrid presentó un presupuesto consolidado de 6.901 millones de euros para 2027, con un incremento del 10% en la partida destinada a políticas habitacionales hasta alcanzar 248 millones. La Empresa Municipal de la Vivienda y Suelo (EMVS) recibirá cerca de 200 millones para acometer la edificación de 1.942 viviendas en los distritos de Barajas, Tetuán y Arganzuela. El equipo consistorial busca rebasar el umbral de 10.500 pisos bajo gestión pública municipal.",
+     "tema": "vivienda",
+     "relevancia": "Las licitaciones públicas de vivienda a gran escala imponen plazos estrictos de ejecución y altos requerimientos de eficiencia térmica, escenario propicio para la prescripción de paneles sándwich en fachada y cubierta.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "elEconomista.es",
+     "titular": "España se envejece y sus viviendas también: la inflación y la falta de mano de obra frenan en seco el mercado de las reforma",
+     "url": "https://www.eleconomista.es/vivienda-inmobiliario/noticias/14026380/11/26/espana-se-envejece-y-sus-viviendas-tambien-la-inflacion-y-la-falta-de-mano-de-obra-frenan-en-seco-el-mercado-de-las-reforma.html",
+     "fecha": "2026-11-07",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "Este año se reformarán 1.868.723 inmuebles, un 2,33% menos que en 2025, según las previsiones elaboradas por la consultora Arthursen",
+     "resumen": "El volumen de reformas residenciales en España caerá un 2,33% en 2026, lo que representa cerca de 44.500 actuaciones menos que el año precedente, según datos de Arthursen para la patronal Andimac. El encarecimiento de los materiales, el freno en las compraventas de vivienda usada y la falta de operarios especializados lastran un sector que afronta un parque donde casi la mitad de las casas supera los 40 años. El gasto medio por unidad familiar permanece estancado en torno a los 1.300 euros.",
+     "tema": "construccion",
+     "relevancia": "El déficit severo de mano de obra en obras de rehabilitación acentúa la ventaja comercial de soluciones constructivas 'en seco' como los paneles de cubierta y fachada, que agilizan la instalación con cuadrillas reducidas.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "elEconomista.es",
+     "titular": "Santiago cede suelo a la Xunta para 123 pisos protegidos, pero aviva el conflicto por la gestión",
+     "url": "https://www.eleconomista.es/vivienda-inmobiliario/noticias/14026308/11/26/santiago-cede-suelo-a-la-xunta-para-123-pisos-protegidos-pero-aviva-el-conflicto-por-la-gestion.html",
+     "fecha": "2026-11-06",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "aceptará la cesión de una parcela municipal en A Muíña para la construcción de 123 viviendas protegidas",
+     "resumen": "El Ayuntamiento de Santiago acordó transferir a la Xunta la plena propiedad de una parcela de más de 6.000 metros cuadrados en A Muíña valorada en 6 millones de euros para levantar 123 viviendas protegidas de alquiler. El desarrollo absorberá una inversión de 25 millones de euros financiada con 2,9 millones del Ministerio de Vivienda asignados por zona tensionada y el resto aportado por el Instituto Galego da Vivenda e Solo (IGVS). La cesión zanjó el choque institucional tras descartarse el modelo de derecho de superficie a 75 años.",
+     "tema": "vivienda",
+     "relevancia": "Supone una inversión directa de 25 millones de euros en edificación residencial pública en Galicia susceptible de seguimiento comercial para la prescripción de paneles térmicos en envolventes completas.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "La Voz de Galicia",
+     "titular": "La Xunta adjudica la redacción del proyecto para construir 244 viviendas públicas en el barrio compostelano de Salgueiriños",
+     "url": "https://www.lavozdegalicia.es/noticia/santiago/santiago/2026/11/06/xunta-adxudica-redaccion-do-proxecto-construir-244-vivendas-publicas-no-barrio-compostelan-salgueirinos/00031793970220917245585.htm",
+     "fecha": "2026-11-06",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "La Xunta de Galicia invertirá 50 millones de euros en la construcción de 244 viviendas de promoción pública",
+     "resumen": "La Consellería de Vivenda invertirá 50 millones de euros en Salgueiriños (Santiago de Compostela) para desarrollar 244 viviendas protegidas y una residencia juvenil con 150 plazas sobre una parcela autonómica. El concurso de ideas lo ganó el estudio madrileño Temperaturas Extremas Arquitectos por 1,8 millones de euros para redactar el proyecto de ordenación, edificación y dirección de obra. La intervención residencial distribuye los bloques perimetralmente con manzanas fragmentadas y corredores centrales que optimizan los núcleos de acceso.",
+     "tema": "vivienda",
+     "relevancia": "Al adjudicarse la fase de redacción de proyecto de 244 viviendas en Santiago, se abre la ventana operativa prioritaria para que el equipo comercial contacte con los arquitectos adjudicatarios e introduzca especificaciones de panel sándwich de forjado y cubierta.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "La Voz de Galicia",
+     "titular": "El Concello de Vigo da vía libre a convertir cuatro locales comerciales de la calle Zaragoza en viviendas",
+     "url": "https://www.lavozdegalicia.es/noticia/vigo/vigo/2026/11/07/concello-vigo-da-libre-converter-catro-locais-comerciais-da-rua-zaragoza-vivendas/00031794011682705494883.htm",
+     "fecha": "2026-11-07",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "La Gerencia de Urbanismo ha concedido licencia a la empresa Joanilar SL para acometer las obras",
+     "resumen": "La Gerencia de Urbanismo de Vigo concedió licencia de obra para reconvertir cuatro locales comerciales de la planta baja del número 29 de la calle Zaragoza en apartamentos residenciales de tipo estudio. Los nuevos inmuebles tendrán entre 63 y 71,2 metros cuadrados construidos y contarán con una inversión inicial declarada de 112.500 euros. La intervención se acoge a la normativa de la comunidad autónoma que regula la adaptación funcional de locales terciarios en desuso para mitigar la escasez de pisos.",
+     "tema": "vivienda",
+     "relevancia": "La reconversión urbana de bajos comerciales en viviendas en las ciudades gallegas genera un flujo continuo de obras menores que requieren soluciones de cerramiento y aislamiento rápido con poco espesor.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "La Voz de Galicia",
+     "titular": "Antonio Couceiro, presidente de la Cámara de Comercio de A Coruña: «El empresariado debe tener unas rutas aéreas acordes a sus necesidades»",
+     "url": "https://www.lavozdegalicia.es/noticia/coruna/coruna/2026/11/07/antonio-couceiro-presidente-camara-comercio-coruna-empresariado-debe-rutas-aereas-acordes-necesidades/00031793963499427357321.htm",
+     "fecha": "2026-11-06",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "Tenemos un déficit estructural de vivienda que seguirá creciendo y no disponemos de mano de obra cualificada suficiente",
+     "resumen": "El presidente de la Cámara de Comercio de A Coruña analizó la situación empresarial del noroeste, alertando sobre el grave problema de escasez de mano de obra cualificada en el ámbito de la construcción. Couceiro destacó que la carencia de personal imposibilita satisfacer la creciente demanda de vivienda en Galicia y propuso acuerdos para captar trabajadores extranjeros cualificados. También señaló el elevado absentismo y la necesidad de elevar la productividad como principales desafíos operativos de las compañías.",
+     "tema": "industria",
+     "relevancia": "La escasez estructural de albañilería tradicional en Galicia es el principal argumento comercial para acelerar la transición de las constructoras hacia cubiertas y forjados prefabricados Thermochip.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "La Voz de Galicia",
+     "titular": "El Concello de Lugo concede licencia para un edificio de 16 viviendas en la calle Eloi Maquieira",
+     "url": "https://www.lavozdegalicia.es/noticia/lugo/lugo/2026/11/02/concello-lugo-concede-licencia-edificio-16-viviendas-calle-eloi-maquieira/00031793796859341738725.htm",
+     "fecha": "2026-11-02",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "El proyecto, con una inversión de 1,3 millones de euros, contempla también 16 plazas de garaje",
+     "resumen": "La junta de gobierno local de Lugo autorizó la licencia para edificar un bloque de 16 viviendas, garajes, trasteros y un bajo comercial en la calle Eloi Maquieira, en el entorno de la Praza Agro do Rolo. La actuación prevé una inversión privada de 1,3 millones de euros y un plazo máximo de ejecución de 36 meses. El permiso se suma a la reciente aprobación municipal para otro inmueble de 38 pisos entre la avenida da Coruña y Camiño de Pipín.",
+     "tema": "construccion",
+     "relevancia": "La continuidad en la concesión de licencias residenciales plurifamiliares en el interior de Galicia sostiene la cartera de proyectos de obra nueva donde introducir cubiertas ligeras y bajo teja.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "Jornal Económico",
+     "titular": "Banqueiros defendem aumento da construção para habitação",
+     "url": "https://jornaleconomico.sapo.pt/noticias/banqueiros-defendem-aumento-da-construcao-para-habitacao/",
+     "fecha": "2026-11-06",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "A industrialização permite construir de forma “muitíssimo mais barata” e sustentável, exigindo menos trabalhadores, mas mais qualificados",
+     "resumen": "Los directores ejecutivos de los principales bancos de Portugal (BPI, Caixa Geral de Depósitos, Santander y BCP) urgieron a incrementar la construcción de vivienda nueva frente al desplome de la producción histórica, que pasó de 80.000 a 25.000 inmuebles anuales. El presidente de BPI, João Pedro Oliveira e Costa, y la líder de Santander, Isabel Guerreiro, reivindicaron la industrialización del sector como la única vía sostenible para alcanzar 50.000 casas al año sin depender de mano de obra escasa. Las entidades reclamaron incentivos fiscales y rapidez en el licenciamiento urbanístico.",
+     "tema": "industrializacion",
+     "relevancia": "Que la cúpula de la banca portuguesa señale formalmente a la construcción industrializada como requisito para financiar vivienda accesible impulsa de lleno la penetración de paneles de envolvente en el norte de Portugal.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "ECO",
+     "titular": "Crise da habitação? Banca aponta à construção de casas a custos moderados",
+     "url": "https://eco.sapo.pt/2026/11/06/crise-da-habitacao-banca-aponta-a-construcao-de-casas-a-custos-moderados/",
+     "fecha": "2026-11-06",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "uma política de industrialização para a construção de casas em massa será indispensável para ultrapassar o problema.",
+     "resumen": "El sector financiero portugués confirmó su disposición a elevar el crédito promotor siempre que existan proyectos viables orientados a viviendas a costes moderados para solventar el déficit de 300.000 hogares. La Caixa Geral de Depósitos elevó un 22% la financiación a constructoras hasta los 1.625 millones de euros, mientras que BCP reorganizó sus departamentos técnicos para respaldar proyectos público-privados y cooperativas. Los directivos coincidieron en que la industrialización de la edificación en masa es indispensable ante la reducida capacidad de las constructoras tradicionales.",
+     "tema": "portugal",
+     "relevancia": "La orientación bancaria hacia la construcción en masa con plazos y costes tasados genera demanda directa de componentes prefabricados y paneles sándwich para promotores activos en Oporto y su área metropolitana.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "Jornal Económico",
+     "titular": "Linha do Fomento aponta para construção de 12 mil casas",
+     "url": "https://jornaleconomico.sapo.pt/noticias/linha-do-fomento-aponta-para-construcao-de-12-mil-casas/",
+     "fecha": "2026-11-06",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "Já está operacionalizada a Linha Portugal Fomento Habitação de 1.500 milhões de euros.",
+     "resumen": "El Banco Português de Fomento (BPF) tiene lista para su activación en noviembre la línea financiera 'Portugal Fomento Habitação', dotada con 1.500 millones de euros en garantías para la banca comercial. De esta cifra, 500 millones respaldarán proyectos de cooperativas y 1.000 millones irán dirigidos a alianzas público-privadas de alquiler accesible para levantar 12.000 casas. La línea fija una garantía pública del 50%, un período de carencia de 36 meses durante las obras y se apoya en un coste medio de construcción estimado en 1.800 euros por metro cuadrado.",
+     "tema": "inversion",
+     "relevancia": "La inyección de 1.500 millones de euros con techos de coste de 1.800 €/m² obliga a los promotores a buscar soluciones constructivas que garanticen cerramientos térmicos rápidos sin sobrecostes imprevistos.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "Jornal Económico",
+     "titular": "Governo e BEI avançam com mais 300 milhões para construção e reabilitação de casas para arrendamento",
+     "url": "https://jornaleconomico.sapo.pt/noticias/governo-e-bei-avancam-com-mais-300-milhoes-para-construcao-e-reabilitacao-de-casas-para-arrendamento/",
+     "fecha": "2026-11-04",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "O Governo e o Banco Europeu de Investimento (BEI) assinaram um novo financiamento de 300 milhões de euros",
+     "resumen": "El Gobierno de Portugal suscribió con el Banco Europeo de Inversiones (BEI) una línea de crédito de 300 millones de euros bajo el esquema IFRRU 2030 del programa Portugal 2030. Los fondos se destinarán a las modalidades Build-to-Rent (obra nueva para alquiler asequible) y Renovate-to-Rent (rehabilitación urbana con idéntica finalidad) operadas a través de la banca privada. Sumando los convenios previos, la financiación total canalizada por el BEI hacia el parque residencial portugués se sitúa en 3.140 millones de euros.",
+     "tema": "portugal",
+     "relevancia": "El impulso financiero a la rehabilitación urbana en el país vecino dinamiza proyectos en centros históricos donde los paneles ligeros de cubierta facilitan la reforma estructural sin sobrecargar las edificaciones antiguas.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "ECO",
+     "titular": "IL com 24 medidas para facilitar construção e criar “choque na oferta” na habitação",
+     "url": "https://eco.sapo.pt/2026/11/06/il-com-24-medidas-para-facilitar-construcao-e-criar-choque-na-oferta-na-habitacao/",
+     "fecha": "2026-11-06",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "propôs a criação de um portal nacional do licenciamento, regras iguais para construir em todo o país",
+     "resumen": "La dirección de Iniciativa Liberal presentó al Gobierno portugués un compendio de 24 propuestas legislativas destinadas a generar un choque de oferta ante el alza acumulada del 66% en el precio de los inmuebles. Las medidas reclaman la aplicación del IVA al 6% para la totalidad de la construcción destinada a vivienda, la habilitación de suelo rústico para edificaciones en perímetros urbanos y un portal nacional único de licencias. La formación sostiene que la producción debe simplificarse y abaratarse para recuperar los niveles de oferta previos a 2005.",
+     "tema": "economia",
+     "relevancia": "La presión para unificar y digitalizar licencias, unida a la reducción del IVA en construcción en Portugal, agilizaría el inicio de desarrollos residenciales paralizados en la región norte.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "Jornal Económico",
+     "titular": "CEO do BCP quer créditos à habitação que permitam interromper pagamento",
+     "url": "https://jornaleconomico.sapo.pt/noticias/ceo-do-bcp-quer-creditos-a-habitacao-que-permitam-interromper-pagamento/",
+     "fecha": "2026-11-06",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "as pessoas, as empresas, os bancos têm de estar preparados para taxas de juros entre 2% e 4%.",
+     "resumen": "El presidente ejecutivo del Banco Comercial Português (BCP), Miguel Maya, abogó por flexibilizar la regulación bancaria para que los créditos hipotecarios admitan suspensiones temporales de pago por cambios laborales. Durante su intervención en el foro ACEGE, Maya advirtió al sector corporativo de que las tasas de interés se estabilizarán de forma estructural en una horquilla entre el 2% y el 4%. Además, remarcó que las dificultades habitacionales derivan de una falta continuada de oferta y fallos de planificación más que del acceso al crédito.",
+     "tema": "economia",
+     "relevancia": "El horizonte de tipos de interés estabilizados entre el 2% y el 4% consolida el entorno de inversión para las promotoras ibéricas, donde controlar los plazos de obra con envolventes industrializadas es vital para la rentabilidad de las promociones.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    }
+   ],
+   "searches": 0,
+   "urls_leidas": 19,
+   "consultas": [],
+   "fuentes": [],
+   "evidencia_de_busqueda": true,
+   "usage": {
+    "promptTokenCount": 4865,
+    "candidatesTokenCount": 9746,
+    "totalTokenCount": 492841,
+    "cachedContentTokenCount": 295197,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 4865
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 295197
+     }
+    ],
+    "toolUsePromptTokenCount": 466798,
+    "toolUsePromptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 466798
+     }
+    ],
+    "thoughtsTokenCount": 11432,
+    "serviceTier": "standard"
+   },
+   "coste_estimado_usd": 0.8663,
+   "segundos": 156.744
+  },
+  "industrializacion": {
+   "status": "OK",
+   "items": [
+    {
+     "medio": "Interempresas",
+     "titular": "España prevé 45 millones de euros en ayudas para industrializar la construcción de viviendas en 2027",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFW0NVoz-y9KZmU51_TEaiQd9TiNGN4cO1J7MZzjj6zJDSJkO_89cnJgAsQ70Dq6afw9fLk3taIPZlE0T6FUZ8QykY3J45IossyrsjPwggQbbOyzzFiinloW2si0e9fqNR0ivha8Ga2PXZm80IQPX0-Kf8AtKkXESjWotIP7JFHObGRzfO4doknCytS-AibmDK5K8ACH2wTLltxiTllBgeL9KkF_MhymgAq_NDJys6BDjwBdxDddwrIYXa9z3ODYAm1E2JlTMK1RPQRuEyLKIhlHQt3",
+     "fecha": "2026-11-05",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "El Gobierno ha autorizado una primera partida de subvenciones de 45 millones de euros y hasta 280 millones en avales",
+     "resumen": "El Consejo de Ministros autorizó compromisos de gasto por 45 millones de euros para la primera convocatoria de subvenciones del PERTE de Industrialización de la Vivienda, prevista para resolverse en el primer semestre de 2027. Además, se han habilitado hasta 280 millones de euros en avales estatales con el fin de mejorar el acceso al crédito bancario para las firmas del ecosistema industrializado. El sector subraya que este respaldo financiero debe ir acompañado de la nueva norma UNE 41610:2026 y de una planificación técnica mucho más temprana.",
+     "tema": "industrializacion",
+     "relevancia": "Abre una vía directa de subvenciones y avales para que los clientes promotores y constructores de Thermochip financien proyectos con envolventes industrializadas.",
+     "tipo": "normativa",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "Interempresas",
+     "titular": "El Foro AECI pone el foco en la normalización de soluciones constructivas para dar respuesta a los desafíos del sector",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECB2yTWCobdQ3I4Iu0olfVPWWX1uD2JPeNnUlkqG5k72wzuBbFtdbQ9EQtOHsCEyMtq_qmXgTK4fkaXKInPv3B3nu2IVGJqZKlKgSkHrJfcDv7dRgEdKUlba2TIYr-K76MN7Hjor80YpL0m-aDcgUInsXOvb3jebBGzuhuj9IJ29GOKDQXYem4qlm_FIgRjqTDGlexainivsWNEdAl8qLJddVcPBvldR54HrFPQXgon8euAefzR43pBNyx9Hd5Pq_5J8UFmjOzQiKIm7rfa1qr2LK0ifPs",
+     "fecha": "2026-11-04",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "Una de las máximas ha sido la nueva norma UNE 41610:2026 que se ha publicado en un tiempo récord",
+     "resumen": "La 4ª edición del Foro AECI reunió a más de 270 profesionales con la participación del Ministerio de Vivienda y direcciones generales autonómicas. El debate central abordó la publicación de la norma UNE 41610:2026 para definir y medir el grado de industrialización, aportando seguridad jurídica e integrando el análisis de ciclo de vida. Asimismo, se mostraron proyectos reales como las fachadas industrializadas de precisión milimétrica desarrolladas para VPO en Gipuzkoa.",
+     "tema": "industrializacion",
+     "relevancia": "La norma UNE 41610:2026 estandariza la medición de componentes de envolvente, favoreciendo la prescripción técnica y justificación de paneles sándwich en concursos públicos y privados.",
+     "tipo": "normativa",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "Interempresas",
+     "titular": "Tecnalia amplía sus servicios de evaluación y ensayo para sistemas de construcción industrializada",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEuGvhPj17e4No4MXmOhRm8yAjGjrJkp5KHAVg_zR8hLYqJu9-qx0t7YqgLUyfI0Inl-DMa7QHRMA_kRyapoDvsI2tW6ytj_WRGIpup6zs8tcGNsev_GxDJYSsovhbc1gBdzBBUeRaHt-MDkwGUsLS5H-pBMzzrcCXUWbN6dyVDWT-wCyKeo8WGwEJQ9KgOxk_uDJoUOjcL4gGz7VX94pVlGGGFXFolUEW12ewouXIZzRwNJW9low-T1B4_eQtkRld6oieXLACseckU4ed86c=",
+     "fecha": "2026-11-03",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "La entidad tecnológica ofrece ensayos estructurales, acústicos, térmicos y de resistencia al fuego, así como evaluaciones para paneles prefabricados",
+     "resumen": "El centro tecnológico Tecnalia ha reforzado su catálogo de servicios de validación y ensayo para componentes prefabricados, fachadas industrializadas, módulos 2D y 3D y soluciones de madera estructural como CLT o timber frame. La entidad emite Evaluaciones Técnicas Europeas (ETE) para productos sin norma armonizada e informes de conformidad técnica (TC) orientados a justificar el cumplimiento del CTE. Su alcance incluye pruebas acreditadas de reacción al fuego, aislamiento acústico, comportamiento térmico y resistencia estructural.",
+     "tema": "industria",
+     "relevancia": "Facilita la homologación y certificación técnica oficial de nuevos paneles sándwich de envolvente frente a las exigencias de fuego, térmicas y acústicas del CTE.",
+     "tipo": "noticia",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "Interempresas",
+     "titular": "Fimma - Maderalia construirá en directo una vivienda de madera que, tras la feria, se convertirá en un hogar",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtzDZjEmgLqfKYlD1-bPmMTBjfG5M16Icq3r1VMADSp8jp5g-d-gWYH_i2PJmfXho0TGJ7r99AM1ruzmW_NtcLrgcY-gQI7_FlrdVYus9npEFasin30De6idWOfjdIHqjpY6Og5kR__T3NDYEAJp-CWN4cGxzqnSRmguHOut1ZSYvnZvOdYvcEP2uxqYBnVgT29NKNZEQlCO2LxS_gTXx_Q3ChS8TdMy-T6Y-HkSAfETJhtV1V_y1ANF8SaDIG_bnqzabZnjb-JFFCX4c=",
+     "fecha": "2026-11-04",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "Fimma - Maderalia 2026 incorporará a su nuevo Salón de Construcción Industrializada la construcción en directo de una vivienda",
+     "resumen": "El nuevo Salón de Construcción Industrializada de Feria Valencia albergará el montaje en vivo de 'La Casa entre Pinos Mediterráneos', diseñada por Dani Sirvent y ejecutada por SIDO Madera. La vivienda se erige mediante estructura de madera contralaminada (CLT) y módulos bioclimáticos de servicios, integrando grandes voladizos para control solar pasivo. Al concluir el evento, la estructura se desmontará gracias a su sistema modular para ser reinstalada de forma definitiva como residencia particular.",
+     "tema": "construccion",
+     "relevancia": "Muestra la consolidación de la madera maciza industrializada y el CLT en cubiertas y cerramientos residenciales, nicho clave de complementariedad con el panel sándwich.",
+     "tipo": "proyecto",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "O Minho",
+     "titular": "Construção industrializada: Grupo de Braga ergue casas para 48 famílias em metade do tempo",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENuXfLvQkfMQL0t1CLJBjf_GtaRkzau2dv_2BMo_xZ_Obo73TQoMbfhlzPjI53i8iICRf1nngjqdu-i6lHUT8asBS3QSlkY9Q9gMuTaXJY_nVzl3kyGigkTPxVF26zCSm7NdF7y_KlJxuToZeuzFB4YQCwwQqgdfAZw2AyPm_NiXno9kg7c49nzv_2nVq1Utnqus6FLvHls3z_fBvX2txkYw==",
+     "fecha": "2026-11-02",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "O Grupo Casais e a IKEA entregaram 48 casas a custos controlados no Cerrado da Mira, na Amadora.",
+     "resumen": "El Grupo Casais y la multinacional IKEA culminaron el primer desarrollo bajo el concepto 'Well Live' con la entrega de 48 viviendas públicas de alquiler asequible financiadas por el PRR portugués. El proyecto aplicó el sistema híbrido CREE que conjuga elementos prefabricados de madera y hormigón, rebajando el plazo de ejecución entre un 50% y un 70% con un montaje in situ de apenas un mes. Esta solución redujo la huella de carbono un 59% y generó un 70% menos de residuos respecto a métodos constructivos tradicionales.",
+     "tema": "portugal",
+     "relevancia": "Casais, gran constructor con sede en Braga, acelera promociones masivas en Portugal que exigen soluciones industrializadas de envolvente para cumplir plazos ajustados.",
+     "tipo": "proyecto",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "Público Imobiliário",
+     "titular": "Quando a classe média deixa de conseguir pagar uma casa",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPlI4mvk86TukL5hxuh-NfnpF_fpBzxZv2L4yzqTKi8xtW645pN0khS76GTEkJtyvqQ6luMbG3TnvC_qyV-ip3_dz2rkSCUzifZ4O84YIIIcRz_1xD9j2UEM18nxV5JH-2kz23tdY9jNbivT2xBjYVoBw5rgughT67Tp3jbFZY-XwXq8vXchnwWZkQQtGenFo80GY=",
+     "fecha": "2026-11-04",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "A obra tem um prazo de apenas 359 dias, graças à construção industrializada: sistema CREE, estrutura híbrida de madeira",
+     "resumen": "El Grupo Casais y el Ayuntamiento de Guimarães colocaron la primera piedra de un complejo residencial de 75 viviendas de arrendamiento accesible al amparo del programa '1.º Direito'. Gracias al sistema híbrido CREE de madera y hormigón, la prefabricación off-site y la metodología BIM, el plazo de entrega se reduce a 359 días con un 40% menos de hormigón y preevaluación ambiental LiderA clase A. El análisis constata un déficit acumulado en Portugal de 300.000 viviendas que únicamente podrá acelerarse mediante escala industrializada y rebajas fiscales como el IVA al 6%.",
+     "tema": "portugal",
+     "relevancia": "Proyecto emblemático en el norte de Portugal con plazo inferior a un año, donde la rapidez del montaje de cubierta y fachada es determinante para el promotor y la constructora.",
+     "tipo": "proyecto",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "RE Portugal",
+     "titular": "Construção industrializada exige nova abordagem de todo o setor",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhChuF6ZQHYV18KTqioyxFFznll5ITyrp4sTuWena0s5Jvv0mNQ8bWB5ACqSZ1J-xx901mGgrz324UNPV4ocZFmLdyhISIJXvMMGw-I4fLuWO0hNkb4hELIggn4BvpEMf-RlL3EbfrQI55zrg6yzQmpM3tDxbZXr1BHSd7Tgp9afJriNi06Hn26SR0nZsZxg0zawF9oE4M9Tq9_sZj855twYha8MkBunLBVNkylOxznTKN9u1c38PY",
+     "fecha": "2026-11-02",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "A industrialização da construção esteve em destaque no arranque da 14.ª Semana da Reabilitação Urbana do Porto",
+     "resumen": "En la apertura de la Semana da Reabilitação Urbana do Porto, celebrada en Matosinhos, portavoces de entidades como APPC, Kozowood, KREAR, Perfisa, Sanjose y Preceram analizaron los cuellos de botella del sector. Se alertó de que el 90% de los proyectos en Portugal se siguen concibiendo de manera tradicional, complicando su industrialización a posteriori e incrementando costes. Se reivindicó el protagonismo de los sistemas de entramado ligero (Light Steel Framing) y madera técnica, urgiendo a articular cadenas locales de suministro estructuradas en clúster.",
+     "tema": "portugal",
+     "relevancia": "Foro sectorial en Oporto que pone en primer plano la prescripción temprana de cerramientos y paneles ligeros frente a arquitectos y constructoras del norte luso.",
+     "tipo": "estudio",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "Diario de Noticias de Navarra",
+     "titular": "Seis de cada diez casas iniciadas en Navarra incorporan ya componentes industrializados",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl57NcBU1uRuv1ES7GM2t2nFxD12BsYTAwh48RaOqsSzQ-UaLq51lO4Uu4OBZX8nBwkPgK6dShIsUKHGpvqOj_4klz55k9k7ayPOgXn5m0NPKQHwgZk88fN2OgHwQmYoASruhEIJnp6Boqa3SN3GjRdKtjpI2XE15eIyn1MYAO5ROzdo_sGPuKdOStd38mK5NrCBrm9nkyJ5uZ",
+     "fecha": "2026-11-01",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "En torno al 58% de las viviendas iniciadas entre 2021 y 2025 incorporó algún componente industrializado",
+     "resumen": "Un estudio del clúster de la edificación iCONS determina que el 58% de las viviendas iniciadas en Navarra entre 2021 y 2025 integró componentes industrializados, especialmente fachadas y losas prefabricadas. En el análisis pormenorizado de 4.816 viviendas de once constructoras, el 96,6% incluyó algún elemento off-site, representando el 11,9% del presupuesto de ejecución por promoción. Asimismo, las empresas fabricantes de estos componentes experimentaron un crecimiento agregado de facturación del 79% durante el último lustro.",
+     "tema": "industrializacion",
+     "relevancia": "Aporta métricas reales del peso presupuestario y crecimiento de los componentes industrializados de fachada, evidenciando el potencial de sustitución hacia paneles integrales.",
+     "tipo": "estudio",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "La Razón",
+     "titular": "De las oficinas a las fábricas de pisos: Madrid activa nuevas vías para construir miles de viviendas",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc68U7qW7ohR2vNEmObqzWzSY99rt244lEKDgAcYGTNsykCJGFD9TcoM9UUwOKsS0znlEVER3xxiNlCSLBWD7hkIe_BdPcl6aGuk9Mp26pMLtungLoTjvzIbE463GxoyEsEMbnIWLQiKeDv7FHtRT8fVRPTS2e12p4_U2OUaDNP3sHhyNzM_cJkSn7alGwh2_p5Vc6m3ynFdxabDzdNELks-u4w0vQn8G4ajs0vL-hSKWq5u53p0Vrm7plYnb1FkETVvmKzA==",
+     "fecha": "2026-11-07",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "La industrialización residencial -fabricación de pisos en instalaciones especializadas- comienza a ganar protagonismo como alternativa a los procedimientos tradicionales.",
+     "resumen": "El Ayuntamiento de Madrid y la Comunidad refuerzan la licitación pública industrializada para recortar plazos de entrega, citando como precedente la promoción Iberia Loreto 1 acabada en 17 meses frente a los 24 tradicionales. La EMVS proyecta otras 170 viviendas con técnicas off-site y estudia soluciones modulares 3D para el Barrio del Aeropuerto, sumando más de 600 pisos bajo fórmulas público-privadas. Además, una planta de producción industrializada en Alcobendas ofrecerá capacidad técnica para abastecer componentes de hasta 10.000 viviendas anuales.",
+     "tema": "vivienda",
+     "relevancia": "Muestra la consolidación de licitaciones públicas con requisitos off-site en España, tendencia que el IGVS en Galicia y los municipios del norte luso están adoptando.",
+     "tipo": "noticia",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "Autodesk",
+     "titular": "Foco en la construcción industrializada de 2026",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUod3L1oQXCST9ANI3GnFbRlGCHft4R0a6pyikp287yXR6Av0f4Cs5pEFxI8XNZ2JXFO-kGZIaBxWpbUA2kiNy2_V7thH4SPXhyvBHkv6nAaS3TvOHCoofeG0KRhDs4kUvtrD4hCnmZKTqEp8TcGyLDFZhWRWAL1WhJO2CPvt4sbIdzb_JU5_yeqnMc1tWYFVSuxXZpynm",
+     "fecha": "2026-11-05",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "70 % de los encuestados cree que la construcción industrializada se convertirá en la forma estándar de trabajar en el futuro",
+     "resumen": "El informe internacional sobre diseño y manufactura de Autodesk señala que el 84% de las organizaciones que implementan construcción industrializada constatan una mayor calidad final en las obras concluidas. Por otra parte, el 76% manifiesta haber obtenido un mayor grado de predictibilidad tanto en plazos temporales como en costes económicos. El documento destaca que la conexión entre DfMA (diseño para fabricación), prefabricación de paneles y flujos BIM resulta indispensable para escalar la productividad.",
+     "tema": "industrializacion",
+     "relevancia": "Datos globales que dotan al equipo comercial de argumentos cuantitativos sólidos sobre predictibilidad y calidad para prescribir soluciones prefabricadas de envolvente frente a métodos tradicionales.",
+     "tipo": "estudio",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "Casas inHAUS",
+     "titular": "Casas prefabricadas para promotores | Colección LITE inHAUS",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-et9eyJCVNT3aKVXT7TJk76d2tTJROxJRECmquTdUD04NtDli98qYUTqFTUHtLF0ZPjuuYeRksC8IAZjG_dEU0VrZsz9_kdWAMgtzYNIYNqWmqyS4Y457ZmAk8lxTVDA8sI2zbUjrWNYbu5Sf-5hOHBG1YEWquOCCDQ==",
+     "fecha": "2026-11-03",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "La Colección LITE de inHAUS nace como una línea de viviendas industrializadas concebidas para desarrollos residenciales de varias unidades",
+     "resumen": "La compañía de vivienda modular de gama alta Casas inHAUS ha lanzado al mercado su nueva línea 'Colección LITE', orientada expresamente al canal promotor para conjuntos de vivienda seriada. El sistema ofrece modelos arquitectónicos cerrados de alta eficiencia con clasificación energética A y un tiempo de fabricación garantizado de 5 meses en planta. El enfoque persigue minimizar los desvíos presupuestarios y reducir las contingencias de mano de obra en obras unifamiliares plurirresidenciales.",
+     "tema": "industrializacion",
+     "relevancia": "Competidor de referencia en modulación que amplía catálogo hacia el cliente promotor residencial, demandando envolventes de altas prestaciones térmicas con ensamblaje en taller.",
+     "tipo": "nuevo_player",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "medio": "AITIM",
+     "titular": "Ya está disponible la revista AITIM dedicada a vivienda industrializada (II)",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7vrHtAgTy-guHrpY_wpFlfeXx7N5AkhKc7tg3QgWpzBVtLWggopm7F4ahBlCMeETNHcs2VnRamJQSdSWlrAARA25n6AiOni2AYgW-StyvaoS7CSXhO4X-CBI4oSKgTwg5PRYE9q_PrKJtl5w7cKkrFRWz_8YSNqWWppWTdhpQG8QtnsecR9fBJlpc9KIQv-N6uIRUYnLGmDOVzlu0",
+     "fecha": "2026-11-03",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "Ya está disponible la revista AITIM dedicada a vivienda industrializada (II)",
+     "resumen": "La Asociación de Investigación Técnica de las Industrias de la Madera ha publicado un nuevo número monográfico sobre edificación industrializada. El volumen revisa innovaciones en fachadas de entramado ligero (Lignum Tech), mecanizado especializado en madera (Tallfusta) y tecnología de madera laminada (Iberolam). Incluye asimismo el análisis de proyectos como el edificio CREE en Valdebebas y la promoción pública residencial Azpilagaña 32 en Pamplona ejecutada con madera por Madergia.",
+     "tema": "industria",
+     "relevancia": "Publicación técnica de referencia que aborda la penetración de cerramientos y fachadas de madera industrializada, campo tecnológico de aplicación directa para los paneles sándwich de Thermochip.",
+     "tipo": "estudio",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    }
+   ],
+   "searches": 0,
+   "urls_leidas": 16,
+   "consultas": [],
+   "fuentes": [
+    "España prevé 45 millones de euros en ayudas para industrializar la ...",
+    "El Foro AECI pone el foco en la normalización de soluciones ...",
+    "Tecnalia amplía sus servicios de evaluación y ensayo para sistemas ...",
+    "Fimma - Maderalia construirá en directo una vivienda de madera ...",
+    "Construção industrializada: Grupo de Braga ergue casas para 48 ...",
+    "Quando a classe média deixa de conseguir pagar uma casa",
+    "Construção industrializada exige nova abordagem de todo o setor ...",
+    "Seis de cada diez casas iniciadas en Navarra incorporan ya ...",
+    "De las oficinas a las fábricas de pisos: Madrid activa nuevas vías ...",
+    "Foco en la construcción industrializada de 2026 | Autodesk",
+    "Casas prefabricadas para promotores | Colección LITE inHAUS",
+    "Ya está disponible la revista AITIM dedicada a vivienda ..."
+   ],
+   "evidencia_de_busqueda": true,
+   "usage": {
+    "promptTokenCount": 6997,
+    "candidatesTokenCount": 9176,
+    "totalTokenCount": 478374,
+    "cachedContentTokenCount": 270902,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6997
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 270902
+     }
+    ],
+    "toolUsePromptTokenCount": 447878,
+    "toolUsePromptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 447878
+     }
+    ],
+    "thoughtsTokenCount": 14323,
+    "serviceTier": "standard"
+   },
+   "coste_estimado_usd": 0.8586,
+   "segundos": 173.809
+  },
+  "competidores": {
+   "status": "OK",
+   "items": [
+    {
+     "competidor": "Caliplac",
+     "tipo": "producto",
+     "medio": "Europa Press Comunicados",
+     "titular": "De bajocubierta a espacio acogedor; soluciones con panel sándwich de madera para transformar la buhardilla",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZx5KhSIZunm0Myf1703v6kmWvrv6wH7Hln9ESETbKJvPiZiDabFQMVRGPGvWzzf6HfyeimYlh5LIxPjbnvXnCarmWh7EZ_wBazg3UnrA7BhAfbzHM5X5n5AIMdHKQKUyePWPGyMPm-gjz8e36-bAexCrGRhQxP_rm4-syrRktRrqnbYJvprQuEMirQaLaGPL5ikcVw_KSUD_4w2OTKJgWZ1NvDMncn6bh4lXgyGPz7fVxEtSUEyuLdqAoDgocjtETbcPFEQzTNcUO0Mi6FeYKVRYyi9Ydn4531ZsQhXqUR9u_uWE6TXzs3A==",
+     "fecha": "2026-10-13",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "Caliplac desarrolla soluciones de panel sándwich de madera destinadas a facilitar la construcción y rehabilitación de cubiertas",
+     "resumen": "Caliplac promociona sus soluciones de panel sándwich multicapa de madera como alternativa ligera para transformar bajocubiertas en estancias habitables. La gama integra en un solo paso constructivo el aislamiento térmico-acústico y acabados vistos interiores como friso de abeto, OSB-3 o yeso. La compañía orienta su prescripción tanto a obra nueva como a intervenciones de reforma bajo cubiertas inclinadas.",
+     "tema": "vivienda",
+     "relevancia": "Incide directamente sobre el mercado de prescripción de cubiertas residenciales y rehabilitación bajocubierta, principal segmento de volumen para Thermochip en el cuadrante noroeste.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "competidor": "Teznocuber",
+     "tipo": "comercial",
+     "medio": "Boletín Oficial del Registro Mercantil (BORME)",
+     "titular": "496957 - TEZNOCUBER COMPOSITES SOCIEDAD LIMITADA. Cambio de domicilio social.",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeMdbSHv5_OaiKsTSgrItz4paYblHCHbIIxHeDeH0qmERSY0MtzrS_FbBy2-pmFkgg_zs4fISxPp4koaLWE9choJMntxa2hysKXluffhP0NnoGWaCB2QJRHgbk7hHjenxsnmsex2kxw2Mrqg1undSZlSsDOtACldj9yFY=",
+     "fecha": "2026-11-06",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "TEZNOCUBER COMPOSITES SOCIEDAD LIMITADA. Cambio de domicilio social. C/ LAS CAÑAS. POLIGONO INDUSTRIAL CANTABRIA II., 1 (LOGROÑO).",
+     "resumen": "Teznocuber Composites ha formalizado en el registro su cambio de sede social y productiva a la calle Las Cañas del Polígono Cantabria II en Logroño. Este acto mercantil culmina la mudanza a sus nuevas instalaciones industriales de 14.000 m² construidos sobre una parcela de 25.000 m². Las instalaciones permitirán a la empresa elevar sustancialmente su capacidad de fabricación de panel sándwich de madera para España y Portugal.",
+     "tema": "industria",
+     "relevancia": "La operatividad plena de la nueva macroplanta riojana de Teznocuber incrementa su capacidad productiva y de entrega, reforzando su competencia en precio y plazos frente a Thermochip en el norte peninsular.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "competidor": "BMI (cubiertas)",
+     "tipo": "producto",
+     "medio": "BMI España (Blog oficial)",
+     "titular": "Aislamiento térmico PIR: Características técnicas y aplicaciones en cubiertas",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaCNAMBoUDZw9UbuR0KMWiirBGvoRoFTC3K8wzVmOFFTAGRLcvn3uZKkKHn872bnBdFzAjSKhZiKeWO6WWjXXTIdKvbXenI6z42ohRHPAKtLy-5fJnB_6D0iT4Ja2kNSLS1TVqyn3F-zzW6Ygdog==",
+     "fecha": "2026-10-14",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "El Thermazone PIR es un material ampliamente utilizado en el aislamiento de cubiertas planas e inclinadas",
+     "resumen": "BMI detalla los parámetros de su aislamiento de espuma rígida de poliisocianurato Thermazone PIR con conductividad de 0,022 W/mK. El fabricante promueve este núcleo de celda cerrada para reducir espesores bajo el CTE DB-HE frente a lanas minerales o XPS. Subraya su integración tanto en cubierta plana como en cubierta inclinada a través de su sistema Tectum First.",
+     "tema": "construccion",
+     "relevancia": "BMI impulsa sistemas técnicos de cubierta inclinada basados en aislamiento rígido continuo de alto rendimiento, compitiendo de frente con la propuesta de envolvente aligerada de Thermochip.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "competidor": "Kingspan",
+     "tipo": "otro",
+     "medio": "Europa Press",
+     "titular": "Bruselas multa con 40 millones al grupo Kingspan por información engañosa sobre una fusión",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhG_k-oi9uIDEywP7CTKcaloY-7BITchmPkRrIeAm8YvvkscRezys6Bi6Y9aSvnUAok4umhNAcgkHqUS_Lak0kJorexA-MYSK3EAMBLF4HCuyl6Yz9UdFMaLeYUvRbmyR_Y9_xCy3sbEUT4J5xIIUJkASVzLJ3xgjHx5cQFHsDZx7ky-DAQkaMp_5-0Pdm11MUFdzBt8bkuj2mm8HW66-2NAMsDxIM6Xh9cRPyOxg6EZ_93NYCaoviD2vYFQ==",
+     "fecha": "2026-10-08",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "La Comisión Europea ha anunciado este jueves una multa de 40 millones de euros al grupo irlandés Kingspan",
+     "resumen": "La Comisión Europea sancionó a Kingspan con 40 millones de euros por haber suministrado información incorrecta o engañosa durante el expediente de compra del fabricante esloveno Trimo. Bruselas determinó que la compañía omitió o distorsionó datos relativos a tasas de penetración de paneles sándwich con alma de fibra mineral y programas de I+D. La infracción penaliza la actuación del grupo durante el procedimiento de control de concentraciones.",
+     "tema": "competencia",
+     "relevancia": "Golpe sancionador y de reputación para el líder internacional del sector sándwich en relación directa con el mercado de paneles aislantes de alta resistencia al fuego.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "competidor": "Panel Sandwich Group",
+     "tipo": "comercial",
+     "medio": "Portal de Cádiz",
+     "titular": "Panel Sandwich Group, con sede en Jerez, entra por tercera vez en el ranking europeo de Financial Times",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEt2zA-jM_5P8RIYg0naKymvcNWueEiERMTf3mvPIL5TfIzgLyZANSUun123tAd6nkFDAzIovFs7ojrUmY3yarJjt895zBY6_iS_3TeguFd7g-bpo69gPwYiSabmWYrOm8RrcR6yVd0tdhmW0_bSOBIzuvApUX9dm6LNeA3Pgocq-H4Q1sd46kwZKVf86xIzcXaxf0QcV8gpu-lHECoSjideE84f3376wHKTXllor3Ylgj_ZiqqXw9sFjuFCIfB8PNUwLAmeSzmGKeUBF5vDVqb",
+     "fecha": "2026-11-04",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "Panel Sandwich Group, compañía con sede andaluza en Jerez de la Frontera desde 2023, ha sido incluida por tercer año consecutivo",
+     "resumen": "Panel Sandwich Group ha vuelto a ingresar en el ranking Europe's Long-Term Growth Champions elaborado por Financial Times y Statista, manteniéndose octavo de su categoría en Europa. La compañía subraya el papel de su red de distribución nacional con centros logísticos en Zaragoza, Madrid, Alicante, Jerez y Santiago de Compostela. Este entramado le permite suministrar cubiertas y cerramientos metálicos y de madera a constructoras e instaladores en más de 40 países.",
+     "tema": "competencia",
+     "relevancia": "La presencia de un centro logístico clave de Panel Sandwich Group en Santiago de Compostela intensifica la pugna por suministros rápidos y almacenamiento intermedio en Galicia y el norte de Portugal.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "competidor": "Tejas Borja",
+     "tipo": "feria",
+     "medio": "Tejas Borja (Blog oficial)",
+     "titular": "Arquitectura y energía se encuentran en DPA Fórum Madrid",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjjh3JB1NNoRN5Kjv_ckhahxoTHJE37Y2vfll_cELhCcDxR8cSpZ-os__4IYVTcBz6Cxw6xqet1Hjj4yHWdgfwdVeLnWSwgqn_HYI58gXiY09zWOpU9q6VWnFkXEfYuPvgFFxoHZMMdFykDzwU_a63u6DJY5KIIjtOMDHhG722-DkPKi32",
+     "fecha": "2026-10-22",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "Tejas Borja participará en el DPA Forum Madrid 2026, uno de los encuentros de referencia para profesionales",
+     "resumen": "Tejas Borja presentó en el DPA Fórum Madrid su propuesta técnica sobre la cubierta como elemento activo de eficiencia y generación fotovoltaica integrada. La ponencia de su responsable de prescripción se centró en compatibilizar la teja cerámica con captadores solares sin romper la estética de la envolvente. El fabricante busca posicionar sus soluciones directamente ante arquitectos e ingenierías.",
+     "tema": "energia",
+     "relevancia": "Tejas Borja potencia la cubierta cerámica activa e integrada energéticamente frente a proyectistas, disputando el nicho residencial unifamiliar a las soluciones industrializadas de cubierta ligera.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    },
+    {
+     "competidor": "Tejas Borja",
+     "tipo": "comercial",
+     "medio": "Economía 3",
+     "titular": "Tejas Borja y La Escandella se integran bajo la sociedad Edilians España",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPtY2p5gcHXPKQHAC_rGXUwC2dFSKqkyfQVlG8WyzRis0u70In9h0GhGoIEH6tbW-TYuB22pa7vTpq9NEMbURkK-Zd1hiWD7gj69DwNOfqU48wjbdl8pcGqd-9qhGv0BwwYHC3xF1L3XZt_XxD6n5SqcgQEnScfgjqRoRJcO48aelZdjrDJ6hjFNS3YWpYJ-pDNckicLjyAA_IFMM1Xt12XvWKZumP",
+     "fecha": "2026-10-08",
+     "estado_lectura": "COMPLETO",
+     "cita_literal": "Edilians Group integra societariamente Tejas Borja y La Escandella bajo la razón social Edilians España, S.A.U.",
+     "resumen": "Edilians Group ha culminado la integración societaria de Tejas Borja y Cerámica La Escandella en la sociedad Edilians España S.A.U., manteniendo ambas marcas independientes en el mercado. La operación busca combinar la capacidad productiva y exportadora de La Escandella con el catálogo e innovación técnica de Tejas Borja. El grupo centrará esfuerzos en sistemas de aislamiento de cubierta y soluciones solares integradas.",
+     "tema": "industria",
+     "relevancia": "La fusión bajo un mismo paraguas societario crea un gigante ibérico en sistemas para tejados con mayor escala para competir en prescripción integral de envolventes de cubierta.",
+     "verificacion": "V1_reportado_por_IA_sin_contrastar",
+     "nota_validador": null
+    }
+   ],
+   "searches": 0,
+   "urls_leidas": 9,
+   "consultas": [],
+   "fuentes": [],
+   "evidencia_de_busqueda": true,
+   "usage": {
+    "promptTokenCount": 8949,
+    "candidatesTokenCount": 5719,
+    "totalTokenCount": 1069540,
+    "cachedContentTokenCount": 837257,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 8949
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 837257
+     }
+    ],
+    "toolUsePromptTokenCount": 1039717,
+    "toolUsePromptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1039717
+     }
+    ],
+    "thoughtsTokenCount": 15155,
+    "serviceTier": "standard"
+   },
+   "coste_estimado_usd": 1.7296,
+   "segundos": 207.881
+  },
+  "productos": {
+   "status": "OMITIDA_POR_COSTE",
+   "items": []
+  }
+ },
+ "coste_total_estimado_usd": 3.4545,
+ "avisos": [
+  "Tope de coste alcanzado: se omiten las secciones restantes",
+  "Coste estimado 3.4545 USD por encima del tope 3"
+ ],
+ "resumen_estados": {
+  "COMPLETO": 34
+ },
+ "items_por_seccion": {
+  "prensa": 15,
+  "industrializacion": 12,
+  "competidores": 7,
+  "productos": 0
+ },
+ "secciones_ok": 3,
+ "completa": false
+}
