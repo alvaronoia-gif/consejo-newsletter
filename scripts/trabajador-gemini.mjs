@@ -6,7 +6,7 @@ const OUT = 'buzon/gemini'; mkdirSync(OUT, { recursive: true });
 const KEY = process.env.GEMINI_API_KEY;
 const MODEL = process.env.GEMINI_MODEL || 'gemini-3.8-flash';
 const PRICE_IN = Number(process.env.GEMINI_PRICE_IN_PER_M || 1.5), PRICE_OUT = Number(process.env.GEMINI_PRICE_OUT_PER_M || 7.5);
-const MAX_USD = Number(process.env.MAX_USD_POR_EDICION || 3);
+const MAX_USD = Number(process.env.MAX_USD_POR_EDICION || 2.5);
 const FORCE = process.env.FORCE === 'true';
 const PRODUCTOS_URL = 'https://raw.githubusercontent.com/alvaronoia-gif/invlab-productos-publico/main/productos_comprados.json';
 if (!KEY) { console.error('Falta GEMINI_API_KEY'); process.exit(1); }
@@ -65,7 +65,7 @@ async function llamar(prompt, intento = 0, soloBusqueda = false) {
   const tools = soloBusqueda ? [{ google_search: {} }] : [{ google_search: {} }, { url_context: {} }];
   const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`, { method: 'POST',
     headers: { 'Content-Type': 'application/json', 'x-goog-api-key': KEY },
-    body: JSON.stringify({ contents: [{ role: 'user', parts: [{ text: prompt }] }], tools, generationConfig: { maxOutputTokens: 24000 } }) });
+    body: JSON.stringify({ contents: [{ role: 'user', parts: [{ text: prompt }] }], tools, generationConfig: { maxOutputTokens: 24000, thinkingConfig: { thinkingBudget: 1024 } } }) });
   const raw = await r.text(); let j = {}; try { j = JSON.parse(raw); } catch {}
   if (r.status === 400 && !soloBusqueda) return llamar(prompt, intento, true);       // por si la combinación de herramientas no se admite
   if ((r.status === 429 || r.status === 503) && intento < 4) { await new Promise(res => setTimeout(res, 20000 * (intento + 1))); return llamar(prompt, intento + 1, soloBusqueda); }
@@ -102,14 +102,16 @@ function validar(items) {
 }
 
 const res = { schema: 'consejo-newsletter/gemini/2', generado: new Date().toISOString(), edicion_fecha: hoy, modelo: MODEL, rol: 'lector 3 (Gemini): prensa, industrializacion, competidores, gestoras y productos', secciones: {}, coste_total_estimado_usd: 0, avisos: [] };
-for (const [k, v] of Object.entries(SECCIONES)) {
+const ACTIVAS = (process.env.SECCIONES || 'prensa,industrializacion,gestoras,productos').split(',').map(x => x.trim());
+for (const [k, v] of Object.entries(SECCIONES).filter(([k]) => ACTIVAS.includes(k))) {
   try { const g = await llamar(v.prompt); res.secciones[k] = { status: 'OK', ...g, items: validar(g.items) }; res.coste_total_estimado_usd += g.coste_estimado_usd; }
   catch (e) { res.secciones[k] = { status: 'ERROR', items: [] }; res.avisos.push(`${k}: ${e.message.slice(0, 200)}`); }
   if (res.coste_total_estimado_usd > MAX_USD) { res.avisos.push('Tope de coste alcanzado: se omiten las secciones restantes'); break; }
 }
 {
   const p = await productos();
-  if (res.coste_total_estimado_usd > MAX_USD) res.secciones.productos = { status: 'OMITIDA_POR_COSTE', items: [] };
+  if (!ACTIVAS.includes('productos')) res.secciones.productos = { status: 'NO_ACTIVA', items: [] };
+  else if (res.coste_total_estimado_usd > MAX_USD) res.secciones.productos = { status: 'OMITIDA_POR_COSTE', items: [] };
   else if (p.status === 'OK' && p.products.length) {
     try { const q = await llamar(promptProductos(p.products)); res.secciones.productos = { status: 'OK', ...q, items: validar(q.items) }; res.coste_total_estimado_usd += q.coste_estimado_usd; }
     catch (e) { res.secciones.productos = { status: 'ERROR', items: [] }; res.avisos.push('productos: ' + e.message.slice(0, 200)); }
