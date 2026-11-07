@@ -1,0 +1,361 @@
+{
+ "schema": "consejo-newsletter/chatgpt/1",
+ "generado": "2026-11-07T19:03:25.877Z",
+ "edicion_fecha": "2026-11-07",
+ "modelo": "gpt-6.1-sol",
+ "rol": "prensa general y economia (lector 2)",
+ "general": {
+  "items": [
+   {
+    "medio": "Interempresas",
+    "titular": "España prevé 45 millones de euros en ayudas para industrializar la construcción de viviendas en 2027",
+    "url": "https://www.interempresas.net/construccion-industrializada/668643-Espana-preve-45-millones-euros-ayudas-para-industrializar-construccion-viviendas-2027.html",
+    "fecha": "2026-11-05",
+    "estado_lectura": "COMPLETO",
+    "cita_literal": "La industrialización exige tomar muchas de esas decisiones antes",
+    "resumen": "La primera convocatoria de subvenciones del PERTE contempla 45 millones de euros y su resolución está prevista para el primer semestre de 2027; se añaden hasta 280 millones en avales estatales. El artículo destaca que la coordinación temprana del diseño, los suministros y el montaje resulta determinante para materializar los ahorros de la industrialización. ([interempresas.net](https://www.interempresas.net/construccion-industrializada/668643-Espana-preve-45-millones-euros-ayudas-para-industrializar-construccion-viviendas-2027.html))",
+    "tema": "construccion",
+    "relevancia": "Para Thermochip, justifica anticipar la prescripción de sus paneles en proyectos industrializados y preparar propuestas que documenten plazos, coordinación y costes.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   },
+   {
+    "medio": "Qué!",
+    "titular": "Anükhaüs abre en Toledo una fábrica de construcción industrializada para 3.000 viviendas al año",
+    "url": "https://www.que.es/2026/11/03/construccion-industrializada-vivienda-toledo/",
+    "fecha": "2026-11-03",
+    "estado_lectura": "COMPLETO",
+    "cita_literal": "Los primeros proyectos que aplicarán el sistema no son viviendas.",
+    "resumen": "Anükhaüs ha abierto una planta de 6.000 metros cuadrados en Montearagón con capacidad de diseño para componentes destinados a 3.000 viviendas anuales trabajando a tres turnos. Sus primeras aplicaciones serán tres centros de salud de la Comunidad de Madrid; la compañía estima reducciones de plazo de hasta el 35%, condicionadas por cada proyecto. ([que.es](https://www.que.es/2026/11/03/construccion-industrializada-vivienda-toledo/))",
+    "tema": "construccion",
+    "relevancia": "Ofrece una cuenta industrial concreta para explorar suministro de envolventes, sin confundir capacidad instalada con pedidos efectivos.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   },
+   {
+    "medio": "La Voz de Galicia",
+    "titular": "Concello de As Pontes, Industria y Endesa se reúnen para la planificación del suelo",
+    "url": "https://www.lavozdegalicia.es/amp/noticia/ferrol/2026/11/07/concello-as-pontes-industria-defensa-reunen-planificacion-suelo/0003_202611F7C8_COPY994.htm",
+    "fecha": "2026-11-07",
+    "estado_lectura": "COMPLETO",
+    "cita_literal": "que suman más de medio millón de metros cuadrados",
+    "resumen": "El Concello, la Xunta y Endesa han retomado la planificación de terrenos próximos a la central térmica para facilitar futuras implantaciones industriales. También analizaron la ordenación de Portorroibo, de aproximadamente 200.000 metros cuadrados, con espacios que pretenden especializarse en logística del sector eólico. ([lavozdegalicia.es](https://www.lavozdegalicia.es/amp/noticia/ferrol/2026/11/07/concello-as-pontes-industria-defensa-reunen-planificacion-suelo/0003_202611F7C8_COPY994.htm))",
+    "tema": "industria",
+    "relevancia": "Permite incorporar As Pontes al seguimiento comercial de futuros proyectos de naves y envolventes industriales en Galicia.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   },
+   {
+    "medio": "El País",
+    "titular": "Acabar con el déficit de 750.000 viviendas que calcula el Banco de España exige una inversión equivalente al 11% del PIB",
+    "url": "https://elpais.com/economia/vivienda/2026-11-06/acabar-con-el-deficit-de-750000-viviendas-que-calcula-el-banco-de-espana-exige-una-inversion-equivalente-al-11-del-pib.html",
+    "fecha": "2026-11-06",
+    "estado_lectura": "COMPLETO",
+    "cita_literal": "El cálculo deja fuera",
+    "resumen": "Atlas estima entre 189.680 y 236.000 millones de euros para cubrir el déficit residencial, dependiendo de los costes incluidos. APCE advierte de insuficiente capacidad productiva y reclama industrialización y una cartera estable de proyectos. ([elpais.com](https://elpais.com/economia/vivienda/2026-11-06/acabar-con-el-deficit-de-750000-viviendas-que-calcula-el-banco-de-espana-exige-una-inversion-equivalente-al-11-del-pib.html))",
+    "tema": "vivienda",
+    "relevancia": "Refuerza la oportunidad comercial de soluciones industrializadas, aunque condicionada por financiación, suelo y continuidad de encargos.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   },
+   {
+    "medio": "ECO",
+    "titular": "Crise da habitação? Banca aponta à construção de casas a custos moderados",
+    "url": "https://eco.sapo.pt/2026/11/06/crise-da-habitacao-banca-aponta-a-construcao-de-casas-a-custos-moderados/",
+    "fecha": "2026-11-06",
+    "estado_lectura": "COMPLETO",
+    "cita_literal": "Estamos a aumentar significativamente o crédito à construção de casas",
+    "resumen": "Los principales bancos portugueses se muestran dispuestos a financiar construcción residencial con proyectos viables, mientras el presidente del BPI defiende industrializar la producción de viviendas. Caixa Geral de Depósitos declara más de 1.600 millones de euros en préstamos a constructores, un 22% más interanual, y BCP reorganiza su actividad para atender vivienda de costes controlados. ([eco.sapo.pt](https://eco.sapo.pt/2026/11/06/crise-da-habitacao-banca-aponta-a-construcao-de-casas-a-custos-moderados/))",
+    "tema": "portugal",
+    "relevancia": "Sugiere priorizar alianzas con promotores y fabricantes portugueses que preparen vivienda industrializada financiable.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   },
+   {
+    "medio": "ECO",
+    "titular": "Linha do Banco de Fomento para habitação acessível tem limite de 16,5 milhões por empresa",
+    "url": "https://eco.sapo.pt/2026/11/06/linha-do-banco-de-fomento-para-habitacao-acessivel-tem-limite-de-165-milhoes-por-empresa/",
+    "fecha": "2026-11-06",
+    "estado_lectura": "COMPLETO",
+    "cita_literal": "As condições são exatamente as mesmas",
+    "resumen": "La línea Portugal Fomento Habitação contempla 1.500 millones de euros repartidos entre proyectos de vivienda asequible y cooperativas, con un máximo de 16,5 millones por beneficiario. Algunas modalidades prevén plazos de hasta 30 años y tres de carencia; ECO advierte de que las condiciones aún pueden ajustarse porque no existe protocolo final firmado por los bancos. ([eco.sapo.pt](https://eco.sapo.pt/2026/11/06/linha-do-banco-de-fomento-para-habitacao-acessivel-tem-limite-de-165-milhoes-por-empresa/))",
+    "tema": "inversion",
+    "relevancia": "Ayuda a identificar promotores y cooperativas portuguesas cuyo acceso a financiación podría convertir proyectos de envolvente en oportunidades comerciales.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   },
+   {
+    "medio": "ECO",
+    "titular": "Afinal, Câmara do Porto só licencia projetos turísticos se construírem casas de renda acessível",
+    "url": "https://eco.sapo.pt/2026/11/03/afinal-camara-do-porto-so-licencia-projetos-turisticos-se-construirem-casas-de-renda-acessivel/",
+    "fecha": "2026-11-03",
+    "estado_lectura": "COMPLETO",
+    "cita_literal": "Se não, os projetos não avançarão",
+    "resumen": "Siete proyectos urbanísticos del centro histórico de Oporto, mayoritariamente turísticos, solo obtendrán licencia cuando sus promotores garanticen 3.323 metros cuadrados de vivienda asequible. El Ayuntamiento revierte la posibilidad de sustituir esa obligación mediante compensaciones económicas y reconoce posibles consecuencias financieras de la decisión. ([eco.sapo.pt](https://eco.sapo.pt/2026/11/03/afinal-camara-do-porto-so-licencia-projetos-turisticos-se-construirem-casas-de-renda-acessivel/))",
+    "tema": "vivienda",
+    "relevancia": "Obliga a comprobar las condiciones de licencia antes de asignar probabilidades de cierre a operaciones comerciales en Oporto.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   },
+   {
+    "medio": "ECO",
+    "titular": "Governo pronto para transferir gestão de 477 imóveis para as autarquias",
+    "url": "https://eco.sapo.pt/2026/11/06/governo-pronto-para-transferir-gestao-de-477-imoveis-para-as-autarquias/",
+    "fecha": "2026-11-06",
+    "estado_lectura": "COMPLETO",
+    "cita_literal": "As autarquias podem também identificar",
+    "resumen": "El Gobierno portugués ha enviado a los municipios una lista de 477 inmuebles públicos sin uso cuya gestión podrían asumir para vivienda asequible, equipamientos o servicios públicos. Los ayuntamientos disponen hasta el 31 de diciembre para manifestar interés y también pueden proponer otros inmuebles estatales situados en sus territorios. ([eco.sapo.pt](https://eco.sapo.pt/2026/11/06/governo-pronto-para-transferir-gestao-de-477-imoveis-para-as-autarquias/))",
+    "tema": "portugal",
+    "relevancia": "Abre una línea de prospección municipal para rehabilitación de cubiertas y envolventes, pendiente de conocer los edificios y actuaciones seleccionados.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   },
+   {
+    "medio": "Cinco Días",
+    "titular": "ACS asegura que no estudia una opa por su filial alemana Hochtief",
+    "url": "https://cincodias.elpais.com/companias/2026-11-07/acs-asegura-que-no-estudia-una-opa-por-su-filial-alemana-hochtief.html",
+    "fecha": "2026-11-07",
+    "estado_lectura": "COMPLETO",
+    "cita_literal": "ha desmentido ambas cosas.",
+    "resumen": "ACS comunicó a la CNMV que no ha considerado una opa sobre Hochtief ni vender las acciones de Turner, desmintiendo informaciones de Bloomberg. El artículo relaciona la evolución reciente del grupo con su exposición a proyectos de centros de datos. ([cincodias.elpais.com](https://cincodias.elpais.com/companias/2026-11-07/acs-asegura-que-no-estudia-una-opa-por-su-filial-alemana-hochtief.html))",
+    "tema": "inversion",
+    "relevancia": "Permite vigilar grandes contratistas sin incorporar a la planificación comercial operaciones corporativas desmentidas.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   },
+   {
+    "medio": "Heraldo de Aragón",
+    "titular": "La gran industria eleva a 8.900 millones la factura energética por la guerra y exige al Gobierno una respuesta urgente",
+    "url": "https://www.heraldo.es/noticias/economia/2026/11/07/industria-millones-factura-energetica-guerra-gobierno-respuesta-urgente-2066450.html",
+    "fecha": "2026-11-07",
+    "estado_lectura": "EXTRACTO",
+    "cita_literal": "en apenas ocho semanas.",
+    "resumen": "El fragmento accesible recoge que la Alianza por la Competitividad de la Industria Española eleva a 8.900 millones de euros su previsión conjunta de gasto en gas y electricidad para 2026. Son 1.500 millones más que los 7.400 millones previstos en septiembre, aproximadamente un 20% de incremento. ([heraldo.es](https://www.heraldo.es/noticias/economia/2026/11/07/industria-millones-factura-energetica-guerra-gobierno-respuesta-urgente-2066450.html))",
+    "tema": "energia",
+    "relevancia": "Aconseja revisar sensibilidad de costes y márgenes, y orientar el discurso comercial hacia prestaciones térmicas acreditadas.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   },
+   {
+    "medio": "Jornal de Negócios",
+    "titular": "Mutares avalia \"opções estratégicas de saída\" da Efacec a partir de 2027",
+    "url": "https://www.jornaldenegocios.pt/empresas/detalhe/mutares-avalia-opcoes-estrategicas-de-saida-da-efacec-a-partir-de-2027",
+    "fecha": "2026-11-03",
+    "estado_lectura": "EXTRACTO",
+    "cita_literal": "pode mudar de mãos já no próximo ano",
+    "resumen": "El primer párrafo accesible indica que Mutares evalúa opciones de salida de Efacec a partir de 2027, tras adquirirla al Estado en 2023. La entradilla señala que una venta todavía requeriría autorización estatal y que al Estado corresponderían dos tercios del importe de la operación. ([jornaldenegocios.pt](https://www.jornaldenegocios.pt/empresas/detalhe/mutares-avalia-opcoes-estrategicas-de-saida-da-efacec-a-partir-de-2027))",
+    "tema": "inversion",
+    "relevancia": "Es una señal para vigilar cambios de interlocutores y prioridades de inversión industrial, no un anuncio de nuevas obras.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   },
+   {
+    "medio": "Jornal de Negócios",
+    "titular": "Corticeira Amorim compra restantes 25% da Bartop à Greentech por 24,6 milhões",
+    "url": "https://www.jornaldenegocios.pt/empresas/industria/detalhe/corticeira-amorim-compra-restantes-25-da-bartop-a-greentech-por-24-6-milhoes",
+    "fecha": "2026-11-04",
+    "estado_lectura": "EXTRACTO",
+    "cita_literal": "A Corticeira Amorim passou a deter a totalidade da Bartop",
+    "resumen": "Corticeira Amorim ha adquirido el 25% de Bartop que todavía no controlaba por 24,6 millones de euros. La información accesible identifica Bartop como la sociedad que agrupa participaciones del segmento de tapones capsulados para bebidas espirituosas. ([jornaldenegocios.pt](https://www.jornaldenegocios.pt/empresas/industria/detalhe/corticeira-amorim-compra-restantes-25-da-bartop-a-greentech-por-24-6-milhoes))",
+    "tema": "industria",
+    "relevancia": "Aporta inteligencia sobre consolidación de grupos industriales portugueses, aunque el extracto no permite deducir inversiones en instalaciones.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   },
+   {
+    "medio": "Jornal de Negócios",
+    "titular": "Bicicletas elétricas com motores Bosch produzidas pela Beeq de Gaia chegam hoje ao mercado",
+    "url": "https://www.jornaldenegocios.pt/empresas/industria/detalhe/bicicletas-eletricas-com-motores-bosch-produzidas-pela-beeq-de-gaia-chegam-hoje-ao-mercado",
+    "fecha": "2026-11-05",
+    "estado_lectura": "COMPLETO",
+    "cita_literal": "numa bicicleta pensada e fabricada em Portugal",
+    "resumen": "Beeq lanzó el 5 de noviembre una gama de bicicletas eléctricas con motores Bosch desarrollada y producida en la fábrica de su matriz RTE. Los modelos SUV Low Step y SUV High Step se fabrican en Vila Nova de Gaia y salen al mercado por 2.999 euros. ([jornaldenegocios.pt](https://www.jornaldenegocios.pt/empresas/industria/detalhe/bicicletas-eletricas-com-motores-bosch-produzidas-pela-beeq-de-gaia-chegam-hoje-ao-mercado))",
+    "tema": "industria",
+    "relevancia": "Identifica actividad manufacturera concreta en Gaia para prospección industrial, sin que la noticia anuncie ampliaciones ni demanda inmediata de paneles.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   }
+  ],
+  "searches": 10,
+  "usage": {
+   "input_tokens": 89074,
+   "input_tokens_details": {
+    "cache_write_tokens": 4903,
+    "cached_tokens": 0
+   },
+   "output_tokens": 5675,
+   "output_tokens_details": {
+    "reasoning_tokens": 2303
+   },
+   "total_tokens": 94749
+  },
+  "coste_estimado_usd": 0.2349,
+  "segundos": 82.249
+ },
+ "productos": {
+  "status": "OK",
+  "items": [
+   {
+    "producto": "Banco Santander (ES0113900J37)",
+    "medio": "Banco Santander — Sala de prensa",
+    "titular": "Six quantum and AI solutions for business challenges win the Santander X Global Challenge | The Quantum AI Leap",
+    "url": "https://www.santander.com/en/press-room/press-releases/2026/11/six-quantum-and-ai-solutions-for-business-challenges-win-the-santander-x-global-challenge-the-quantum-ai-leap",
+    "fecha": "2026-11-04",
+    "estado_lectura": "COMPLETO",
+    "cita_literal": "The six winners shared €120,000 in prizes: €10,000 for each startup and €30,000 for each scaleup.",
+    "resumen": "Santander anunció seis empresas ganadoras de un reto internacional sobre inteligencia artificial y computación cuántica, organizado junto con IBM, Bluzec y Oxentia Foundation. Las soluciones premiadas incluyen simulación industrial, optimización de procesos y protección de comunicaciones. ([santander.com](https://www.santander.com/en/press-room/press-releases/2026/11/six-quantum-and-ai-solutions-for-business-challenges-win-the-santander-x-global-challenge-the-quantum-ai-leap))",
+    "tema": "industria",
+    "relevancia": "Para la dirección comercial de Thermochip, aporta contexto sobre tecnologías de simulación y optimización industrial, aunque no acredita demanda de envolventes en Galicia o el norte de Portugal.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   },
+   {
+    "producto": "Banco Santander (ES0113900J37)",
+    "medio": "Santander México — Sala de prensa",
+    "titular": "AMF y Banco Santander - Getnet formalizan alianza para convertirse en el Banco de las Franquicias",
+    "url": "https://www.santander.com.mx/ceb/2026/amf-y-banco-santander-getnet-formalizan-alianza-para-convertirse-en-el-banco-de-las-franquicias.html",
+    "fecha": "2026-11-03",
+    "estado_lectura": "COMPLETO",
+    "cita_literal": "La oferta de Santander contempla soluciones para acompañar diferentes momentos de la operación de una franquicia",
+    "resumen": "Santander México y Getnet formalizaron una alianza con la Asociación Mexicana de Franquicias para ofrecer servicios financieros y de pagos especializados. La iniciativa incluye cuentas, nómina, financiación y digitalización, con una meta de alcanzar 85.000 franquicias durante sus primeros tres años. ([santander.com.mx](https://www.santander.com.mx/ceb/2026/amf-y-banco-santander-getnet-formalizan-alianza-para-convertirse-en-el-banco-de-las-franquicias.html))",
+    "tema": "economia",
+    "relevancia": "Su interés para Thermochip es indirecto: muestra una estrategia de financiación de expansión comercial, pero el acuerdo se limita a México y no demuestra oportunidades locales.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   },
+   {
+    "producto": "Compagnie de Saint-Gobain (FR0000125007)",
+    "medio": "Techniques de l’Ingénieur",
+    "titular": "L’IA accélère le développement de nouveaux matériaux chez Saint-Gobain",
+    "url": "https://www.techniques-ingenieur.fr/actualite/articles/lia-accelere-le-developpement-de-nouveaux-materiaux-chez-saint-gobain-165555/",
+    "fecha": "2026-11-06",
+    "estado_lectura": "COMPLETO",
+    "cita_literal": "Cette nouvelle manière de travailler semble prometteuse.",
+    "resumen": "Saint-Gobain está utilizando Microsoft Discovery para acelerar la investigación de materiales de construcción, incluida la búsqueda de moléculas para aditivos cementicios. Según la responsable citada, crear una base de conocimiento llevó unas horas frente al año que habría requerido sin esa herramienta. ([techniques-ingenieur.fr](https://www.techniques-ingenieur.fr/actualite/articles/lia-accelere-le-developpement-de-nouveaux-materiaux-chez-saint-gobain-165555/))",
+    "tema": "construccion",
+    "relevancia": "Es una señal de innovación competitiva en materiales de construcción que interesa a Thermochip para contextualizar la diferenciación técnica y ambiental de sus paneles.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   },
+   {
+    "producto": "Iberdrola (ES0144580Y14)",
+    "medio": "Iberdrola España — Sala de comunicación",
+    "titular": "Iberdrola España inicia las pruebas para electrificar con vapor 100% renovable el proceso productivo de Bayer en Asturias",
+    "url": "https://www.iberdrolaespana.com/sala-comunicacion/noticias/inicio-pruebas-bayer-felguera-vapor-renovable",
+    "fecha": "2026-11-05",
+    "estado_lectura": "COMPLETO",
+    "cita_literal": "En el proceso se utiliza un sistema de almacenamiento térmico de sales",
+    "resumen": "La planta de Bayer en La Felguera ha comenzado a recibir vapor renovable generado por Iberdrola mediante electrificación y almacenamiento térmico de sales. El proyecto incorpora un PPA de 15 MW y autoconsumo fotovoltaico de 2,5 MW, y permitirá evitar 6.500 toneladas de CO₂ anuales. ([iberdrolaespana.com](https://www.iberdrolaespana.com/sala-comunicacion/noticias/inicio-pruebas-bayer-felguera-vapor-renovable))",
+    "tema": "energia",
+    "relevancia": "Ofrece a Thermochip un caso cercano de descarbonización industrial con el que contextualizar conversaciones sobre eficiencia energética integral, sin implicar que exista una contratación de envolventes.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   },
+   {
+    "producto": "Iberdrola (ES0144580Y14)",
+    "medio": "Iberdrola España — Sala de comunicación",
+    "titular": "Iberdrola España impulsa la electrificación y la competitividad de la industria vasca en la primera edición de DS Industry",
+    "url": "https://www.iberdrolaespana.com/sala-comunicacion/noticias/ds-industry-electrificacion-pais-vasco",
+    "fecha": "2026-11-03",
+    "estado_lectura": "COMPLETO",
+    "cita_literal": "La cita combinará un área expositiva, un programa congresual y diferentes espacios para el networking.",
+    "resumen": "Iberdrola participó en la inauguración de DS Industry, celebrado del 3 al 5 de noviembre en Bilbao Exhibition Centre. El encuentro reunió a 100 empresas expositoras y 140 ponentes alrededor de la descarbonización, la electrificación y la competitividad industrial. ([iberdrolaespana.com](https://www.iberdrolaespana.com/sala-comunicacion/noticias/ds-industry-electrificacion-pais-vasco))",
+    "tema": "industria",
+    "relevancia": "Para Thermochip, identifica un entorno empresarial del norte de España vinculado a eficiencia y transformación industrial, relevante para comprender las prioridades de posibles clientes de envolventes.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   },
+   {
+    "producto": "iShares Core MSCI World UCITS ETF USD (Acc) (IE00B4L5Y983)",
+    "medio": "MSCI — Comunicado distribuido por Business Wire",
+    "titular": "MSCI November Index Review Announcement Scheduled for November 11, 2026",
+    "url": "https://ir.msci.com/node/23016/pdf",
+    "fecha": "2026-11-04",
+    "estado_lectura": "COMPLETO",
+    "cita_literal": "All changes will be made as of the close of November 30, 2026.",
+    "resumen": "MSCI anunció que publicará los resultados de su revisión de índices de noviembre el 11 de noviembre de 2026, después de las 23:00 CET. Los cambios se aplicarán al cierre del 30 de noviembre; el comunicado todavía no identifica incorporaciones ni exclusiones. ([ir.msci.com](https://ir.msci.com/node/23016/pdf))",
+    "tema": "inversion",
+    "relevancia": "Su relevancia para la dirección comercial de Thermochip es indirecta: aporta contexto del mercado global, pero no constituye una señal de actividad constructora en Galicia o el norte de Portugal.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   },
+   {
+    "producto": "iShares Edge MSCI World Quality Factor UCITS ETF USD (Acc) (IE00BP3QZ601)",
+    "medio": "STOXX — Actualidad corporativa",
+    "titular": "Deutsche Börse’s ETF Forum discusses new index approaches, AI, German pension savings reform",
+    "url": "https://stoxx.com/deutsche-borses-etf-forum-discusses-new-index-approaches-ai-german-pension-savings-reform/",
+    "fecha": "2026-11-05",
+    "estado_lectura": "EXTRACTO",
+    "cita_literal": "They discussed three ETF families the two companies have recently collaborated on",
+    "resumen": "STOXX publicó una crónica del ETF Forum celebrado el 27 de octubre, donde un representante de iShares participó en una presentación sobre enfoques alternativos a los índices tradicionales. El fragmento leído describe índices que distinguen empresas según el origen geográfico de sus ingresos y que sirven de base a seis ETF de iShares. ([stoxx.com](https://stoxx.com/deutsche-borses-etf-forum-discusses-new-index-approaches-ai-german-pension-savings-reform/))",
+    "tema": "inversion",
+    "relevancia": "Aporta contexto sobre la innovación de la gestora y la competencia entre metodologías de índices, con utilidad comercial solo indirecta para Thermochip y sin señalar cambios en este ETF.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   },
+   {
+    "producto": "iShares EUR Govt Bond 1-3yr UCITS ETF (Dist) (IE00B14X4Q57)",
+    "medio": "The Economic Times — ETMarkets",
+    "titular": "Eurozone bond yields set for biggest weekly fall since September as investors seek safety",
+    "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/eurozone-bond-yields-set-for-biggest-weekly-fall-since-september-as-investors-seek-safety/articleshow/135600587.cms",
+    "fecha": "2026-11-06",
+    "estado_lectura": "COMPLETO",
+    "cita_literal": "Investors also scaled back expectations of further ECB monetary tightening.",
+    "resumen": "Los rendimientos de la deuda pública de la eurozona se encaminaban a su mayor caída semanal desde finales de septiembre, entre búsqueda de refugio y menores expectativas de subidas de tipos del BCE. Los contratos sobre tipos a corto plazo descontaban una facilidad de depósito del 3,02% para finales de 2027, frente al 3,25% previsto al terminar octubre. ([economictimes.indiatimes.com](https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/eurozone-bond-yields-set-for-biggest-weekly-fall-since-september-as-investors-seek-safety/articleshow/135600587.cms))",
+    "tema": "economia",
+    "relevancia": "Es contexto para las conversaciones sobre financiación de proyectos industriales de los clientes de Thermochip, aunque la noticia trata la categoría de deuda soberana y no específicamente el tramo de uno a tres años.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   },
+   {
+    "producto": "TotalEnergies (FR0000120271)",
+    "medio": "TotalEnergies — Sala de prensa",
+    "titular": "China: TotalEnergies to Supply 900,000 Tons of LNG per Year to Jiangsu Guoxin Group for 15 Years",
+    "url": "https://totalenergies.com/newsroom/chine-totalenergies-fournira-900-000-tonnes-de-gnl-par-an-a-jiangsu-guoxin-group-pendant-15-ans-517516/?lang=eng",
+    "fecha": "2026-11-04",
+    "estado_lectura": "COMPLETO",
+    "cita_literal": "Subject to the finalization of the SPAs, this agreement is set to start in 2028, for 15 years.",
+    "resumen": "TotalEnergies firmó un acuerdo preliminar para suministrar 900.000 toneladas anuales de GNL a Jiangsu Guoxin Group durante quince años desde 2028, sujeto a contratos definitivos. Las entregas se destinarán a la terminal de Rudong para suministro urbano de gas y generación eléctrica flexible. ([totalenergies.com](https://totalenergies.com/newsroom/chine-totalenergies-fournira-900-000-tonnes-de-gnl-par-an-a-jiangsu-guoxin-group-pendant-15-ans-517516/?lang=eng))",
+    "tema": "energia",
+    "relevancia": "Aporta contexto sobre compromisos de suministro energético a largo plazo, útil para entender las preocupaciones de costes de clientes industriales, sin demostrar efectos concretos en precios de Galicia o Portugal.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   },
+   {
+    "producto": "TotalEnergies (FR0000120271)",
+    "medio": "TotalEnergies — Sala de prensa",
+    "titular": "United Arab Emirates: TotalEnergies Signs a Five‑year Liquefied Natural Gas Supply Agreement with ADNOC Gas",
+    "url": "https://totalenergies.com/newsroom/emirats-arabes-unis-totalenergies-signe-un-accord-dapprovisionnement-en-gaz-naturel-liquefie-dune-duree-de-cinq-ans-avec-adnoc-gas-517351/?lang=eng",
+    "fecha": "2026-11-03",
+    "estado_lectura": "COMPLETO",
+    "cita_literal": "The first deliveries are expected as of 2026.",
+    "resumen": "TotalEnergies y ADNOC Gas anunciaron un acuerdo de suministro de GNL por cinco años y hasta 1,6 millones de toneladas en total. ADNOC Gas será el suministrador y las primeras entregas están previstas desde 2026. ([totalenergies.com](https://totalenergies.com/newsroom/emirats-arabes-unis-totalenergies-signe-un-accord-dapprovisionnement-en-gaz-naturel-liquefie-dune-duree-de-cinq-ans-avec-adnoc-gas-517351/?lang=eng))",
+    "tema": "energia",
+    "relevancia": "Para Thermochip, contextualiza la seguridad de suministro que preocupa a la industria y el discurso de eficiencia de las envolventes, sin permitir inferir una reducción del coste energético local.",
+    "verificacion": "V1_reportado_por_IA_sin_contrastar",
+    "nota_validador": null
+   }
+  ],
+  "searches": 6,
+  "usage": {
+   "input_tokens": 55840,
+   "input_tokens_details": {
+    "cache_write_tokens": 540,
+    "cached_tokens": 4435
+   },
+   "output_tokens": 4528,
+   "output_tokens_details": {
+    "reasoning_tokens": 1592
+   },
+   "total_tokens": 60368
+  },
+  "coste_estimado_usd": 0.157,
+  "segundos": 62.219
+ },
+ "coste_total_estimado_usd": 0.3919,
+ "avisos": [],
+ "resumen_estados": {
+  "COMPLETO": 19,
+  "EXTRACTO": 4
+ }
+}
