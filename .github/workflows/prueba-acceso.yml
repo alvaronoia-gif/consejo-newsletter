@@ -1,0 +1,35 @@
+# CONSEJO NEWSLETTER · PRUEBA 1 · ¿Pueden ChatGPT y Gemini (por API, con búsqueda web) leer la prensa?
+# Manual (workflow_dispatch). Una llamada a cada IA. Escribe resultados en results/ de ESTE repositorio. No toca Investment Lab.
+name: prueba-acceso
+on:
+  workflow_dispatch:
+    inputs:
+      que:
+        description: 'openai, gemini o ambas'
+        default: 'ambas'
+permissions:
+  contents: write
+jobs:
+  prueba:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Llamadas de prueba
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          QUE: ${{ inputs.que }}
+        run: node scripts/prueba-acceso.mjs
+      - name: Publicar resultados
+        run: |
+          git config user.name "consejo-bot"
+          git config user.email "consejo-bot@users.noreply.github.com"
+          git add results
+          git commit -m "Resultados prueba de acceso $(date -u +%F-%H%M)" || echo "nada que publicar"
+          git push
