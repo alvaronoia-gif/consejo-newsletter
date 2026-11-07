@@ -1,0 +1,40 @@
+# CONSEJO · Trabajador de ChatGPT para LinkedIn. Publica buzon/linkedin/latest.json para la tarea de Claude del domingo (09:17 Madrid).
+# Sábado 21:10 Madrid en invierno = 20:10 UTC; sigue siendo antes del domingo 09:17 en verano.
+name: linkedin-borrador
+on:
+  schedule:
+    - cron: '10 20 * * 6'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'true = rehacer aunque ya exista el de hoy'
+        default: 'false'
+concurrency:
+  group: linkedin-borrador
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  linkedin:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Trabajador
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ESTILO_ALVARO: ${{ secrets.ESTILO_ALVARO }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          FORCE: ${{ inputs.force }}
+        run: node scripts/trabajador-linkedin.mjs
+      - name: Publicar
+        run: |
+          git config user.name "consejo-bot"
+          git config user.email "consejo-bot@users.noreply.github.com"
+          git add buzon
+          git commit -m "ChatGPT LinkedIn: borrador $(date -u +%F)" || echo "nada que publicar"
+          git pull --rebase -q origin main || true
+          git push
