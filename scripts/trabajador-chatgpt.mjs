@@ -17,7 +17,7 @@ if (existsSync(destino) && !FORCE) { console.log('Ya existe', destino, '- nada q
 
 const ESTADOS = ['COMPLETO', 'EXTRACTO', 'TITULAR', 'BLOQUEADO', 'NO_ENCONTRADO'];
 const GESTORAS = ['Azvalor','Magallanes','Cobas','Bestinver','Berkshire Hathaway','BlackRock','Vanguard','Fidelity Investments','State Street Investment Management','JPMorgan Asset Management','Goldman Sachs Asset Management','UBS','Capital Group','Allianz Global Investors','Amundi','BNY Investments','Invesco','Northern Trust Asset Management','T. Rowe Price','Morgan Stanley Investment Management','Franklin Templeton','Geode','PGIM','BNP Paribas Asset Management','Legal & General Asset Management','Norges Bank Investment Management'];
-const COMPETIDORES = ['Calipac','Teznocuber (web oficial: https://teznocuber.com/)','Onduline','López Panel','Tabihaus','Multipanel','BMI (cubiertas)','Kingspan','Isopan','Panelestudio','Panel Sandwich Group','Tejas Borja'];
+const COMPETIDORES = ['Caliplac (web oficial: https://caliplac.es/)','Teznocuber (web oficial: https://teznocuber.com/)','Onduline','López Panel','Tabihaus','Multipanel','BMI (cubiertas)','Kingspan','Isopan','Panelestudio','Panel Sandwich Group','Tejas Borja'];
 const REGLAS = `Reglas de integridad (innegociables):
 - Usa SOLO tu herramienta de búsqueda web. No inventes noticias, URLs, cifras, citas ni fechas. Si no encuentras algo, no lo incluyas.
 - Cada elemento: medio, titular (tal cual), url (la real que abriste), fecha (AAAA-MM-DD), estado_lectura, cita_literal, resumen, tema, relevancia, y los campos extra que pida la sección.
