@@ -60,12 +60,13 @@ ${lista.map(p => `- ${p.name} (${p.isin})`).join('\n')}
 Aporta hasta 2 noticias por producto (si es un fondo/ETF, noticias del índice o la categoría y de su gestora). Añade a cada elemento el campo "producto" con el nombre exacto de la lista.
 ${REGLAS}`;
 
-async function llamar(prompt) {
+async function llamar(prompt, intento = 0) {
   const t0 = Date.now();
   const r = await fetch('https://api.openai.com/v1/responses', { method: 'POST',
     headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${KEY}` },
     body: JSON.stringify({ model: MODEL, input: prompt, tools: [{ type: 'web_search' }], tool_choice: 'auto', store: false, max_output_tokens: 20000 }) });
   const raw = await r.text(); let j = {}; try { j = JSON.parse(raw); } catch {}
+  if (r.status === 429 && intento < 4) { await new Promise(res => setTimeout(res, 20000 * (intento + 1))); return llamar(prompt, intento + 1); }
   if (!r.ok) throw new Error(`OpenAI HTTP ${r.status}: ${raw.slice(0, 300)}`);
   const text = (j.output || []).filter(o => o.type === 'message').flatMap(o => o.content || []).map(c => c.text || '').join('\n');
   const searches = (j.output || []).filter(o => o.type === 'web_search_call').length;
@@ -93,23 +94,28 @@ function validar(items) {
 }
 
 const res = { schema: 'consejo-newsletter/chatgpt/2', generado: new Date().toISOString(), edicion_fecha: hoy, modelo: MODEL, rol: 'lector 2: prensa, industrializacion, competidores, gestoras y productos', secciones: {}, coste_total_estimado_usd: 0, avisos: [] };
-const tareas = Object.entries(SECCIONES).map(async ([k, v]) => {
+for (const [k, v] of Object.entries(SECCIONES)) {
   try { const g = await llamar(v.prompt); res.secciones[k] = { status: 'OK', ...g, items: validar(g.items) }; res.coste_total_estimado_usd += g.coste_estimado_usd; }
-  catch (e) { res.secciones[k] = { status: 'ERROR', items: [] }; res.avisos.push(`${k}: ${e.message}`); }
-});
-tareas.push((async () => {
+  catch (e) { res.secciones[k] = { status: 'ERROR', items: [] }; res.avisos.push(`${k}: ${e.message.slice(0, 200)}`); }
+  if (res.coste_total_estimado_usd > MAX_USD) { res.avisos.push('Tope de coste alcanzado: se omiten las secciones restantes'); break; }
+}
+{
   const p = await productos();
-  if (p.status === 'OK' && p.products.length) {
+  if (res.coste_total_estimado_usd > MAX_USD) res.secciones.productos = { status: 'OMITIDA_POR_COSTE', items: [] };
+  else if (p.status === 'OK' && p.products.length) {
     try { const q = await llamar(promptProductos(p.products)); res.secciones.productos = { status: 'OK', ...q, items: validar(q.items) }; res.coste_total_estimado_usd += q.coste_estimado_usd; }
-    catch (e) { res.secciones.productos = { status: 'ERROR', items: [] }; res.avisos.push('productos: ' + e.message); }
+    catch (e) { res.secciones.productos = { status: 'ERROR', items: [] }; res.avisos.push('productos: ' + e.message.slice(0, 200)); }
   } else res.secciones.productos = { status: p.status, items: [] };
-})());
-await Promise.all(tareas);
+}
 if (res.coste_total_estimado_usd > MAX_USD) res.avisos.push(`Coste estimado ${res.coste_total_estimado_usd} USD por encima del tope ${MAX_USD}`);
 res.coste_total_estimado_usd = Number(res.coste_total_estimado_usd.toFixed(4));
 const todos = Object.values(res.secciones).flatMap(s => s.items || []);
 res.resumen_estados = todos.reduce((m, i) => (m[i.estado_lectura] = (m[i.estado_lectura] || 0) + 1, m), {});
 res.items_por_seccion = Object.fromEntries(Object.entries(res.secciones).map(([k, s]) => [k, (s.items || []).length]));
 const txt = JSON.stringify(res, null, 1);
-writeFileSync(destino, txt); writeFileSync(`${OUT}/latest.json`, txt);
+const ok = Object.values(res.secciones).filter(x => x.status === 'OK').length;
+res.secciones_ok = ok; res.completa = ok >= 4;
+const txt2 = JSON.stringify(res, null, 1);
+writeFileSync(destino, txt2);
+if (ok >= 3) writeFileSync(`${OUT}/latest.json`, txt2); else console.error('Menos de 3 secciones correctas: latest.json NO se actualiza');
 console.log('OK', destino, JSON.stringify(res.resumen_estados), JSON.stringify(res.items_por_seccion), 'coste', res.coste_total_estimado_usd);
